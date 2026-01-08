@@ -1,0 +1,33 @@
+.tooltip {
+  position: fixed;
+  background: rgba(12,12,18,0.95);
+  border: 1px solid rgba(255,255,255,0.12);
+  padding: 0.6rem 0.8rem;
+  border-radius: 3px;
+  font-size: 0.7rem;
+  pointer-events: none;
+  opacity: 0;
+  transform: translateY(4px);
+  transition: all 0.12s ease;
+  max-width: 220px;
+  z-index: 100;
+  backdrop-filter: blur(10px);
+}
+
+.tooltip.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.tooltipTitle {
+  font-family: 'Playfair Display', serif;
+  font-size: 0.85rem;
+  margin-bottom: 0.25rem;
+}
+
+.tooltipMeta {
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
