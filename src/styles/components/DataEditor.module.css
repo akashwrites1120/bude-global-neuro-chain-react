@@ -1,0 +1,100 @@
+.dataSelector {
+  padding: 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.dataSelector select {
+  width: 100%;
+  padding: 0.5rem;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 3px;
+  color: var(--text-primary);
+  font-family: inherit;
+  font-size: 0.7rem;
+  cursor: pointer;
+}
+
+.dataSelector select:focus {
+  outline: none;
+  border-color: rgba(255,107,53,0.5);
+}
+
+.editorToolbar {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.75rem;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.editorBtn {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.65rem;
+  background: rgba(255,255,255,0.05);
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 3px;
+  color: var(--text-muted);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.editorBtn:hover {
+  background: rgba(255,255,255,0.08);
+  color: var(--text-primary);
+}
+
+.editorBtn.primary {
+  background: rgba(255,107,53,0.2);
+  border-color: rgba(255,107,53,0.4);
+  color: #ff6b35;
+}
+
+.editorBtn.primary:hover {
+  background: rgba(255,107,53,0.3);
+}
+
+.panelContent {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0;
+}
+
+.jsonEditor {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  color: var(--text-primary);
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.68rem;
+  line-height: 1.6;
+  resize: none;
+  outline: none;
+  padding: 1rem;
+}
+
+.statusBar {
+  padding: 0.5rem 0.75rem;
+  font-size: 0.6rem;
+  color: var(--text-muted);
+  border-top: 1px solid rgba(255,255,255,0.08);
+  display: flex;
+  justify-content: space-between;
+}
+
+.statusIndicator {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.statusDot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: #2a9d8f;
+}
+
+.statusDot.error {
+  background: #e63946;
+}

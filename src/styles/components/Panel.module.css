@@ -1,0 +1,48 @@
+.panel {
+  position: fixed;
+  top: 2rem;
+  right: 2rem;
+  bottom: 2rem;
+  width: 400px;
+  background: rgba(12,12,18,0.95);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 4px;
+  backdrop-filter: blur(20px);
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  pointer-events: auto;
+}
+
+.panelTabs {
+  display: flex;
+  border-bottom: 1px solid rgba(255,255,255,0.08);
+}
+
+.panelTab {
+  flex: 1;
+  padding: 0.8rem;
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--text-muted);
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.panelTab:hover {
+  color: var(--text-primary);
+}
+
+.panelTab.active {
+  color: var(--text-primary);
+  background: rgba(255,255,255,0.03);
+  border-bottom: 2px solid #ff6b35;
+}
+
+.tabView {
+  flex: 1;
+  overflow-y: auto;
+}

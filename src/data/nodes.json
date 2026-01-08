@@ -1,0 +1,586 @@
+[
+  {
+    "id": "fire",
+    "label": "Fire",
+    "cluster": "fire",
+    "x": 0,
+    "y": 0,
+    "size": 28
+  },
+  {
+    "id": "cooking",
+    "label": "Cooking",
+    "cluster": "fire",
+    "x": -80,
+    "y": -100,
+    "size": 16
+  },
+  {
+    "id": "warmth",
+    "label": "Warmth",
+    "cluster": "fire",
+    "x": 100,
+    "y": -60,
+    "size": 14
+  },
+  {
+    "id": "light",
+    "label": "Light",
+    "cluster": "fire",
+    "x": 60,
+    "y": 80,
+    "size": 14
+  },
+  {
+    "id": "ceramics",
+    "label": "Ceramics",
+    "cluster": "fire",
+    "x": -100,
+    "y": 60,
+    "size": 15
+  },
+  {
+    "id": "metallurgy",
+    "label": "Metallurgy",
+    "cluster": "fire",
+    "x": -40,
+    "y": 140,
+    "size": 22
+  },
+  {
+    "id": "charcoal",
+    "label": "Charcoal",
+    "cluster": "fire",
+    "x": -140,
+    "y": 120,
+    "size": 12
+  },
+  {
+    "id": "glass",
+    "label": "Glass",
+    "cluster": "fire",
+    "x": -160,
+    "y": 20,
+    "size": 13
+  },
+
+  {
+    "id": "stone-tools",
+    "label": "Stone Tools",
+    "cluster": "tools",
+    "x": -280,
+    "y": -60,
+    "size": 18
+  },
+  {
+    "id": "cutting",
+    "label": "Cutting",
+    "cluster": "tools",
+    "x": -350,
+    "y": -130,
+    "size": 12
+  },
+  {
+    "id": "hammers",
+    "label": "Hammers",
+    "cluster": "tools",
+    "x": -360,
+    "y": 10,
+    "size": 12
+  },
+  {
+    "id": "chisels",
+    "label": "Chisels",
+    "cluster": "tools",
+    "x": -400,
+    "y": 80,
+    "size": 11
+  },
+  {
+    "id": "lathe",
+    "label": "Lathe",
+    "cluster": "tools",
+    "x": -320,
+    "y": 160,
+    "size": 17
+  },
+  {
+    "id": "precision",
+    "label": "Precision",
+    "cluster": "tools",
+    "x": -380,
+    "y": 240,
+    "size": 15
+  },
+  {
+    "id": "machine-tools",
+    "label": "Machine Tools",
+    "cluster": "tools",
+    "x": -260,
+    "y": 280,
+    "size": 17
+  },
+  {
+    "id": "robotics",
+    "label": "Robotics",
+    "cluster": "tools",
+    "x": -200,
+    "y": 350,
+    "size": 16
+  },
+  {
+    "id": "3d-printing",
+    "label": "3D Printing",
+    "cluster": "tools",
+    "x": -300,
+    "y": 360,
+    "size": 14
+  },
+
+  {
+    "id": "steam",
+    "label": "Steam Engine",
+    "cluster": "energy",
+    "x": 150,
+    "y": 200,
+    "size": 18
+  },
+  {
+    "id": "electricity",
+    "label": "Electricity",
+    "cluster": "energy",
+    "x": 240,
+    "y": 120,
+    "size": 24
+  },
+  {
+    "id": "grid",
+    "label": "Power Grid",
+    "cluster": "energy",
+    "x": 320,
+    "y": 200,
+    "size": 16
+  },
+  {
+    "id": "combustion",
+    "label": "Combustion",
+    "cluster": "energy",
+    "x": 180,
+    "y": 300,
+    "size": 16
+  },
+  {
+    "id": "nuclear",
+    "label": "Nuclear",
+    "cluster": "energy",
+    "x": 340,
+    "y": 300,
+    "size": 18
+  },
+  {
+    "id": "solar",
+    "label": "Solar",
+    "cluster": "energy",
+    "x": 400,
+    "y": 240,
+    "size": 15
+  },
+  {
+    "id": "fusion",
+    "label": "Fusion",
+    "cluster": "energy",
+    "x": 420,
+    "y": 340,
+    "size": 14
+  },
+  {
+    "id": "batteries",
+    "label": "Batteries",
+    "cluster": "energy",
+    "x": 280,
+    "y": 40,
+    "size": 14
+  },
+
+  {
+    "id": "agriculture",
+    "label": "Agriculture",
+    "cluster": "bio",
+    "x": -160,
+    "y": -220,
+    "size": 18
+  },
+  {
+    "id": "breeding",
+    "label": "Selective Breeding",
+    "cluster": "bio",
+    "x": -240,
+    "y": -300,
+    "size": 13
+  },
+  {
+    "id": "fermentation",
+    "label": "Fermentation",
+    "cluster": "bio",
+    "x": -60,
+    "y": -200,
+    "size": 12
+  },
+  {
+    "id": "medicine",
+    "label": "Medicine",
+    "cluster": "bio",
+    "x": 40,
+    "y": -240,
+    "size": 17
+  },
+  {
+    "id": "genetics",
+    "label": "Genetics",
+    "cluster": "bio",
+    "x": -120,
+    "y": -340,
+    "size": 16
+  },
+  {
+    "id": "crispr",
+    "label": "CRISPR",
+    "cluster": "bio",
+    "x": -40,
+    "y": -400,
+    "size": 15
+  },
+  {
+    "id": "synbio",
+    "label": "Synthetic Biology",
+    "cluster": "bio",
+    "x": 60,
+    "y": -360,
+    "size": 14
+  },
+  {
+    "id": "neural-interface",
+    "label": "Neural Interfaces",
+    "cluster": "bio",
+    "x": 160,
+    "y": -320,
+    "size": 15
+  },
+  {
+    "id": "antibiotics",
+    "label": "Antibiotics",
+    "cluster": "bio",
+    "x": 120,
+    "y": -240,
+    "size": 13
+  },
+  {
+    "id": "vaccines",
+    "label": "Vaccines",
+    "cluster": "bio",
+    "x": 180,
+    "y": -180,
+    "size": 13
+  },
+
+  {
+    "id": "language",
+    "label": "Language",
+    "cluster": "info",
+    "x": 300,
+    "y": -160,
+    "size": 18
+  },
+  {
+    "id": "writing",
+    "label": "Writing",
+    "cluster": "info",
+    "x": 380,
+    "y": -100,
+    "size": 17
+  },
+  {
+    "id": "printing",
+    "label": "Printing",
+    "cluster": "info",
+    "x": 450,
+    "y": -40,
+    "size": 16
+  },
+  {
+    "id": "telegraph",
+    "label": "Telegraph",
+    "cluster": "info",
+    "x": 400,
+    "y": 60,
+    "size": 14
+  },
+  {
+    "id": "computing",
+    "label": "Computing",
+    "cluster": "info",
+    "x": 480,
+    "y": 140,
+    "size": 22
+  },
+  {
+    "id": "transistor",
+    "label": "Transistor",
+    "cluster": "info",
+    "x": 540,
+    "y": 60,
+    "size": 20
+  },
+  {
+    "id": "internet",
+    "label": "Internet",
+    "cluster": "info",
+    "x": 560,
+    "y": 200,
+    "size": 20
+  },
+  {
+    "id": "ml",
+    "label": "Machine Learning",
+    "cluster": "info",
+    "x": 520,
+    "y": 280,
+    "size": 18
+  },
+  {
+    "id": "blockchain",
+    "label": "Blockchain",
+    "cluster": "info",
+    "x": 600,
+    "y": 140,
+    "size": 12
+  },
+  {
+    "id": "cryptography",
+    "label": "Cryptography",
+    "cluster": "info",
+    "x": 540,
+    "y": -20,
+    "size": 13
+  },
+
+  {
+    "id": "bronze",
+    "label": "Bronze",
+    "cluster": "materials",
+    "x": -60,
+    "y": 220,
+    "size": 14
+  },
+  {
+    "id": "iron",
+    "label": "Iron",
+    "cluster": "materials",
+    "x": 20,
+    "y": 260,
+    "size": 15
+  },
+  {
+    "id": "steel",
+    "label": "Steel",
+    "cluster": "materials",
+    "x": 80,
+    "y": 320,
+    "size": 16
+  },
+  {
+    "id": "concrete",
+    "label": "Concrete",
+    "cluster": "materials",
+    "x": -20,
+    "y": 340,
+    "size": 14
+  },
+  {
+    "id": "plastics",
+    "label": "Plastics",
+    "cluster": "materials",
+    "x": 40,
+    "y": 400,
+    "size": 15
+  },
+  {
+    "id": "semiconductors",
+    "label": "Semiconductors",
+    "cluster": "materials",
+    "x": 140,
+    "y": 380,
+    "size": 17
+  },
+  {
+    "id": "graphene",
+    "label": "Graphene",
+    "cluster": "materials",
+    "x": 100,
+    "y": 460,
+    "size": 12
+  },
+  {
+    "id": "metamaterials",
+    "label": "Metamaterials",
+    "cluster": "materials",
+    "x": 200,
+    "y": 440,
+    "size": 11
+  },
+
+  {
+    "id": "writing-social",
+    "label": "Record Keeping",
+    "cluster": "social",
+    "x": 260,
+    "y": -280,
+    "size": 13
+  },
+  {
+    "id": "money",
+    "label": "Money",
+    "cluster": "social",
+    "x": 340,
+    "y": -240,
+    "size": 16
+  },
+  {
+    "id": "markets",
+    "label": "Markets",
+    "cluster": "social",
+    "x": 420,
+    "y": -200,
+    "size": 14
+  },
+  {
+    "id": "corporations",
+    "label": "Corporations",
+    "cluster": "social",
+    "x": 480,
+    "y": -140,
+    "size": 13
+  },
+  {
+    "id": "democracy",
+    "label": "Democracy",
+    "cluster": "social",
+    "x": 200,
+    "y": -340,
+    "size": 14
+  },
+  {
+    "id": "law",
+    "label": "Legal Systems",
+    "cluster": "social",
+    "x": 280,
+    "y": -380,
+    "size": 13
+  },
+  {
+    "id": "universities",
+    "label": "Universities",
+    "cluster": "social",
+    "x": 360,
+    "y": -320,
+    "size": 14
+  },
+
+  {
+    "id": "telescope",
+    "label": "Telescope",
+    "cluster": "space",
+    "x": -220,
+    "y": -400,
+    "size": 14
+  },
+  {
+    "id": "microscope",
+    "label": "Microscope",
+    "cluster": "space",
+    "x": -300,
+    "y": -360,
+    "size": 14
+  },
+  {
+    "id": "rocketry",
+    "label": "Rocketry",
+    "cluster": "space",
+    "x": -380,
+    "y": -420,
+    "size": 15
+  },
+  {
+    "id": "satellites",
+    "label": "Satellites",
+    "cluster": "space",
+    "x": -440,
+    "y": -360,
+    "size": 14
+  },
+  {
+    "id": "gps",
+    "label": "GPS",
+    "cluster": "space",
+    "x": -500,
+    "y": -300,
+    "size": 13
+  },
+  {
+    "id": "space-stations",
+    "label": "Space Stations",
+    "cluster": "space",
+    "x": -460,
+    "y": -440,
+    "size": 12
+  },
+
+  {
+    "id": "agi",
+    "label": "AGI",
+    "cluster": "agi",
+    "x": 440,
+    "y": 400,
+    "size": 32
+  },
+  {
+    "id": "quantum-computing",
+    "label": "Quantum Computing",
+    "cluster": "agi",
+    "x": 360,
+    "y": 460,
+    "size": 16
+  },
+  {
+    "id": "neuromorphic",
+    "label": "Neuromorphic",
+    "cluster": "agi",
+    "x": 520,
+    "y": 440,
+    "size": 14
+  },
+  {
+    "id": "unknown-1",
+    "label": "?",
+    "cluster": "agi",
+    "x": 580,
+    "y": 480,
+    "size": 11
+  },
+  {
+    "id": "unknown-2",
+    "label": "?",
+    "cluster": "agi",
+    "x": 500,
+    "y": 520,
+    "size": 11
+  },
+  {
+    "id": "infinity",
+    "label": "∞",
+    "cluster": "agi",
+    "x": 440,
+    "y": 540,
+    "size": 10
+  }
+]
