@@ -11,13 +11,22 @@ import Footer from './components/Footer';
 import KeyboardHelp from './components/KeyboardHelp';
 import Minimap from './components/Minimap';
 import StatsPanel from './components/StatsPanel';
+import ErrorBoundary from './components/ErrorBoundary';
 import useKeyboardShortcuts from './hooks/useKeyboardShortcuts';
+import { config, validateEnv, debug } from './config/env';
+import { parseShareLink } from './utils/exportHelpers';
 
 // Import data
 import clustersData from './data/clusters.json';
 import nodesData from './data/nodes.json';
 import edgesData from './data/edges.json';
 import descriptionsData from './data/descriptions.json';
+
+// Validate environment on startup
+if (config.debugMode) {
+  validateEnv();
+  debug.log('App initialized with config:', config);
+}
 
 function App() {
   const [data, setData] = useState({

@@ -5,7 +5,9 @@
     "cluster": "fire",
     "x": 0,
     "y": 0,
-    "size": 28
+    "size": 28,
+    "year": -400000,
+    "description": "Controlled fire - humanity's first major technology"
   },
   {
     "id": "cooking",
@@ -13,7 +15,8 @@
     "cluster": "fire",
     "x": -80,
     "y": -100,
-    "size": 16
+    "size": 16,
+    "year": -250000
   },
   {
     "id": "warmth",
@@ -37,7 +40,8 @@
     "cluster": "fire",
     "x": -100,
     "y": 60,
-    "size": 15
+    "size": 15,
+    "year": -29000
   },
   {
     "id": "metallurgy",
@@ -45,7 +49,8 @@
     "cluster": "fire",
     "x": -40,
     "y": 140,
-    "size": 22
+    "size": 22,
+    "year": -5000
   },
   {
     "id": "charcoal",
@@ -61,7 +66,16 @@
     "cluster": "fire",
     "x": -160,
     "y": 20,
-    "size": 13
+    "size": 13,
+    "year": -3500
+  },
+  {
+    "id": "kiln",
+    "label": "Kiln",
+    "cluster": "fire",
+    "x": -180,
+    "y": 80,
+    "size": 12
   },
 
   {
@@ -70,7 +84,8 @@
     "cluster": "tools",
     "x": -280,
     "y": -60,
-    "size": 18
+    "size": 18,
+    "year": -3300000
   },
   {
     "id": "cutting",
@@ -102,7 +117,8 @@
     "cluster": "tools",
     "x": -320,
     "y": 160,
-    "size": 17
+    "size": 17,
+    "year": 1300
   },
   {
     "id": "precision",
@@ -118,7 +134,8 @@
     "cluster": "tools",
     "x": -260,
     "y": 280,
-    "size": 17
+    "size": 17,
+    "year": 1751
   },
   {
     "id": "robotics",
@@ -126,7 +143,8 @@
     "cluster": "tools",
     "x": -200,
     "y": 350,
-    "size": 16
+    "size": 16,
+    "year": 1961
   },
   {
     "id": "3d-printing",
@@ -134,7 +152,50 @@
     "cluster": "tools",
     "x": -300,
     "y": 360,
+    "size": 14,
+    "year": 1983
+  },
+  {
+    "id": "wheel",
+    "label": "Wheel",
+    "cluster": "tools",
+    "x": -440,
+    "y": -20,
+    "size": 18,
+    "year": -3500
+  },
+  {
+    "id": "lever",
+    "label": "Lever",
+    "cluster": "tools",
+    "x": -420,
+    "y": -100,
     "size": 14
+  },
+  {
+    "id": "pulley",
+    "label": "Pulley",
+    "cluster": "tools",
+    "x": -460,
+    "y": 40,
+    "size": 13
+  },
+  {
+    "id": "gear",
+    "label": "Gears",
+    "cluster": "tools",
+    "x": -480,
+    "y": 120,
+    "size": 14
+  },
+  {
+    "id": "clock",
+    "label": "Mechanical Clock",
+    "cluster": "tools",
+    "x": -500,
+    "y": 200,
+    "size": 15,
+    "year": 1300
   },
 
   {
@@ -143,7 +204,8 @@
     "cluster": "energy",
     "x": 150,
     "y": 200,
-    "size": 18
+    "size": 18,
+    "year": 1712
   },
   {
     "id": "electricity",
@@ -151,7 +213,8 @@
     "cluster": "energy",
     "x": 240,
     "y": 120,
-    "size": 24
+    "size": 24,
+    "year": 1879
   },
   {
     "id": "grid",
@@ -159,31 +222,35 @@
     "cluster": "energy",
     "x": 320,
     "y": 200,
-    "size": 16
+    "size": 16,
+    "year": 1882
   },
   {
     "id": "combustion",
-    "label": "Combustion",
+    "label": "Combustion Engine",
     "cluster": "energy",
     "x": 180,
     "y": 300,
-    "size": 16
+    "size": 16,
+    "year": 1876
   },
   {
     "id": "nuclear",
-    "label": "Nuclear",
+    "label": "Nuclear Power",
     "cluster": "energy",
     "x": 340,
     "y": 300,
-    "size": 18
+    "size": 18,
+    "year": 1954
   },
   {
     "id": "solar",
-    "label": "Solar",
+    "label": "Solar Power",
     "cluster": "energy",
     "x": 400,
     "y": 240,
-    "size": 15
+    "size": 15,
+    "year": 1954
   },
   {
     "id": "fusion",
@@ -199,7 +266,25 @@
     "cluster": "energy",
     "x": 280,
     "y": 40,
-    "size": 14
+    "size": 14,
+    "year": 1800
+  },
+  {
+    "id": "wind-power",
+    "label": "Wind Power",
+    "cluster": "energy",
+    "x": 380,
+    "y": 160,
+    "size": 13
+  },
+  {
+    "id": "electric-motor",
+    "label": "Electric Motor",
+    "cluster": "energy",
+    "x": 300,
+    "y": -20,
+    "size": 15,
+    "year": 1821
   },
 
   {
@@ -208,7 +293,8 @@
     "cluster": "bio",
     "x": -160,
     "y": -220,
-    "size": 18
+    "size": 18,
+    "year": -10000
   },
   {
     "id": "breeding",
@@ -224,7 +310,8 @@
     "cluster": "bio",
     "x": -60,
     "y": -200,
-    "size": 12
+    "size": 12,
+    "year": -7000
   },
   {
     "id": "medicine",
@@ -240,7 +327,8 @@
     "cluster": "bio",
     "x": -120,
     "y": -340,
-    "size": 16
+    "size": 16,
+    "year": 1865
   },
   {
     "id": "crispr",
@@ -248,7 +336,8 @@
     "cluster": "bio",
     "x": -40,
     "y": -400,
-    "size": 15
+    "size": 15,
+    "year": 2012
   },
   {
     "id": "synbio",
@@ -256,7 +345,8 @@
     "cluster": "bio",
     "x": 60,
     "y": -360,
-    "size": 14
+    "size": 14,
+    "year": 2010
   },
   {
     "id": "neural-interface",
@@ -264,7 +354,8 @@
     "cluster": "bio",
     "x": 160,
     "y": -320,
-    "size": 15
+    "size": 15,
+    "year": 2016
   },
   {
     "id": "antibiotics",
@@ -272,7 +363,8 @@
     "cluster": "bio",
     "x": 120,
     "y": -240,
-    "size": 13
+    "size": 13,
+    "year": 1928
   },
   {
     "id": "vaccines",
@@ -280,7 +372,44 @@
     "cluster": "bio",
     "x": 180,
     "y": -180,
-    "size": 13
+    "size": 13,
+    "year": 1796
+  },
+  {
+    "id": "mrna",
+    "label": "mRNA Vaccines",
+    "cluster": "bio",
+    "x": 240,
+    "y": -140,
+    "size": 12,
+    "year": 2020
+  },
+  {
+    "id": "irrigation",
+    "label": "Irrigation",
+    "cluster": "bio",
+    "x": -260,
+    "y": -200,
+    "size": 14,
+    "year": -6000
+  },
+  {
+    "id": "germ-theory",
+    "label": "Germ Theory",
+    "cluster": "bio",
+    "x": 80,
+    "y": -300,
+    "size": 14,
+    "year": 1861
+  },
+  {
+    "id": "dna-sequencing",
+    "label": "DNA Sequencing",
+    "cluster": "bio",
+    "x": -180,
+    "y": -380,
+    "size": 14,
+    "year": 1977
   },
 
   {
@@ -289,7 +418,8 @@
     "cluster": "info",
     "x": 300,
     "y": -160,
-    "size": 18
+    "size": 18,
+    "year": -100000
   },
   {
     "id": "writing",
@@ -297,15 +427,17 @@
     "cluster": "info",
     "x": 380,
     "y": -100,
-    "size": 17
+    "size": 17,
+    "year": -3400
   },
   {
     "id": "printing",
-    "label": "Printing",
+    "label": "Printing Press",
     "cluster": "info",
     "x": 450,
     "y": -40,
-    "size": 16
+    "size": 16,
+    "year": 1440
   },
   {
     "id": "telegraph",
@@ -313,7 +445,8 @@
     "cluster": "info",
     "x": 400,
     "y": 60,
-    "size": 14
+    "size": 14,
+    "year": 1837
   },
   {
     "id": "computing",
@@ -321,7 +454,8 @@
     "cluster": "info",
     "x": 480,
     "y": 140,
-    "size": 22
+    "size": 22,
+    "year": 1946
   },
   {
     "id": "transistor",
@@ -329,7 +463,8 @@
     "cluster": "info",
     "x": 540,
     "y": 60,
-    "size": 20
+    "size": 20,
+    "year": 1947
   },
   {
     "id": "internet",
@@ -337,7 +472,8 @@
     "cluster": "info",
     "x": 560,
     "y": 200,
-    "size": 20
+    "size": 20,
+    "year": 1969
   },
   {
     "id": "ml",
@@ -345,7 +481,8 @@
     "cluster": "info",
     "x": 520,
     "y": 280,
-    "size": 18
+    "size": 18,
+    "year": 1959
   },
   {
     "id": "blockchain",
@@ -353,7 +490,8 @@
     "cluster": "info",
     "x": 600,
     "y": 140,
-    "size": 12
+    "size": 12,
+    "year": 2008
   },
   {
     "id": "cryptography",
@@ -363,6 +501,78 @@
     "y": -20,
     "size": 13
   },
+  {
+    "id": "radio",
+    "label": "Radio",
+    "cluster": "info",
+    "x": 460,
+    "y": 20,
+    "size": 14,
+    "year": 1895
+  },
+  {
+    "id": "telephone",
+    "label": "Telephone",
+    "cluster": "info",
+    "x": 420,
+    "y": -10,
+    "size": 13,
+    "year": 1876
+  },
+  {
+    "id": "television",
+    "label": "Television",
+    "cluster": "info",
+    "x": 500,
+    "y": 80,
+    "size": 14,
+    "year": 1927
+  },
+  {
+    "id": "smartphone",
+    "label": "Smartphone",
+    "cluster": "info",
+    "x": 580,
+    "y": 120,
+    "size": 15,
+    "year": 2007
+  },
+  {
+    "id": "deep-learning",
+    "label": "Deep Learning",
+    "cluster": "info",
+    "x": 560,
+    "y": 320,
+    "size": 16,
+    "year": 2012
+  },
+  {
+    "id": "llm",
+    "label": "Large Language Models",
+    "cluster": "info",
+    "x": 520,
+    "y": 360,
+    "size": 15,
+    "year": 2017
+  },
+  {
+    "id": "cloud-computing",
+    "label": "Cloud Computing",
+    "cluster": "info",
+    "x": 620,
+    "y": 180,
+    "size": 14,
+    "year": 2006
+  },
+  {
+    "id": "www",
+    "label": "World Wide Web",
+    "cluster": "info",
+    "x": 600,
+    "y": 240,
+    "size": 15,
+    "year": 1991
+  },
 
   {
     "id": "bronze",
@@ -370,7 +580,8 @@
     "cluster": "materials",
     "x": -60,
     "y": 220,
-    "size": 14
+    "size": 14,
+    "year": -3300
   },
   {
     "id": "iron",
@@ -378,7 +589,8 @@
     "cluster": "materials",
     "x": 20,
     "y": 260,
-    "size": 15
+    "size": 15,
+    "year": -1200
   },
   {
     "id": "steel",
@@ -386,7 +598,8 @@
     "cluster": "materials",
     "x": 80,
     "y": 320,
-    "size": 16
+    "size": 16,
+    "year": 1856
   },
   {
     "id": "concrete",
@@ -394,7 +607,8 @@
     "cluster": "materials",
     "x": -20,
     "y": 340,
-    "size": 14
+    "size": 14,
+    "year": -300
   },
   {
     "id": "plastics",
@@ -402,7 +616,8 @@
     "cluster": "materials",
     "x": 40,
     "y": 400,
-    "size": 15
+    "size": 15,
+    "year": 1907
   },
   {
     "id": "semiconductors",
@@ -410,7 +625,8 @@
     "cluster": "materials",
     "x": 140,
     "y": 380,
-    "size": 17
+    "size": 17,
+    "year": 1947
   },
   {
     "id": "graphene",
@@ -418,7 +634,8 @@
     "cluster": "materials",
     "x": 100,
     "y": 460,
-    "size": 12
+    "size": 12,
+    "year": 2004
   },
   {
     "id": "metamaterials",
@@ -427,6 +644,41 @@
     "x": 200,
     "y": 440,
     "size": 11
+  },
+  {
+    "id": "rubber",
+    "label": "Rubber",
+    "cluster": "materials",
+    "x": -60,
+    "y": 380,
+    "size": 13,
+    "year": 1844
+  },
+  {
+    "id": "alloys",
+    "label": "Alloys",
+    "cluster": "materials",
+    "x": 40,
+    "y": 280,
+    "size": 12
+  },
+  {
+    "id": "fiber-optics",
+    "label": "Fiber Optics",
+    "cluster": "materials",
+    "x": 180,
+    "y": 340,
+    "size": 13,
+    "year": 1970
+  },
+  {
+    "id": "nanotubes",
+    "label": "Carbon Nanotubes",
+    "cluster": "materials",
+    "x": 160,
+    "y": 480,
+    "size": 11,
+    "year": 1991
   },
 
   {
@@ -443,7 +695,8 @@
     "cluster": "social",
     "x": 340,
     "y": -240,
-    "size": 16
+    "size": 16,
+    "year": -600
   },
   {
     "id": "markets",
@@ -459,7 +712,8 @@
     "cluster": "social",
     "x": 480,
     "y": -140,
-    "size": 13
+    "size": 13,
+    "year": 1600
   },
   {
     "id": "democracy",
@@ -467,7 +721,8 @@
     "cluster": "social",
     "x": 200,
     "y": -340,
-    "size": 14
+    "size": 14,
+    "year": -500
   },
   {
     "id": "law",
@@ -483,7 +738,34 @@
     "cluster": "social",
     "x": 360,
     "y": -320,
-    "size": 14
+    "size": 14,
+    "year": 1088
+  },
+  {
+    "id": "calendar",
+    "label": "Calendar",
+    "cluster": "social",
+    "x": 300,
+    "y": -420,
+    "size": 12,
+    "year": -4241
+  },
+  {
+    "id": "banking",
+    "label": "Banking",
+    "cluster": "social",
+    "x": 380,
+    "y": -280,
+    "size": 13,
+    "year": 1472
+  },
+  {
+    "id": "insurance",
+    "label": "Insurance",
+    "cluster": "social",
+    "x": 440,
+    "y": -260,
+    "size": 11
   },
 
   {
@@ -492,7 +774,8 @@
     "cluster": "space",
     "x": -220,
     "y": -400,
-    "size": 14
+    "size": 14,
+    "year": 1608
   },
   {
     "id": "microscope",
@@ -500,7 +783,8 @@
     "cluster": "space",
     "x": -300,
     "y": -360,
-    "size": 14
+    "size": 14,
+    "year": 1590
   },
   {
     "id": "rocketry",
@@ -508,7 +792,8 @@
     "cluster": "space",
     "x": -380,
     "y": -420,
-    "size": 15
+    "size": 15,
+    "year": 1926
   },
   {
     "id": "satellites",
@@ -516,7 +801,8 @@
     "cluster": "space",
     "x": -440,
     "y": -360,
-    "size": 14
+    "size": 14,
+    "year": 1957
   },
   {
     "id": "gps",
@@ -524,7 +810,8 @@
     "cluster": "space",
     "x": -500,
     "y": -300,
-    "size": 13
+    "size": 13,
+    "year": 1978
   },
   {
     "id": "space-stations",
@@ -532,7 +819,42 @@
     "cluster": "space",
     "x": -460,
     "y": -440,
+    "size": 12,
+    "year": 1971
+  },
+  {
+    "id": "compass",
+    "label": "Compass",
+    "cluster": "space",
+    "x": -340,
+    "y": -300,
+    "size": 13,
+    "year": 1040
+  },
+  {
+    "id": "maps",
+    "label": "Maps",
+    "cluster": "space",
+    "x": -280,
+    "y": -280,
     "size": 12
+  },
+  {
+    "id": "navigation",
+    "label": "Navigation",
+    "cluster": "space",
+    "x": -360,
+    "y": -260,
+    "size": 13
+  },
+  {
+    "id": "radar",
+    "label": "Radar",
+    "cluster": "space",
+    "x": -400,
+    "y": -340,
+    "size": 14,
+    "year": 1935
   },
 
   {
@@ -549,15 +871,17 @@
     "cluster": "agi",
     "x": 360,
     "y": 460,
-    "size": 16
+    "size": 16,
+    "year": 2019
   },
   {
     "id": "neuromorphic",
-    "label": "Neuromorphic",
+    "label": "Neuromorphic Chips",
     "cluster": "agi",
     "x": 520,
     "y": 440,
-    "size": 14
+    "size": 14,
+    "year": 2014
   },
   {
     "id": "unknown-1",
@@ -582,5 +906,41 @@
     "x": 440,
     "y": 540,
     "size": 10
+  },
+  {
+    "id": "diffusion-models",
+    "label": "Diffusion Models",
+    "cluster": "agi",
+    "x": 560,
+    "y": 400,
+    "size": 13,
+    "year": 2020
+  },
+  {
+    "id": "reinforcement-learning",
+    "label": "Reinforcement Learning",
+    "cluster": "agi",
+    "x": 480,
+    "y": 480,
+    "size": 13,
+    "year": 1992
+  },
+  {
+    "id": "multimodal-ai",
+    "label": "Multimodal AI",
+    "cluster": "agi",
+    "x": 400,
+    "y": 500,
+    "size": 12,
+    "year": 2021
+  },
+  {
+    "id": "vr",
+    "label": "Virtual Reality",
+    "cluster": "agi",
+    "x": 600,
+    "y": 360,
+    "size": 12,
+    "year": 2016
   }
 ]

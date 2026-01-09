@@ -1,5 +1,7 @@
 import React, { useRef, useEffect, useState, useMemo } from 'react';
 import styles from '../styles/components/CanvasNetwork.module.css';
+import { getVisibleNodes, getVisibleEdges, getLODSettings, SpatialHash } from '../utils/viewportCulling';
+import { config } from '../config/env';
 
 const CanvasNetwork = React.memo(({
   data,
@@ -19,16 +21,20 @@ const CanvasNetwork = React.memo(({
   const [dragStart, setDragStart] = useState({ x: 0, y: 0 });
   const timeRef = useRef(0);
   const animationFrameRef = useRef(null);
+  const spatialHashRef = useRef(new SpatialHash(100));
 
   // Process nodes with animation properties
   const processedNodes = useMemo(() => {
-    return data.nodes.map(n => ({
+    const nodes = data.nodes.map(n => ({
       ...n,
       originalX: n.x,
       originalY: n.y,
       vx: 0,
       vy: 0
     }));
+    // Build spatial hash for fast hover detection
+    spatialHashRef.current.build(nodes);
+    return nodes;
   }, [data.nodes]);
 
   // Create node map for O(1) lookups
@@ -158,6 +164,9 @@ const CanvasNetwork = React.memo(({
       ctx.save();
       ctx.translate(dimensions.width / 2 + camera.x, dimensions.height / 2 + camera.y);
       ctx.scale(zoom, zoom);
+
+      // Get LOD settings based on zoom level
+      const lod = getLODSettings(zoom);
 
       // Draw edges
       processedEdges.forEach(edge => {

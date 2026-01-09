@@ -124,3 +124,26 @@
   height: 6px;
   border-radius: 50%;
 }
+
+.selected {
+  background: rgba(14,165,233,0.15);
+}
+
+.selected .resultLabel {
+  color: #0ea5e9;
+}
+
+.highlight {
+  background: rgba(255,193,7,0.3);
+  color: #ffc107;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.noResults {
+  padding: 1rem;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
