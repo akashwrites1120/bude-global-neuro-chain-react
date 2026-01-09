@@ -1,6 +1,7 @@
 import React, { useRef, useEffect, useState, useMemo } from 'react';
 import styles from '../styles/components/CanvasNetwork.module.css';
 import { getVisibleNodes, getVisibleEdges, getLODSettings, SpatialHash } from '../utils/viewportCulling';
+import { soundManager } from '../utils/SoundManager';
 import { config } from '../config/env';
 
 const CanvasNetwork = React.memo(({
@@ -10,7 +11,8 @@ const CanvasNetwork = React.memo(({
   setMousePos,
   animating,
   cameraTarget,
-  canvasRef: externalCanvasRef
+  canvasRef: externalCanvasRef,
+  onNodeClick
 }) => {
   const internalCanvasRef = useRef(null);
   const canvasRef = externalCanvasRef || internalCanvasRef;
@@ -22,6 +24,9 @@ const CanvasNetwork = React.memo(({
   const timeRef = useRef(0);
   const animationFrameRef = useRef(null);
   const spatialHashRef = useRef(new SpatialHash(100));
+  
+  // Visual effects state
+  const pulsesRef = useRef([]); // [{ x, y, targetX, targetY, startTime, color }]
 
   // Process nodes with animation properties
   const processedNodes = useMemo(() => {
@@ -60,17 +65,31 @@ const CanvasNetwork = React.memo(({
     return () => window.removeEventListener('resize', handleResize);
   }, []);
 
+  const targetRef = useRef(cameraTarget);
+
+  // Sync target with prop updates (e.g. from search or reset)
+  useEffect(() => {
+    targetRef.current = cameraTarget;
+  }, [cameraTarget]);
+
   // Smooth camera interpolation
   useEffect(() => {
     const interval = setInterval(() => {
-      setCamera(prev => ({
-        x: prev.x + (cameraTarget.x - prev.x) * 0.08,
-        y: prev.y + (cameraTarget.y - prev.y) * 0.08
-      }));
+      setCamera(prev => {
+        // If we are close enough, snap to target to save calculation? 
+        // For now, keep continuous for smoothness
+        const dx = targetRef.current.x - prev.x;
+        const dy = targetRef.current.y - prev.y;
+        
+        return {
+          x: prev.x + dx * 0.1,
+          y: prev.y + dy * 0.1
+        };
+      });
     }, 16);
 
     return () => clearInterval(interval);
-  }, [cameraTarget]);
+  }, []);
 
   // Screen to world coordinates
   const screenToWorld = (sx, sy) => {
@@ -91,7 +110,14 @@ const CanvasNetwork = React.memo(({
     if (isDragging) {
       const dx = e.clientX - dragStart.x;
       const dy = e.clientY - dragStart.y;
-      setCamera(prev => ({ x: prev.x + dx, y: prev.y + dy }));
+      
+      const newCamera = { 
+        x: camera.x + dx, 
+        y: camera.y + dy 
+      };
+      
+      setCamera(newCamera);
+      targetRef.current = newCamera; // Update target so we don't snap back
       setDragStart({ x: e.clientX, y: e.clientY });
       return;
     }
@@ -99,6 +125,8 @@ const CanvasNetwork = React.memo(({
     const world = screenToWorld(mouseX, mouseY);
     let found = null;
 
+    // Use spatial hash for query optimization if needed, or simple distance for now
+    // Since we filtered nodes, simple distance is okay for < 1000 nodes
     for (const node of processedNodes) {
       const dx = world.x - node.x;
       const dy = world.y - node.y;
@@ -108,13 +136,41 @@ const CanvasNetwork = React.memo(({
       }
     }
 
-    setHoveredNode(found);
+    if (found?.id !== hoveredNode?.id) {
+      setHoveredNode(found);
+      if (found) {
+        soundManager.playHover();
+      }
+    }
   };
 
   // Mouse handlers
   const handleMouseDown = (e) => {
-    setIsDragging(true);
-    setDragStart({ x: e.clientX, y: e.clientY });
+    if (hoveredNode) {
+      soundManager.playClick();
+      if (onNodeClick) {
+        onNodeClick(hoveredNode);
+      }
+      // Trigger pulse wave
+      const connectedEdges = processedEdges.filter(e => e.source === hoveredNode.id || e.target === hoveredNode.id);
+      connectedEdges.forEach(edge => {
+        const targetId = edge.source === hoveredNode.id ? edge.target : edge.source;
+        const targetNode = nodeMap.get(targetId);
+        if (targetNode) {
+          pulsesRef.current.push({
+            sx: hoveredNode.x,
+            sy: hoveredNode.y,
+            tx: targetNode.x,
+            ty: targetNode.y,
+            startTime: timeRef.current,
+            color: data.clusters[hoveredNode.cluster]?.color || '#fff'
+          });
+        }
+      });
+    } else {
+      setIsDragging(true);
+      setDragStart({ x: e.clientX, y: e.clientY });
+    }
   };
 
   const handleMouseUp = () => {
@@ -200,15 +256,42 @@ const CanvasNetwork = React.memo(({
         ctx.stroke();
         ctx.setLineDash([]);
 
-        // Pulse animation
-        const pulsePos = (time * 0.25 + edge.source.charCodeAt(0) * 0.1) % 1;
-        const pulseX = source.x + (target.x - source.x) * pulsePos;
-        const pulseY = source.y + (target.y - source.y) * pulsePos;
+        // Continuous Data Flow Animation
+        if (lod.renderPulses && animating) {
+          const pulsePos = (time * 0.25 + edge.source.charCodeAt(0) * 0.1) % 1;
+          const pulseX = source.x + (target.x - source.x) * pulsePos;
+          const pulseY = source.y + (target.y - source.y) * pulsePos;
+
+          ctx.beginPath();
+          ctx.arc(pulseX, pulseY, 1.5, 0, Math.PI * 2);
+          ctx.fillStyle = sColor + '80';
+          ctx.fill();
+        }
+      });
+
+      // Draw Interactive Pulses
+      pulsesRef.current = pulsesRef.current.filter(pulse => {
+        const age = time - pulse.startTime;
+        if (age > 0.5) return false;
+
+        const progress = age / 0.5; // 0 to 1
+        const x = pulse.sx + (pulse.tx - pulse.sx) * progress;
+        const y = pulse.sy + (pulse.ty - pulse.sy) * progress;
 
         ctx.beginPath();
-        ctx.arc(pulseX, pulseY, 1.5, 0, Math.PI * 2);
-        ctx.fillStyle = sColor + '80';
+        ctx.arc(x, y, 4, 0, Math.PI * 2);
+        ctx.fillStyle = pulse.color;
         ctx.fill();
+        
+        // Trail
+        ctx.beginPath();
+        ctx.moveTo(x, y);
+        ctx.lineTo(pulse.sx + (pulse.tx - pulse.sx) * (progress - 0.1), pulse.sy + (pulse.ty - pulse.sy) * (progress - 0.1));
+        ctx.strokeStyle = pulse.color;
+        ctx.lineWidth = 2;
+        ctx.stroke();
+
+        return true;
       });
 
       // Draw nodes
@@ -218,14 +301,16 @@ const CanvasNetwork = React.memo(({
         const color = data.clusters[node.cluster]?.color || '#666';
 
         // Glow effect
-        const glowSize = size * 2.5;
-        const glow = ctx.createRadialGradient(node.x, node.y, 0, node.x, node.y, glowSize);
-        glow.addColorStop(0, color + '25');
-        glow.addColorStop(1, 'transparent');
-        ctx.beginPath();
-        ctx.arc(node.x, node.y, glowSize, 0, Math.PI * 2);
-        ctx.fillStyle = glow;
-        ctx.fill();
+        if (lod.renderGlow || isHovered) {
+          const glowSize = size * (isHovered ? 3 : 2.5);
+          const glow = ctx.createRadialGradient(node.x, node.y, 0, node.x, node.y, glowSize);
+          glow.addColorStop(0, color + '25');
+          glow.addColorStop(1, 'transparent');
+          ctx.beginPath();
+          ctx.arc(node.x, node.y, glowSize, 0, Math.PI * 2);
+          ctx.fillStyle = glow;
+          ctx.fill();
+        }
 
         // Node circle
         ctx.beginPath();
@@ -248,7 +333,7 @@ const CanvasNetwork = React.memo(({
         ctx.stroke();
 
         // Special ring animation for fire and agi
-        if (node.id === 'fire' || node.id === 'agi') {
+        if ((node.id === 'fire' || node.id === 'agi') && lod.renderPulses) {
           for (let i = 0; i < 3; i++) {
             const phase = (time + i * 0.33) % 1;
             const ringSize = size + phase * size * 2;
@@ -262,7 +347,7 @@ const CanvasNetwork = React.memo(({
         }
 
         // Label
-        if (isHovered || node.size > 15) {
+        if (lod.renderLabels || isHovered || node.size > 15) {
           ctx.font = `${isHovered ? '11px' : '9px'} 'JetBrains Mono', monospace`;
           ctx.fillStyle = '#e8e6e3';
           ctx.textAlign = 'center';

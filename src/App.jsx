@@ -125,6 +125,25 @@ function App() {
     URL.revokeObjectURL(url);
   };
 
+// Initialize audio context on user interaction
+  useEffect(() => {
+    const initAudio = () => {
+      import('./utils/SoundManager').then(({ soundManager }) => {
+        soundManager.init();
+      });
+      window.removeEventListener('click', initAudio);
+      window.removeEventListener('keydown', initAudio);
+    };
+
+    window.addEventListener('click', initAudio);
+    window.addEventListener('keydown', initAudio);
+
+    return () => {
+      window.removeEventListener('click', initAudio);
+      window.removeEventListener('keydown', initAudio);
+    };
+  }, []);
+
   return (
     <>
       <CanvasNetwork
@@ -135,6 +154,7 @@ function App() {
         animating={animating}
         cameraTarget={cameraTarget}
         canvasRef={canvasRef}
+        onNodeClick={handleNodeSelect}
       />
       
       <TitleBlock />

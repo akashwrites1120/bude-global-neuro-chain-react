@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import styles from '../styles/components/Controls.module.css';
 import { exportToPNG, exportToSVG, generateShareLink } from '../utils/exportHelpers';
+import { soundManager } from '../utils/SoundManager';
 
 const Controls = React.memo(({ 
   animating, 
@@ -21,17 +22,12 @@ const Controls = React.memo(({
     setShowExportMenu(false);
   };
 
-  const handleExportSVG = () => {
-    exportToSVG(nodes, edges, clusters, 'bude-global-neuro-chain.svg');
-    setShowExportMenu(false);
-  };
+  const [isMuted, setIsMuted] = useState(!soundManager.enabled);
 
-  const handleShareLink = () => {
-    const link = generateShareLink(camera, zoom);
-    navigator.clipboard.writeText(link).then(() => {
-      alert('Share link copied to clipboard!');
-    });
-    setShowExportMenu(false);
+  const handleToggleMute = () => {
+    const enabled = soundManager.toggleMute();
+    setIsMuted(!enabled);
+    if (enabled) soundManager.playClick();
   };
 
   return (
@@ -41,15 +37,26 @@ const Controls = React.memo(({
         onClick={onResetView}
         title="Reset View (R)"
       >
-        ⟲
+        <span className={styles.icon}>⟲</span>
       </button>
+
       <button
-        className={styles.controlBtn}
+        className={`${styles.controlBtn} ${animating ? styles.active : ''}`}
         onClick={onToggleAnimation}
         title={animating ? 'Pause (Space)' : 'Play (Space)'}
       >
-        {animating ? '⏸' : '▶'}
+        <span className={styles.icon}>{animating ? '⏸' : '▶'}</span>
       </button>
+
+      <button
+        className={`${styles.controlBtn} ${isMuted ? styles.muted : ''}`}
+        onClick={handleToggleMute}
+        title="Toggle Sound"
+      >
+        <span className={styles.icon}>{isMuted ? '🔇' : '🔊'}</span>
+      </button>
+      
+      <div className={styles.separator} />
       
       <div className={styles.exportGroup}>
         <button
@@ -57,7 +64,7 @@ const Controls = React.memo(({
           onClick={() => setShowExportMenu(!showExportMenu)}
           title="Export Options"
         >
-          ↓
+          <span className={styles.icon}>↓</span>
         </button>
         
         {showExportMenu && (
