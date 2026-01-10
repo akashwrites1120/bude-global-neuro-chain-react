@@ -1,0 +1,39 @@
+name: Greetings
+
+on: [pull_request_target, issues]
+
+jobs:
+  greeting:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+    steps:
+      - uses: actions/first-interaction@v1
+        with:
+          repo-token: ${{ secrets.GITHUB_TOKEN }}
+          issue-message: >
+            👋 Welcome to Bude Global!
+            
+            Thanks for opening your first issue. We’re glad to have you here.
+            Feel free to share details, screenshots, or ideas—especially if you’re new to open source.
+
+            🔴 Live Project: https://invent.budeglobal.in/  
+            🌍 Community Hub: https://www.budeglobal.in/community  
+            👥 Join our WhatsApp group: https://chat.whatsapp.com/JSa5qnGbqAE76DEav1KCK6
+
+            Inspired by *The Thinking Game* (Google DeepMind):
+            https://www.youtube.com/watch?v=d95J8yzvjbQ
+
+          pr-message: >
+            🚀 Thanks for your first pull request to Bude Global!
+
+            We really appreciate your contribution. A maintainer will review this soon,
+            and we’ll guide you if any changes are needed.
+
+            🔴 Live Project: https://invent.budeglobal.in/  
+            🌍 Community Hub: https://www.budeglobal.in/community  
+            👥 Join our WhatsApp group: https://chat.whatsapp.com/JSa5qnGbqAE76DEav1KCK6
+
+            Inspired by *The Thinking Game* (Google DeepMind):
+            https://www.youtube.com/watch?v=d95J8yzvjbQ

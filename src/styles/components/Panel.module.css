@@ -4,10 +4,12 @@
   right: 2rem;
   bottom: 2rem;
   width: 400px;
-  background: rgba(12,12,18,0.95);
-  border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 4px;
-  backdrop-filter: blur(20px);
+  background: rgba(12, 12, 18, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 12px;
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.36);
   display: flex;
   flex-direction: column;
   z-index: 10;
@@ -51,7 +53,7 @@
 
 .panelTabs {
   display: flex;
-  border-bottom: 1px solid rgba(255,255,255,0.08);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.12);
 }
 
 .panelTab {
@@ -69,17 +71,19 @@
 
 .panelTab:hover {
   color: var(--text-primary);
+  background: rgba(255, 255, 255, 0.02);
 }
 
 .panelTab.active {
   color: var(--text-primary);
-  background: rgba(255,255,255,0.03);
+  background: rgba(255, 255, 255, 0.06);
   border-bottom: 2px solid #ff6b35;
 }
 
 .tabView {
   flex: 1;
   overflow-y: auto;
+  scrollbar-gutter: stable;
 }
 
 @media (max-width: 768px) {
