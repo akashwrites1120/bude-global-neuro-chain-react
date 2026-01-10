@@ -2,6 +2,8 @@ import React from 'react';
 import styles from '../styles/components/Footer.module.css';
 
 const Footer = React.memo(() => {
+  const [showPolicies, setShowPolicies] = React.useState(false);
+
   return (
     <div className={styles.footer}>
       <div className={styles.line}>
@@ -17,8 +19,16 @@ const Footer = React.memo(() => {
 
         <span className={styles.divider}>|</span>
 
-        <div className={styles.scrollableLinks}>
-            <a href="https://budeglobal.in/privacy" className={styles.policyLink}>Privacy</a>
+        <button 
+            className={styles.policyToggle} 
+            onClick={() => setShowPolicies(!showPolicies)}
+        >
+            {showPolicies ? 'Hide Policies' : 'Policies'}
+        </button>
+
+        <div className={`${styles.scrollableLinks} ${showPolicies ? styles.show : ''}`}>
+             <span className={styles.divider}>|</span>
+             <a href="https://budeglobal.in/privacy" className={styles.policyLink}>Privacy</a>
             <a href="https://budeglobal.in/terms" className={styles.policyLink}>Terms</a>
             <a href="https://budeglobal.in/cookies" className={styles.policyLink}>Cookies</a>
             <a href="https://budeglobal.in/security" className={styles.policyLink}>Security</a>

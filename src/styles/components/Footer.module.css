@@ -70,6 +70,37 @@
     display: flex;
     align-items: center;
     gap: 0.75rem;
+    opacity: 0;
+    width: 0;
+    overflow: hidden;
+    transition: all 0.3s ease;
+    pointer-events: none;
+}
+
+.scrollableLinks.show {
+    opacity: 1;
+    width: auto;
+    pointer-events: auto;
+    border-left: 1px solid rgba(255,255,255,0.1);
+    padding-left: 0.5rem;
+    margin-left: 0.5rem;
+}
+
+.policyToggle {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.2);
+    color: var(--text-muted);
+    font-size: 0.65rem;
+    padding: 2px 6px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-transform: uppercase;
+    transition: all 0.2s;
+}
+
+.policyToggle:hover {
+    color: var(--text-primary);
+    border-color: var(--text-primary);
 }
 
 @media (max-width: 1024px) {

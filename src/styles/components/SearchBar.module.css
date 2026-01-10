@@ -166,3 +166,23 @@
   opacity: 1;
   pointer-events: auto;
 }
+
+@media (max-width: 768px) {
+  .searchContainer {
+    top: 4.5rem; /* Below TitleBlock */
+    width: calc(100% - 2rem);
+    max-width: none;
+  }
+  
+  .searchBox {
+    height: 44px; /* Touch friendly height */
+  }
+  
+  .searchInput {
+    font-size: 0.9rem;
+  }
+
+  .searchResults {
+      max-height: 50vh;
+  }
+}

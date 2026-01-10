@@ -11,6 +11,15 @@
   overflow-y: auto;
   z-index: 15;
   box-shadow: 0 4px 16px rgba(0,0,0,0.3);
+  transition: all 0.3s ease;
+}
+
+.statsPanel.collapsed {
+    max-height: 48px; /* Height of header only */
+    background: rgba(12,12,18,0.6);
+    width: auto;
+    min-width: 200px;
+    overflow-y: hidden;
 }
 
 .statsPanel::-webkit-scrollbar {
@@ -27,15 +36,33 @@
 }
 
 .statsHeader {
-  padding: 1rem;
+  padding: 0.75rem 1rem;
   border-bottom: 1px solid rgba(255,255,255,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.statsHeader:hover {
+    background: rgba(255,255,255,0.03);
 }
 
 .statsHeader h3 {
   margin: 0;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   color: var(--text-primary);
-  font-family: 'Playfair Display', serif;
+  font-family: inherit;
+  font-weight: 600;
+}
+
+.toggleIcon {
+    font-size: 0.6rem;
+    color: var(--text-muted);
+    margin-left: 0.5rem;
 }
 
 .statsGrid {
@@ -164,11 +191,24 @@
   .statsPanel {
     width: calc(100% - 2rem);
     left: 1rem;
-    bottom: 1rem;
-    max-height: 300px;
+    bottom: 3.5rem; /* Clear footer */
+    max-height: 40vh;
   }
 
   .statsGrid {
     grid-template-columns: repeat(3, 1fr);
+    gap: 0.25rem;
+  }
+  
+  .statCard {
+    padding: 0.5rem;
+  }
+  
+  .statValue {
+    font-size: 1.2rem;
+  }
+  
+  .statLabel {
+    font-size: 0.6rem;
   }
 }
