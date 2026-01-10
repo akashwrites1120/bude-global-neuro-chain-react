@@ -5,10 +5,12 @@ const Footer = React.memo(() => {
   return (
     <div className={styles.footer}>
       <div className={styles.footerContent}>
-        <div className={styles.brand}>
-          <span className={styles.brandName}>Bude Global</span>
-          <span className={styles.separator}>•</span>
-          <span className={styles.tagline}>Visualizing Innovation Networks</span>
+        <div className={styles.topRow}>
+          <div className={styles.brand}>
+            <span className={styles.brandName}>Bude Global</span>
+            <span className={styles.separator}>•</span>
+            <span className={styles.tagline}>Visualizing Innovation Networks</span>
+          </div> 
         </div>
         <div className={styles.links}>
           <a href="https://budeglobal.in" target="_blank" rel="noopener noreferrer" className={styles.link}>
@@ -25,7 +27,6 @@ const Footer = React.memo(() => {
         <a href="https://budeglobal.in/privacy" className={styles.policyLink}>Privacy Policy</a>
         <a href="https://budeglobal.in/terms" className={styles.policyLink}>Terms of Service</a>
         <a href="https://budeglobal.in/cookies" className={styles.policyLink}>Cookie Policy</a>
-        <a href="https://budeglobal.in/refunds" className={styles.policyLink}>Refund Policy</a>
         <a href="https://budeglobal.in/security" className={styles.policyLink}>Security</a>
         <a href="https://budeglobal.in/acceptable-use" className={styles.policyLink}>Acceptable Use</a>
         <a href="https://budeglobal.in/sla" className={styles.policyLink}>SLA</a>
