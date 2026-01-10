@@ -1,5 +1,7 @@
 # Bude Global Neuro-Chain
 
+[简体中文](./README_CN.md) | English
+
 **Innovation Network Visualization Platform**
 
 
