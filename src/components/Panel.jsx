@@ -13,7 +13,7 @@ const Panel = React.memo(({ data, onDataUpdate }) => {
         className={styles.panelHeader}
         onClick={() => setIsCollapsed(!isCollapsed)}
       >
-        <span>DETAILS</span>
+        <span>DATA & CLUSTERS</span>
         <span className={styles.toggleIcon}>{isCollapsed ? '▲' : '▼'}</span>
       </div>
 

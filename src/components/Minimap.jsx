@@ -41,8 +41,8 @@ const Minimap = React.memo(({ nodes, clusters, camera, zoom, onNavigate }) => {
     canvas.width = width;
     canvas.height = height;
 
-    // Clear
-    ctx.fillStyle = 'rgba(12,12,18,0.9)';
+    // Clear with consistent dark background (fixed look)
+    ctx.fillStyle = '#0c0c12'; // Fixed "Neuro" dark blue/black
     ctx.fillRect(0, 0, width, height);
 
     // Scale to fit
@@ -62,7 +62,7 @@ const Minimap = React.memo(({ nodes, clusters, camera, zoom, onNavigate }) => {
 
       ctx.beginPath();
       ctx.arc(x, y, size, 0, Math.PI * 2);
-      ctx.fillStyle = clusters[node.cluster]?.color || '#666666';
+      ctx.fillStyle = clusters[node.cluster]?.color || '#888888';
       ctx.globalAlpha = 0.6;
       ctx.fill();
       ctx.globalAlpha = 1;

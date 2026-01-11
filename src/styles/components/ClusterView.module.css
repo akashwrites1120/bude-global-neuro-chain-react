@@ -1,6 +1,7 @@
 .panelContent {
   padding: 1rem;
   overflow-y: auto;
+  flex: 1;
 }
 
 .panelContent::-webkit-scrollbar {

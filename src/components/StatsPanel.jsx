@@ -33,7 +33,7 @@ const StatsPanel = React.memo(({ nodes, edges, clusters }) => {
     };
   }, [nodes, edges, clusters]);
 
-  const [isCollapsed, setIsCollapsed] = React.useState(true);
+  const [isCollapsed, setIsCollapsed] = React.useState(false);
 
   return (
     <div className={`${styles.statsPanel} ${isCollapsed ? styles.collapsed : ''}`}>
@@ -48,17 +48,21 @@ const StatsPanel = React.memo(({ nodes, edges, clusters }) => {
       {!isCollapsed && (
         <>
             <div className={styles.statsGrid}>
-                <div className={styles.statCard}>
+                <div className={styles.statCard} title="Total number of innovation nodes">
                 <div className={styles.statValue}>{stats.totalNodes}</div>
                 <div className={styles.statLabel}>Innovations</div>
                 </div>
-                <div className={styles.statCard}>
+                <div className={styles.statCard} title="Total relationships">
                 <div className={styles.statValue}>{stats.totalEdges}</div>
                 <div className={styles.statLabel}>Connections</div>
                 </div>
-                <div className={styles.statCard}>
+                <div className={styles.statCard} title="Categorized groups">
                 <div className={styles.statValue}>{stats.totalClusters}</div>
                 <div className={styles.statLabel}>Clusters</div>
+                </div>
+                <div className={styles.statCard} title="Connections per node">
+                <div className={styles.statValue}>{(stats.totalEdges / stats.totalNodes).toFixed(1)}</div>
+                <div className={styles.statLabel}>Density</div>
                 </div>
             </div>
 

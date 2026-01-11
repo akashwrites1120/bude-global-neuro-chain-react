@@ -542,7 +542,7 @@ const CanvasNetwork = React.memo(({
       // Draw nodes
       processedNodes.forEach(node => {
         const isHovered = hoveredNode?.id === node.id;
-        const size = isHovered ? node.size * 1.25 : node.size;
+        const size = isHovered ? node.size * 1.5 : node.size;
         
         let color = data.clusters[node.cluster]?.color || currentTheme.nodeBase;
 

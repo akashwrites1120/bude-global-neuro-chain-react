@@ -9,9 +9,10 @@
   opacity: 0;
   transform: translateY(4px);
   transition: all 0.12s ease;
-  max-width: 220px;
+  max-width: 260px; /* Slightly wider for better reading */
   z-index: 100;
   backdrop-filter: blur(10px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.4);
 }
 
 .tooltip.visible {
@@ -21,8 +22,9 @@
 
 .tooltipTitle {
   font-family: 'Playfair Display', serif;
-  font-size: 0.85rem;
+  font-size: 0.95rem;
   margin-bottom: 0.25rem;
+  color: #fff;
 }
 
 .tooltipMeta {
@@ -30,4 +32,36 @@
   color: var(--text-muted);
   text-transform: uppercase;
   letter-spacing: 0.08em;
+  margin-bottom: 0.2rem; 
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.tooltipYear {
+  font-size: 0.7rem;
+  font-family: 'JetBrains Mono', monospace;
+  color: #00ffff; /* Cyan for time */
+  margin-bottom: 0.4rem;
+  border-bottom: 1px solid rgba(255,255,255,0.1);
+  padding-bottom: 0.3rem;
+  display: inline-block;
+}
+
+.tooltipDescription {
+  font-size: 0.75rem;
+  color: #ccc;
+  line-height: 1.5;
+  margin-top: 0.2rem;
+}
+
+/* Handle HTML tags in description safely */
+.tooltipDescription strong {
+  color: #fff;
+  font-weight: 600;
+}
+
+.tooltipDescription em {
+  color: #aaa;
+  font-style: italic;
 }

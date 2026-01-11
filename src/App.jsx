@@ -9,6 +9,7 @@ import Tooltip from './components/Tooltip';
 import SearchBar from './components/SearchBar';
 import Footer from './components/Footer';
 import KeyboardHelp from './components/KeyboardHelp';
+import Onboarding from './components/Onboarding';
 import Minimap from './components/Minimap';
 import StatsPanel from './components/StatsPanel';
 import ViewSettings from './components/ViewSettings';
@@ -196,6 +197,11 @@ function App() {
         clusters={data.clusters}
         onFocusCluster={handleFocusCluster}
       />
+
+      <Panel 
+        data={data}
+        onDataUpdate={handleDataUpdate}
+      />
       
       <Controls
         animating={animating}
@@ -225,6 +231,7 @@ function App() {
         mousePos={mousePos}
         clusters={data.clusters}
         edges={data.edges}
+        descriptions={data.descriptions}
       />
       
       <StatsPanel
@@ -242,6 +249,8 @@ function App() {
       />
       
       <KeyboardHelp />
+
+      <Onboarding />
       
       <Footer />
       

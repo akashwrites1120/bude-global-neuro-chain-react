@@ -132,7 +132,7 @@ const SearchBar = React.memo(({ nodes, onNodeSelect, clusters, inputRef }) => {
             ref={inputRef}
             type="text"
             className={styles.searchInput}
-            placeholder="Search..."
+            placeholder="Search innovations, clusters..."
             value={searchTerm}
             onChange={(e) => {
               setSearchTerm(e.target.value);

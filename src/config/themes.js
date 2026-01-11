@@ -147,5 +147,22 @@ export const THEMES = {
     pulses: false,
     font: "'Roboto', sans-serif",
     physics: { repulsion: 4000, spring: 0.01 } // Extremely spaced
+  },
+  structure: {
+    label: 'Structure',
+    layout: 'force',
+    background: '#0c0c12', /* Same as Minimap background for consistency */
+    nodeBase: '#2a9d8f',   /* Teal/Cyan structural feel */
+    edgeBase: '#1a3c6e',   /* Subtle blueprint blue */
+    text: '#00ffff',
+    glow: true,
+    pulses: false,         /* Static, map-like */
+    draggable: false,      /* Locked like a map? maybe not, le'ts keep readable */
+    font: "'JetBrains Mono', monospace",
+    physics: {
+        repulsion: 3000,
+        spring: 0.01,
+        centerGravity: 0.05 /* Tighter pack like a map? */
+    }
   }
 };

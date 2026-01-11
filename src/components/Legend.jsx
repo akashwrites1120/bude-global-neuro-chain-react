@@ -2,7 +2,7 @@ import React, { useMemo } from 'react';
 import styles from '../styles/components/Legend.module.css';
 
 const Legend = React.memo(({ clusters, onFocusCluster }) => {
-  const [isCollapsed, setIsCollapsed] = React.useState(true);
+  const [isCollapsed, setIsCollapsed] = React.useState(false);
 
   const clusterEntries = useMemo(() => {
     return Object.entries(clusters);
@@ -14,7 +14,7 @@ const Legend = React.memo(({ clusters, onFocusCluster }) => {
         className={styles.legendHeader}
         onClick={() => setIsCollapsed(!isCollapsed)}
       >
-        <span>CLUSTERS</span>
+        <span>EXPLORE CLUSTERS</span>
         <span className={styles.toggleIcon}>{isCollapsed ? '▲' : '▼'}</span>
       </div>
       

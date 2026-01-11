@@ -9,9 +9,10 @@ const KeyboardHelp = React.memo(() => {
     { keys: ['Esc'], description: 'Close search/modals' },
     { keys: ['Space'], description: 'Pause/Resume animation' },
     { keys: ['R'], description: 'Reset view to center' },
-    { keys: ['↑', '↓', '←', '→'], description: 'Pan camera' },
+    { keys: ['Drag'], description: 'Pan view' },
+    { keys: ['Scroll'], description: 'Zoom in/out' },
+    { keys: ['Click'], description: 'Select node' },
     { keys: ['?'], description: 'Toggle this help panel' },
-    { keys: ['+', '-'], description: 'Zoom in/out' },
   ];
 
   return (
