@@ -17,17 +17,24 @@ const Minimap = React.memo(({
   
   // Calculate bounds of all nodes with some padding
   const bounds = useMemo(() => {
-    if (nodes.length === 0) return { minX: -500, maxX: 500, minY: -500, maxY: 500, width: 1000, height: 1000 };
+    if (!nodes || nodes.length === 0) return { minX: -500, maxX: 500, minY: -500, maxY: 500, width: 1000, height: 1000 };
     
     let minX = Infinity, maxX = -Infinity;
     let minY = Infinity, maxY = -Infinity;
     
     nodes.forEach(node => {
-      minX = Math.min(minX, node.x);
-      maxX = Math.max(maxX, node.x);
-      minY = Math.min(minY, node.y);
-      maxY = Math.max(maxY, node.y);
+      if (typeof node.x === 'number' && typeof node.y === 'number') {
+        minX = Math.min(minX, node.x);
+        maxX = Math.max(maxX, node.x);
+        minY = Math.min(minY, node.y);
+        maxY = Math.max(maxY, node.y);
+      }
     });
+    
+    // Handle case where no valid positions found
+    if (!isFinite(minX)) {
+      return { minX: -500, maxX: 500, minY: -500, maxY: 500, width: 1000, height: 1000 };
+    }
     
     const padding = 100;
     return {
@@ -43,7 +50,7 @@ const Minimap = React.memo(({
   // Dynamic rendering loop for real-time updates
   const render = useCallback(() => {
     const canvas = canvasRef.current;
-    if (!canvas) return;
+    if (!canvas || !nodes || nodes.length === 0) return;
 
     const ctx = canvas.getContext('2d');
     const size = isExpanded ? 220 : 150;
@@ -55,17 +62,14 @@ const Minimap = React.memo(({
     canvas.style.height = size + 'px';
     ctx.scale(dpr, dpr);
 
-    // Background with gradient
-    const bgGradient = ctx.createRadialGradient(size/2, size/2, 0, size/2, size/2, size);
-    bgGradient.addColorStop(0, '#12121a');
-    bgGradient.addColorStop(1, '#0a0a0f');
-    ctx.fillStyle = bgGradient;
+    // Background - semi-transparent dark
+    ctx.fillStyle = 'rgba(10, 10, 18, 0.9)';
     ctx.fillRect(0, 0, size, size);
 
-    // Grid lines for reference
+    // Subtle grid lines
     ctx.strokeStyle = 'rgba(255, 255, 255, 0.03)';
     ctx.lineWidth = 0.5;
-    for (let i = 0; i <= 4; i++) {
+    for (let i = 1; i < 4; i++) {
       const pos = (size / 4) * i;
       ctx.beginPath();
       ctx.moveTo(pos, 0);
@@ -77,7 +81,7 @@ const Minimap = React.memo(({
       ctx.stroke();
     }
 
-    // Scale to fit
+    // Scale to fit all nodes
     const scale = Math.min(
       size / bounds.width,
       size / bounds.height
@@ -92,73 +96,42 @@ const Minimap = React.memo(({
       y: (y - bounds.minY) * scale + offsetY
     });
 
-    // Draw edges as subtle lines (optional - can be toggled for performance)
-    if (isExpanded) {
-      ctx.strokeStyle = 'rgba(255, 255, 255, 0.05)';
-      ctx.lineWidth = 0.5;
-      // Only draw a subset for performance
-      nodes.slice(0, 50).forEach(node => {
-        const from = toMinimap(node.x, node.y);
-        // Draw to a couple connected nodes if we had edge data
-        // For simplicity, skip edges in minimap
-      });
-    }
+    // Calculate viewport rectangle
+    const viewportWidth = (window.innerWidth / zoom) * scale;
+    const viewportHeight = (window.innerHeight / zoom) * scale;
+    const viewportPos = toMinimap(-camera.x / zoom, -camera.y / zoom);
 
-    // Draw nodes - use actual current positions from physics
+    // Draw all nodes
     nodes.forEach(node => {
+      if (typeof node.x !== 'number' || typeof node.y !== 'number') return;
+      
       const pos = toMinimap(node.x, node.y);
-      const baseSize = Math.max(1.5, Math.min(node.size * scale * 0.15, 4));
+      const baseSize = Math.max(2, Math.min((node.size || 8) * scale * 0.12, 5));
       
       const color = clusters[node.cluster]?.color || '#888888';
       const isHovered = hoveredNode?.id === node.id;
       const isSelected = selectedNode?.id === node.id;
       
-      // Node glow for special states
+      // Special highlight for hovered/selected
       if (isHovered || isSelected) {
         ctx.beginPath();
-        ctx.arc(pos.x, pos.y, baseSize + 6, 0, Math.PI * 2);
-        const glow = ctx.createRadialGradient(pos.x, pos.y, 0, pos.x, pos.y, baseSize + 6);
-        glow.addColorStop(0, color + '60');
-        glow.addColorStop(1, 'transparent');
-        ctx.fillStyle = glow;
+        ctx.arc(pos.x, pos.y, baseSize + 4, 0, Math.PI * 2);
+        ctx.fillStyle = color + '50';
         ctx.fill();
       }
 
       // Node dot
       ctx.beginPath();
-      ctx.arc(pos.x, pos.y, isHovered || isSelected ? baseSize + 1 : baseSize, 0, Math.PI * 2);
+      ctx.arc(pos.x, pos.y, isHovered || isSelected ? baseSize + 1.5 : baseSize, 0, Math.PI * 2);
       ctx.fillStyle = isHovered || isSelected ? '#ffffff' : color;
-      ctx.globalAlpha = isHovered || isSelected ? 1 : 0.7;
       ctx.fill();
-      ctx.globalAlpha = 1;
     });
 
-    // Draw viewport indicator
-    const viewportWidth = (window.innerWidth / zoom) * scale;
-    const viewportHeight = (window.innerHeight / zoom) * scale;
-    const viewportPos = toMinimap(-camera.x / zoom, -camera.y / zoom);
-
-    // Viewport shadow
-    ctx.fillStyle = 'rgba(0, 0, 0, 0.3)';
-    ctx.fillRect(0, 0, size, size);
-    
-    // Clear the viewport area
-    ctx.save();
-    ctx.globalCompositeOperation = 'destination-out';
-    ctx.fillStyle = 'rgba(0, 0, 0, 1)';
-    ctx.fillRect(
-      viewportPos.x - viewportWidth / 2,
-      viewportPos.y - viewportHeight / 2,
-      viewportWidth,
-      viewportHeight
-    );
-    ctx.restore();
-
-    // Viewport border with glow
+    // Draw viewport rectangle (on top of nodes)
     ctx.strokeStyle = '#00ffff';
     ctx.lineWidth = 2;
     ctx.shadowColor = '#00ffff';
-    ctx.shadowBlur = 8;
+    ctx.shadowBlur = 6;
     ctx.strokeRect(
       viewportPos.x - viewportWidth / 2,
       viewportPos.y - viewportHeight / 2,
@@ -167,15 +140,24 @@ const Minimap = React.memo(({
     );
     ctx.shadowBlur = 0;
 
-    // Center crosshair
+    // Viewport fill - very subtle
+    ctx.fillStyle = 'rgba(0, 255, 255, 0.05)';
+    ctx.fillRect(
+      viewportPos.x - viewportWidth / 2,
+      viewportPos.y - viewportHeight / 2,
+      viewportWidth,
+      viewportHeight
+    );
+
+    // Center origin marker
     const centerPos = toMinimap(0, 0);
-    ctx.strokeStyle = 'rgba(255, 255, 255, 0.2)';
+    ctx.strokeStyle = 'rgba(255, 255, 255, 0.15)';
     ctx.lineWidth = 1;
     ctx.beginPath();
-    ctx.moveTo(centerPos.x - 5, centerPos.y);
-    ctx.lineTo(centerPos.x + 5, centerPos.y);
-    ctx.moveTo(centerPos.x, centerPos.y - 5);
-    ctx.lineTo(centerPos.x, centerPos.y + 5);
+    ctx.moveTo(centerPos.x - 4, centerPos.y);
+    ctx.lineTo(centerPos.x + 4, centerPos.y);
+    ctx.moveTo(centerPos.x, centerPos.y - 4);
+    ctx.lineTo(centerPos.x, centerPos.y + 4);
     ctx.stroke();
 
   }, [nodes, clusters, bounds, camera, zoom, hoveredNode, selectedNode, isExpanded]);
@@ -264,7 +246,7 @@ const Minimap = React.memo(({
         <span>Navigator</span>
       </div>
       <div className={styles.nodeCount}>
-        {nodes.length} nodes
+        {nodes?.length || 0} nodes
       </div>
       {isExpanded && (
         <div className={styles.instructions}>
