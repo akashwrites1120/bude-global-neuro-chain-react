@@ -105,22 +105,29 @@ const CanvasNetwork = React.memo(({
         const dx = targetRef.current.x - prev.x;
         const dy = targetRef.current.y - prev.y;
         
+        // Stop updating if close enough to avoid micro-updates
+        if (Math.abs(dx) < 0.1 && Math.abs(dy) < 0.1) {
+             return prev;
+        }
+
         const newCamera = {
           x: prev.x + dx * 0.1,
           y: prev.y + dy * 0.1
         };
-        
-        // Broadcast camera changes to parent
-        if (onCameraChange) {
-          onCameraChange(newCamera);
-        }
         
         return newCamera;
       });
     }, 16);
 
     return () => clearInterval(interval);
-  }, [onCameraChange]);
+  }, []);
+
+  // Broadcast camera changes to parent
+  useEffect(() => {
+    if (onCameraChange) {
+      onCameraChange(camera);
+    }
+  }, [camera, onCameraChange]);
 
   // Broadcast zoom changes
   useEffect(() => {
