@@ -63,10 +63,32 @@ const DetailPanel = React.memo(({ node, cluster, onClose, onNodeSelect }) => {
             </div>
         </div>
 
-        {/* Actions (Mock) */}
+        {/* Actions */}
         <div className={styles.actions}>
-            <button className={styles.actionBtn}>View Source</button>
-            <button className={styles.actionBtn}>Export Data</button>
+            {node.wikiUrl && (
+              <button 
+                className={styles.actionBtn}
+                onClick={() => window.open(node.wikiUrl, '_blank')}
+                title="View on Wikipedia"
+              >
+                📖 View Source
+              </button>
+            )}
+            <button 
+              className={styles.actionBtn}
+              onClick={() => {
+                const blob = new Blob([JSON.stringify(node, null, 2)], { type: 'application/json' });
+                const url = URL.createObjectURL(blob);
+                const a = document.createElement('a');
+                a.href = url;
+                a.download = `${node.id}-data.json`;
+                a.click();
+                URL.revokeObjectURL(url);
+              }}
+              title="Export node data as JSON"
+            >
+              💾 Export Data
+            </button>
         </div>
 
       </div>

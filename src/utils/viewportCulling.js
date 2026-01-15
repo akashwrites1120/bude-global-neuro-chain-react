@@ -29,28 +29,51 @@ export const getVisibleEdges = (edges, visibleNodeIds) => {
 
 /**
  * Level of Detail (LOD) - adjust rendering quality based on zoom level
+ * OPTIMIZED for large datasets (715+ nodes, 1500+ edges)
  */
 export const getLODSettings = (zoom) => {
-  if (zoom < 0.6) {
+  if (zoom < 0.3) {
     return {
+      renderNodes: true,  // Show dots only
+      renderEdges: false, // Hide all edges
       renderLabels: false,
-      renderGlow: false, // Cleaner "star map" look
+      renderGlow: false,
       renderPulses: false,
-      edgeWidth: 0.3
+      edgeWidth: 0,
+      simplifiedNodes: true // Use simple circles
+    };
+  } else if (zoom < 0.6) {
+    return {
+      renderNodes: true,
+      renderEdges: true,
+      renderLabels: false,
+      renderGlow: false,
+      renderPulses: false,
+      edgeWidth: 0.5,
+      simplifiedNodes: true,
+      maxEdges: 300 // Limit edge rendering
     };
   } else if (zoom < 1.2) {
     return {
-      renderLabels: false, // Hide labels until closer zoom
+      renderNodes: true,
+      renderEdges: true,
+      renderLabels: false,
       renderGlow: true,
-      renderPulses: true,
-      edgeWidth: 0.8
+      renderPulses: false,
+      edgeWidth: 0.8,
+      simplifiedNodes: false,
+      maxEdges: 800
     };
   } else {
     return {
+      renderNodes: true,
+      renderEdges: true,
       renderLabels: true,
       renderGlow: true,
       renderPulses: true,
-      edgeWidth: 1.2
+      edgeWidth: 1.2,
+      simplifiedNodes: false,
+      maxEdges: Infinity
     };
   }
 };

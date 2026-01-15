@@ -7,7 +7,7 @@
     "y": 0,
     "size": 28,
     "year": -400000,
-    "description": "Fire is the rapid oxidation of a fuel in the exothermic chemical process of combustion, releasing heat, light, and various reaction products.\nFlames, the most visible portion of the fire, are produced in the combustion reaction when the fuel reaches its ignition point temperature. Flames from hyd...",
+    "description": "Fire is the rapid oxidation of a fuel in the exothermic chemical process of combustion, releasing heat, light, and various reaction products.\nFlames, the most visible portion of the fire, are produced in the combustion reaction when the fuel reaches its ignition point temperature. Flames from hydrocarbon fuels consist primarily of carbon dioxide, water vapor, oxygen, and nitrogen. If hot enough, the gases may become ionized to produce plasma. The color and intensity of the flame depend on the type of fuel and composition of the surrounding gases.",
     "status": "Foundational",
     "maturity": 100,
     "contributors": [
@@ -38,7 +38,7 @@
       "Food Processing",
       "Digestion Efficiency"
     ],
-    "description": "Cooking, also known as cookery, is the art, science and craft of using heat to make food more palatable, digestible, nutritious, or safe. Cooking techniques and ingredients vary widely, from grilling food over an open fire, to using electric stoves, to baking in various types of ovens, to boiling...",
+    "description": "Cooking, also known as cookery, is the art, science and craft of using heat to make food more palatable, digestible, nutritious, or safe. Cooking techniques and ingredients vary widely, from grilling food over an open fire, to using electric stoves, to baking in various types of ovens, to boiling and blanching in water, reflecting local conditions, techniques and traditions. Cooking is an aspect of all human societies and a cultural universal.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Cooking"
   },
   {
@@ -78,7 +78,7 @@
       "Thermal",
       "Chemical"
     ],
-    "description": "Light, visible light, or visible radiation is electromagnetic radiation that can be perceived by the human eye. Visible light spans the visible spectrum and is usually defined as having wavelengths in the range of 400–700 nanometres (nm), corresponding to frequencies of 750–420 terahertz. The vis...",
+    "description": "Light, visible light, or visible radiation is electromagnetic radiation that can be perceived by the human eye. Visible light spans the visible spectrum and is usually defined as having wavelengths in the range of 400–700 nanometres (nm), corresponding to frequencies of 750–420 terahertz. The visible band sits adjacent to the infrared and the ultraviolet, called collectively optical radiation.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Light"
   },
   {
@@ -140,7 +140,7 @@
       "Thermal",
       "Chemical"
     ],
-    "description": "Charcoal is a lightweight black carbon residue produced by strongly heating wood in minimal oxygen to remove all water and volatile constituents. In the traditional version of this pyrolysis process, called charcoal burning, often by forming a charcoal kiln, the heat is supplied by burning part o...",
+    "description": "Charcoal is a lightweight black carbon residue produced by strongly heating wood in minimal oxygen to remove all water and volatile constituents. In the traditional version of this pyrolysis process, called charcoal burning, often by forming a charcoal kiln, the heat is supplied by burning part of the starting material itself, with a limited supply of oxygen. The material can also be heated in a closed retort. Modern charcoal briquettes used for outdoor cooking may contain many other additives, e.g. coal.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Charcoal"
   },
   {
@@ -161,7 +161,7 @@
       "Thermal",
       "Chemical"
     ],
-    "description": "Glass is an amorphous (non-crystalline) solid. Because it is often transparent and chemically inert, glass has found widespread practical, technological, and decorative use in window panes, tableware, and optics. Some common objects made of glass are named after the material, e.g., a \"glass\" for ...",
+    "description": "Glass is an amorphous (non-crystalline) solid. Because it is often transparent and chemically inert, glass has found widespread practical, technological, and decorative use in window panes, tableware, and optics. Some common objects made of glass are named after the material, e.g., a \"glass\" for drinking, \"glasses\" for vision correction, and a \"magnifying glass\".",
     "wikiUrl": "https://en.wikipedia.org/wiki/Glass"
   },
   {
@@ -181,7 +181,7 @@
       "Thermal",
       "Chemical"
     ],
-    "description": "A kiln is a thermally insulated chamber, a type of oven, that produces temperatures sufficient to complete some process, such as hardening, drying, or chemical changes. Kilns have been used for millennia to turn objects made from clay into pottery, tiles and bricks. Various industries use rotary ...",
+    "description": "A kiln is a thermally insulated chamber, a type of oven, that produces temperatures sufficient to complete some process, such as hardening, drying, or chemical changes. Kilns have been used for millennia to turn objects made from clay into pottery, tiles and bricks. Various industries use rotary kilns for pyroprocessing and to transform many other materials.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Kiln"
   },
   {
@@ -202,7 +202,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "Stone tools have been used throughout human history but are most closely associated with prehistoric cultures and in particular those of the Stone Age. Stone tools may be made of either ground stone or knapped stone, the latter fashioned by a craftsman called a flintknapper. Stone has been used t...",
+    "description": "Stone tools have been used throughout human history but are most closely associated with prehistoric cultures and in particular those of the Stone Age. Stone tools may be made of either ground stone or knapped stone, the latter fashioned by a craftsman called a flintknapper. Stone has been used to make a wide variety of tools throughout history, including arrowheads, spearheads, hand axes, and querns. Knapped stone tools are nearly ubiquitous in pre-metal-using societies because they are easily manufactured, the tool stone raw material is usually plentiful, and they are easy to transport and sharpen.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Stone_tool"
   },
   {
@@ -242,7 +242,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "A hammer is a tool, most often a hand tool, consisting of a weighted \"head\" fixed to a long handle that is swung to deliver an impact to a small area of an object. This can be, for example, to drive nails into wood, to shape metal, or to crush rock. Hammers are used for a wide range of driving, s...",
+    "description": "A hammer is a tool, most often a hand tool, consisting of a weighted \"head\" fixed to a long handle that is swung to deliver an impact to a small area of an object. This can be, for example, to drive nails into wood, to shape metal, or to crush rock. Hammers are used for a wide range of driving, shaping, breaking and non-destructive striking applications. Traditional disciplines include carpentry, blacksmithing, warfare, and percussive musicianship.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Hammer"
   },
   {
@@ -324,7 +324,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "A machine tool is a machine for handling or machining metal or other rigid materials, usually by cutting, boring, grinding, shearing, or other forms of deformations. Machine tools employ some sort of tool that does the cutting or shaping. All machine tools have some means of constraining the work...",
+    "description": "A machine tool is a machine for handling or machining metal or other rigid materials, usually by cutting, boring, grinding, shearing, or other forms of deformations. Machine tools employ some sort of tool that does the cutting or shaping. All machine tools have some means of constraining the workpiece and provide a guided movement of the parts of the machine. Thus, the relative movement between the workpiece and the cutting tool is controlled or constrained by the machine to at least some extent, rather than being entirely \"offhand\" or \"freehand\". It is a power-driven metal cutting machine which assists in managing the needed relative motion between cutting tool and the job that changes the size and shape of the job material.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Machine_tool"
   },
   {
@@ -367,7 +367,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "3D printing, also called additive manufacturing, is the construction of a three-dimensional object from a CAD model or a digital 3D model. It can be done in a variety of processes in which material is deposited, joined or solidified under computer control, with the material being added together, ...",
+    "description": "3D printing, also called additive manufacturing, is the construction of a three-dimensional object from a CAD model or a digital 3D model. It can be done in a variety of processes in which material is deposited, joined or solidified under computer control, with the material being added together, typically layer by layer.",
     "wikiUrl": "https://en.wikipedia.org/wiki/3D_printing"
   },
   {
@@ -388,7 +388,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "A wheel is a rotating component intended to turn on an axle bearing. The wheel is one of the key components of the wheel and axle which is one of the six simple machines. Wheels, in conjunction with axles, allow heavy objects to be moved easily facilitating movement or transportation while suppor...",
+    "description": "A wheel is a rotating component intended to turn on an axle bearing. The wheel is one of the key components of the wheel and axle which is one of the six simple machines. Wheels, in conjunction with axles, allow heavy objects to be moved easily facilitating movement or transportation while supporting a load, or performing labor in machines. Wheels are also used for other purposes, such as a ship's wheel, steering wheel, potter's wheel, and flywheel.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Wheel"
   },
   {
@@ -408,7 +408,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "A lever is a simple machine consisting of a beam or rigid rod pivoted at a fixed hinge, or fulcrum. A lever is a rigid body capable of rotating on a point on itself. On the basis of the locations of fulcrum, load, and effort, the lever is divided into three types. It is one of the six simple mach...",
+    "description": "A lever is a simple machine consisting of a beam or rigid rod pivoted at a fixed hinge, or fulcrum. A lever is a rigid body capable of rotating on a point on itself. On the basis of the locations of fulcrum, load, and effort, the lever is divided into three types. It is one of the six simple machines identified by Renaissance scientists. A lever amplifies an input force to provide a greater output force, which is said to provide leverage, which is mechanical advantage gained in the system, equal to the ratio of the output force to the input force. As such, the lever is a mechanical advantage device, trading off force against movement.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Lever"
   },
   {
@@ -448,7 +448,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "A gear or gearwheel, also called a toothed wheel, is a rotating machine part typically used to transmit rotational motion or torque by means of a series of \"teeth\" that engage with compatible teeth of another gear or other part. The teeth can be integral saliences or cavities machined on the part...",
+    "description": "A gear or gearwheel, also called a toothed wheel, is a rotating machine part typically used to transmit rotational motion or torque by means of a series of \"teeth\" that engage with compatible teeth of another gear or other part. The teeth can be integral saliences or cavities machined on the part, or separate pegs inserted into it. In the latter case, the gear is usually called a cogwheel. A cog may be one of those pegs or the whole gear. Two or more meshing gears are called a gear train.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Gear"
   },
   {
@@ -470,7 +470,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "A clock or chronometer is a device that measures and displays time. The clock is one of the oldest human inventions, meeting the need to measure intervals of time shorter than the natural units such as the day, the lunar month, and the year. Devices operating on several physical processes have be...",
+    "description": "A clock or chronometer is a device that measures and displays time. The clock is one of the oldest human inventions, meeting the need to measure intervals of time shorter than the natural units such as the day, the lunar month, and the year. Devices operating on several physical processes have been used over the millennia.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Clock"
   },
   {
@@ -492,7 +492,7 @@
       "Power",
       "Infrastructure"
     ],
-    "description": "A steam engine is a heat engine that performs mechanical work using steam as its working fluid. The steam engine uses the force produced by steam pressure to push a piston back and forth inside a cylinder. This pushing force can be transformed by a connecting rod and crank into rotational force f...",
+    "description": "A steam engine is a heat engine that performs mechanical work using steam as its working fluid. The steam engine uses the force produced by steam pressure to push a piston back and forth inside a cylinder. This pushing force can be transformed by a connecting rod and crank into rotational force for work. The term \"steam engine\" is most commonly applied to reciprocating engines as just described, although some authorities have also referred to the steam turbine and devices such as Hero's aeolipile as \"steam engines\". The essential feature of steam engines is that they are external combustion engines, where the working fluid is separated from the combustion products. The ideal thermodynamic cycle used to analyze this process is called the Rankine cycle. In general usage, the term steam engine can refer to either complete steam plants, such as railway steam locomotives and portable engines, or may refer to the piston or turbine machinery alone, as in the beam engine and stationary steam engine.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Steam_engine"
   },
   {
@@ -515,7 +515,7 @@
       "Power",
       "Infrastructure"
     ],
-    "description": "Electricity is the set of physical phenomena associated with the presence and motion of matter possessing an electric charge. Electricity is related to magnetism, both being part of the phenomenon of electromagnetism, as described by Maxwell's equations. Common phenomena are related to electricit...",
+    "description": "Electricity is the set of physical phenomena associated with the presence and motion of matter possessing an electric charge. Electricity is related to magnetism, both being part of the phenomenon of electromagnetism, as described by Maxwell's equations. Common phenomena are related to electricity, including lightning, static electricity, electric heating, electric discharges and many others.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Electricity"
   },
   {
@@ -580,7 +580,7 @@
       "Power",
       "Infrastructure"
     ],
-    "description": "Nuclear power is the use of nuclear reactions to produce electricity. Nuclear power can be obtained from nuclear fission, nuclear decay and nuclear fusion reactions. Presently, the vast majority of electricity from nuclear power is produced by nuclear fission of uranium and plutonium in nuclear p...",
+    "description": "Nuclear power is the use of nuclear reactions to produce electricity. Nuclear power can be obtained from nuclear fission, nuclear decay and nuclear fusion reactions. Presently, the vast majority of electricity from nuclear power is produced by nuclear fission of uranium and plutonium in nuclear power plants. Nuclear decay processes are used in niche applications such as radioisotope thermoelectric generators in some space probes such as Voyager 2. Reactors producing controlled fusion power have been operated since 1958 but have yet to generate net power and are not expected to be commercially available in the near future.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Nuclear_power"
   },
   {
@@ -662,7 +662,7 @@
       "Power",
       "Infrastructure"
     ],
-    "description": "Wind power is the use of wind energy to generate useful work. Historically, wind power was used by sails, windmills and windpumps, but today it is mostly used to generate electricity. This article deals only with wind power for electricity generation.\nToday, wind power is generated almost complet...",
+    "description": "Wind power is the use of wind energy to generate useful work. Historically, wind power was used by sails, windmills and windpumps, but today it is mostly used to generate electricity. This article deals only with wind power for electricity generation.\nToday, wind power is generated almost completely using wind turbines, generally grouped into wind farms and connected to the electrical grid.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Wind_power"
   },
   {
@@ -684,7 +684,7 @@
       "Power",
       "Infrastructure"
     ],
-    "description": "An electric motor is a machine that converts electrical energy into mechanical energy. Most electric motors operate through the interaction between the motor's magnetic field and electric current in a wire winding to generate Laplace force in the form of torque applied on the motor's shaft. An el...",
+    "description": "An electric motor is a machine that converts electrical energy into mechanical energy. Most electric motors operate through the interaction between the motor's magnetic field and electric current in a wire winding to generate Laplace force in the form of torque applied on the motor's shaft. An electric generator is mechanically identical to an electric motor, but operates in reverse, converting mechanical energy into electrical energy.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Electric_motor"
   },
   {
@@ -705,7 +705,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Agriculture is the practice of cultivating the soil, planting, raising, and harvesting both food and non-food crops, as well as livestock production. Broader definitions also include forestry and aquaculture. Agriculture was a key factor in the rise of sedentary human civilization, whereby farmin...",
+    "description": "Agriculture is the practice of cultivating the soil, planting, raising, and harvesting both food and non-food crops, as well as livestock production. Broader definitions also include forestry and aquaculture. Agriculture was a key factor in the rise of sedentary human civilization, whereby farming of domesticated plants and animals created food surpluses that enabled people to live in the cities. While humans started gathering grains at least 105,000 years ago, nascent farmers only began planting them around 11,500 years ago. Sheep, goats, pigs, and cattle were domesticated around 10,000 years ago. Plants were independently cultivated in at least 11 regions of the world. In the 20th century, industrial agriculture based on large-scale monocultures came to dominate agricultural output.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Agriculture"
   },
   {
@@ -726,7 +726,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Selective breeding is the process by which humans use animal breeding and plant breeding to selectively develop particular phenotypic traits (characteristics) by choosing which typically animal or plant males and females will sexually reproduce and have offspring together. Domesticated animals ar...",
+    "description": "Selective breeding is the process by which humans use animal breeding and plant breeding to selectively develop particular phenotypic traits (characteristics) by choosing which typically animal or plant males and females will sexually reproduce and have offspring together. Domesticated animals are known as breeds, normally bred by a professional breeder, while domesticated plants are known as varieties, cultigens, cultivars, or breeds. Two purebred animals of different breeds produce a crossbreed, and crossbred plants are called hybrids. Flowers, vegetables and fruit-trees may be bred by amateurs and commercial or non-commercial professionals: major crops are usually the provenance of the professionals.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Selective_breeding"
   },
   {
@@ -747,7 +747,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Fermentation is a type of anaerobic metabolism that harnesses the redox potential of the reactants to make adenosine triphosphate (ATP) and organic end products. Organic molecules, such as glucose or other sugars, are catabolized and their electrons are transferred to other organic molecules. Ana...",
+    "description": "Fermentation is a type of anaerobic metabolism that harnesses the redox potential of the reactants to make adenosine triphosphate (ATP) and organic end products. Organic molecules, such as glucose or other sugars, are catabolized and their electrons are transferred to other organic molecules. Anaerobic glycolysis is a related term used to describe the occurrence of fermentation in organisms when aerobic respiration cannot keep up with the ATP demand, due to insufficient oxygen supply or anaerobic conditions.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Fermentation"
   },
   {
@@ -767,7 +767,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Medicine is the science and practice of caring for patients, managing the diagnosis, prognosis, prevention, treatment and palliation of their injury or disease, while promoting their health. Medicine encompasses a variety of health care practices which evolved to maintain and restore health throu...",
+    "description": "Medicine is the science and practice of caring for patients, managing the diagnosis, prognosis, prevention, treatment and palliation of their injury or disease, while promoting their health. Medicine encompasses a variety of health care practices which evolved to maintain and restore health through the prevention and treatment of illness. Contemporary medicine applies biomedical sciences, biomedical research, genetics, and medical technology to diagnose, treat, and prevent injury and disease, typically through various pharmaceuticals or surgery, but also through therapies such as psychotherapy, external splints and traction, medical devices, biologics, and ionizing radiation, amongst others.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Medicine"
   },
   {
@@ -788,7 +788,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Genetics is the study of genes, genetic variation, and heredity in organisms. It is an important branch in biology because heredity is vital to organisms' evolution. Gregor Mendel, a Moravian Augustinian friar working in the 19th century in Brno, was the first to study genetics scientifically. Me...",
+    "description": "Genetics is the study of genes, genetic variation, and heredity in organisms. It is an important branch in biology because heredity is vital to organisms' evolution. Gregor Mendel, a Moravian Augustinian friar working in the 19th century in Brno, was the first to study genetics scientifically. Mendel studied \"trait inheritance\", patterns in the way traits are handed down from parents to offspring over time. He observed that organisms inherit traits by way of discrete \"units of inheritance\". This term, still used today, is a somewhat ambiguous definition of what is referred to as a gene.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Genetics"
   },
   {
@@ -809,7 +809,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "CRISPR is a family of DNA sequences found in the genomes of prokaryotic organisms such as bacteria and archaea. Each sequence within an individual prokaryotic CRISPR is derived from a DNA fragment of a bacteriophage that had previously infected the prokaryote or one of its ancestors. These sequen...",
+    "description": "CRISPR is a family of DNA sequences found in the genomes of prokaryotic organisms such as bacteria and archaea. Each sequence within an individual prokaryotic CRISPR is derived from a DNA fragment of a bacteriophage that had previously infected the prokaryote or one of its ancestors. These sequences are used to detect and destroy DNA from similar bacteriophages during subsequent infections. Hence these sequences play a key role in the antiviral defense system of prokaryotes and provide a form of heritable, acquired immunity. CRISPR is found in approximately 50% of sequenced bacterial genomes and nearly 90% of sequenced archaea.",
     "wikiUrl": "https://en.wikipedia.org/wiki/CRISPR"
   },
   {
@@ -853,7 +853,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "A brain–computer interface (BCI), sometimes called a brain–machine interface (BMI), is a direct communication link between the brain's electrical activity and an external device, most commonly a computer or robotic limb. BCIs are often directed at researching, mapping, assisting, augmenting, or r...",
+    "description": "A brain–computer interface (BCI), sometimes called a brain–machine interface (BMI), is a direct communication link between the brain's electrical activity and an external device, most commonly a computer or robotic limb. BCIs are often directed at researching, mapping, assisting, augmenting, or repairing human cognitive or sensory-motor functions. They are often conceptualized as a human–machine interface that skips the intermediary of moving body parts. BCI implementations range from non-invasive and partially invasive to invasive, based on how physically close electrodes are to brain tissue.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Brain%E2%80%93computer_interface"
   },
   {
@@ -874,7 +874,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "An antibiotic is a type of antimicrobial substance active against bacteria. It is the most important type of antibacterial agent for fighting bacterial infections, and antibiotic medications are widely used in the treatment and prevention of such infections. They may either kill or inhibit the gr...",
+    "description": "An antibiotic is a type of antimicrobial substance active against bacteria. It is the most important type of antibacterial agent for fighting bacterial infections, and antibiotic medications are widely used in the treatment and prevention of such infections. They may either kill or inhibit the growth of bacteria. A limited number of antibiotics also possess antiprotozoal activity. Antibiotics are not effective against viruses such as the ones which cause the common cold or influenza. Drugs which inhibit growth of viruses are termed antiviral drugs or antivirals. Antibiotics are also not effective against fungi. Drugs which inhibit growth of fungi are called antifungal drugs.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Antibiotic"
   },
   {
@@ -896,7 +896,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease. The safety and effectiveness of vaccines has been widely studied and verified. A vaccine typically contains an agent that resembles a disease-causing microorganism and is ...",
+    "description": "A vaccine is a biological preparation that provides active acquired immunity to a particular infectious or malignant disease. The safety and effectiveness of vaccines has been widely studied and verified. A vaccine typically contains an agent that resembles a disease-causing microorganism and is often made from weakened or killed forms of the microbe, its toxins, or one of its surface proteins. The agent stimulates the immune system to recognize the agent as a threat, destroy it, and recognize further and destroy any of the microorganisms associated with that agent that it may encounter in the future.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Vaccine"
   },
   {
@@ -940,7 +940,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Irrigation is the practice of applying controlled amounts of water to land to help grow crops, landscape plants, and lawns. Irrigation has been a key aspect of agriculture for over 5,000 years and has been developed by many cultures around the world. Irrigation helps to grow crops, maintain lands...",
+    "description": "Irrigation is the practice of applying controlled amounts of water to land to help grow crops, landscape plants, and lawns. Irrigation has been a key aspect of agriculture for over 5,000 years and has been developed by many cultures around the world. Irrigation helps to grow crops, maintain landscapes, and revegetate disturbed soils in dry areas and during times of below-average rainfall. In addition to these uses, irrigation is also employed to protect crops from frost, suppress weed growth in grain fields, and prevent soil consolidation. It is also used to cool livestock, reduce dust, dispose of sewage, and support mining operations. Drainage, which involves the removal of surface and sub-surface water from a given location, is often studied in conjunction with irrigation.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Irrigation"
   },
   {
@@ -963,7 +963,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "The germ theory of disease is the currently accepted scientific theory for many diseases. It states that microorganisms known as pathogens or \"germs\" can cause disease. These small organisms, which are too small to be seen without magnification, invade animals, plants, and even bacteria. Their gr...",
+    "description": "The germ theory of disease is the currently accepted scientific theory for many diseases. It states that microorganisms known as pathogens or \"germs\" can cause disease. These small organisms, which are too small to be seen without magnification, invade animals, plants, and even bacteria. Their growth and reproduction within their hosts can cause disease. \"Germ\" refers not just to bacteria but to any type of microorganism, such as protists or fungi, or other pathogens, including parasites, viruses, prions, or viroids. Diseases caused by pathogens are called infectious diseases. Even when a pathogen is the principal cause of a disease, environmental and hereditary factors often influence the severity of the disease, and whether a potential host individual becomes infected when exposed to the pathogen. Pathogens are disease-causing agents that can pass from one individual to another, across multiple domains of life.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Germ_theory_of_disease"
   },
   {
@@ -985,7 +985,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "DNA sequencing is the process of determining the nucleic acid sequence – the order of nucleotides in DNA. It includes any method or technology that is used to determine the order of the four bases: adenine, thymine, cytosine, and guanine. The advent of rapid DNA sequencing methods has greatly acc...",
+    "description": "DNA sequencing is the process of determining the nucleic acid sequence – the order of nucleotides in DNA. It includes any method or technology that is used to determine the order of the four bases: adenine, thymine, cytosine, and guanine. The advent of rapid DNA sequencing methods has greatly accelerated biological and medical research and discovery.",
     "wikiUrl": "https://en.wikipedia.org/wiki/DNA_sequencing"
   },
   {
@@ -1006,7 +1006,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Language is a structured system of communication that consists of grammar and vocabulary. It is the primary means by which humans convey meaning, both in spoken and signed forms, and may also be conveyed through writing. Human language is characterized by its cultural and historical diversity, wi...",
+    "description": "Language is a structured system of communication that consists of grammar and vocabulary. It is the primary means by which humans convey meaning, both in spoken and signed forms, and may also be conveyed through writing. Human language is characterized by its cultural and historical diversity, with significant variations observed between cultures and across time. Human languages possess the properties of productivity and displacement, which enable the creation of an infinite number of sentences, and the ability to refer to objects, events, and ideas that are not immediately present in the discourse. The use of human language relies on social convention and is acquired through learning.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Language"
   },
   {
@@ -1027,7 +1027,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Writing is the act of creating a persistent, usually visual representation of language on a surface. As a structured system of communication, writing is also known as written language. Historically, written languages have emerged as a way to record corresponding spoken languages. While the use of...",
+    "description": "Writing is the act of creating a persistent, usually visual representation of language on a surface. As a structured system of communication, writing is also known as written language. Historically, written languages have emerged as a way to record corresponding spoken languages. While the use of language is universal across human societies, most spoken languages are not written. A particular set of symbols, called a script, as well as the rules by which they encode a particular spoken language, is known as a writing system. In some rare cases, writing may be tactile rather than visual.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Writing"
   },
   {
@@ -1049,7 +1049,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A printing press is a mechanical device for applying pressure to an inked surface resting upon a print medium, thereby transferring the ink. It marked a dramatic improvement on earlier printing methods in which the cloth, paper, or other medium was brushed or rubbed repeatedly to achieve the tran...",
+    "description": "A printing press is a mechanical device for applying pressure to an inked surface resting upon a print medium, thereby transferring the ink. It marked a dramatic improvement on earlier printing methods in which the cloth, paper, or other medium was brushed or rubbed repeatedly to achieve the transfer of ink and accelerated the process. Typically used for texts, the invention and global spread of the printing press was one of the most influential events in the second millennium.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Printing_press"
   },
   {
@@ -1070,7 +1070,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Telegraphy is the long-distance transmission of messages where the sender uses symbolic codes, known to the recipient, rather than a physical exchange of an object bearing the message. Thus flag semaphore is a method of telegraphy, whereas pigeon post is not. Ancient signalling systems, although ...",
+    "description": "Telegraphy is the long-distance transmission of messages where the sender uses symbolic codes, known to the recipient, rather than a physical exchange of an object bearing the message. Thus flag semaphore is a method of telegraphy, whereas pigeon post is not. Ancient signalling systems, although sometimes quite extensive and sophisticated as in China, were generally not capable of transmitting arbitrary text messages. Possible messages were fixed and predetermined, so such systems are thus not true telegraphs.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Telegraphy"
   },
   {
@@ -1093,7 +1093,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Computing is any goal-oriented activity that requires, benefits from, or creates computing machinery. It includes the study and experimentation of algorithmic processes, and the development of both hardware and software. Computing encompasses scientific, engineering, mathematical, technological, ...",
+    "description": "Computing is any goal-oriented activity that requires, benefits from, or creates computing machinery. It includes the study and experimentation of algorithmic processes, and the development of both hardware and software. Computing encompasses scientific, engineering, mathematical, technological, and social aspects. Major computing disciplines include computer engineering, computer science, cybersecurity, data science, information systems, information technology, and software engineering.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Computing"
   },
   {
@@ -1116,7 +1116,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A transistor is a semiconductor device used to amplify or switch electrical signals and power. It is one of the basic building blocks of modern electronics. It is composed of semiconductor material, usually with at least three terminals for connection to an electronic circuit. A voltage or curren...",
+    "description": "A transistor is a semiconductor device used to amplify or switch electrical signals and power. It is one of the basic building blocks of modern electronics. It is composed of semiconductor material, usually with at least three terminals for connection to an electronic circuit. A voltage or current applied to one pair of the transistor's terminals controls the current through another pair of terminals. Because the controlled (output) power can be higher than the controlling (input) power, a transistor can amplify a signal. Some transistors are packaged individually, but many more in miniature form are found embedded in integrated circuits. Because transistors are the key active components in practically all modern electronics, many people consider them one of the 20th century's greatest inventions.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Transistor"
   },
   {
@@ -1139,7 +1139,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "The Internet is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that comprises private, public, academic, business, and government networks of local to global scope, linke...",
+    "description": "The Internet is the global system of interconnected computer networks that uses the Internet protocol suite (TCP/IP) to communicate between networks and devices. It is a network of networks that comprises private, public, academic, business, and government networks of local to global scope, linked by electronic, wireless, and optical networking technologies. The Internet carries a vast range of information services and resources, such as the interlinked hypertext documents and applications of the World Wide Web (WWW), electronic mail, discussion groups, internet telephony, streaming media and file sharing.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Internet"
   },
   {
@@ -1161,7 +1161,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalise to unseen data, and thus perform tasks without explicit instructions. Within a subdiscipline in machine learning, advance...",
+    "description": "Machine learning (ML) is a field of study in artificial intelligence concerned with the development and study of statistical algorithms that can learn from data and generalise to unseen data, and thus perform tasks without explicit instructions. Within a subdiscipline in machine learning, advances in the field of deep learning have allowed neural networks, a class of statistical algorithms, to surpass many previous machine learning approaches in performance.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Machine_learning"
   },
   {
@@ -1182,7 +1182,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A blockchain is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. Since each block contains information about the previous block...",
+    "description": "A blockchain is a distributed ledger with growing lists of records (blocks) that are securely linked together via cryptographic hashes. Each block contains a cryptographic hash of the previous block, a timestamp, and transaction data. Since each block contains information about the previous block, they effectively form a chain, with each additional block linking to the ones before it. Consequently, blockchain transactions are resistant to alteration because, once recorded, the data in any given block cannot be changed retroactively without altering all subsequent blocks and obtaining network consensus to accept these changes.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Blockchain"
   },
   {
@@ -1202,7 +1202,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Cryptography, or cryptology, is the practice and study of techniques for secure communication in the presence of adversarial behavior. More generally, cryptography is about constructing and analyzing protocols that prevent third parties or the public from reading private messages. Modern cryptogr...",
+    "description": "Cryptography, or cryptology, is the practice and study of techniques for secure communication in the presence of adversarial behavior. More generally, cryptography is about constructing and analyzing protocols that prevent third parties or the public from reading private messages. Modern cryptography exists at the intersection of the disciplines of mathematics, computer science, information security, electrical engineering, digital signal processing, physics, and others. Core concepts related to information security are also central to cryptography. Practical applications of cryptography include electronic commerce, chip-based payment cards, digital currencies, computer passwords and military communications.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Cryptography"
   },
   {
@@ -1224,7 +1224,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Radio is the technology of communicating using radio waves. Radio waves are electromagnetic waves of frequency between 3 hertz (Hz) and 300 gigahertz (GHz). They are generated by an electronic device called a transmitter connected to an antenna which radiates the waves. They can be received by ot...",
+    "description": "Radio is the technology of communicating using radio waves. Radio waves are electromagnetic waves of frequency between 3 hertz (Hz) and 300 gigahertz (GHz). They are generated by an electronic device called a transmitter connected to an antenna which radiates the waves. They can be received by other antennas connected to a radio receiver; this is the fundamental principle of radio communication. In addition to communication, radio is used for radar, radio navigation, remote control, remote sensing, and other applications.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Radio"
   },
   {
@@ -1245,7 +1245,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A telephone, commonly shortened to phone, is a telecommunications device that enables two or more users to conduct a conversation when they are too far apart to be easily heard directly. A telephone converts sound, typically and most efficiently the human voice, into electronic signals that are t...",
+    "description": "A telephone, commonly shortened to phone, is a telecommunications device that enables two or more users to conduct a conversation when they are too far apart to be easily heard directly. A telephone converts sound, typically and most efficiently the human voice, into electronic signals that are transmitted via cables and other communication channels to another telephone which reproduces the sound to the receiving user. The term is derived from Ancient Greek: τῆλε, romanized: tēle, lit. 'far' and φωνή, together meaning distant voice.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Telephone"
   },
   {
@@ -1266,7 +1266,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Television (TV) is a telecommunication medium for transmitting moving images and sound. Additionally, the term can refer to a physical television set rather than the medium of transmission. Television is a mass medium for advertising, entertainment, news, and sports. The medium is capable of more...",
+    "description": "Television (TV) is a telecommunication medium for transmitting moving images and sound. Additionally, the term can refer to a physical television set rather than the medium of transmission. Television is a mass medium for advertising, entertainment, news, and sports. The medium is capable of more than \"radio broadcasting\", which refers to an audio signal sent to radio receivers.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Television"
   },
   {
@@ -1287,7 +1287,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A smartphone is a mobile device that combines the functionality of a traditional mobile phone with advanced computing capabilities. It typically has a touchscreen interface, allowing users to access a wide range of applications and services, such as web browsing, email, and social media, as well ...",
+    "description": "A smartphone is a mobile device that combines the functionality of a traditional mobile phone with advanced computing capabilities. It typically has a touchscreen interface, allowing users to access a wide range of applications and services, such as web browsing, email, and social media, as well as multimedia playback and streaming. Smartphones have built-in cameras, GPS navigation, and support for various communication methods, including voice calls, text messaging, and internet-based messaging apps. Smartphones are distinguished from older-design feature phones by their more advanced hardware capabilities and extensive mobile operating systems, access to the internet, business applications, mobile payments, and multimedia functionality, including music, video, gaming, radio, and television.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Smartphone"
   },
   {
@@ -1311,7 +1311,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "In machine learning, deep learning focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning. The field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and \"training...",
+    "description": "In machine learning, deep learning focuses on utilizing multilayered neural networks to perform tasks such as classification, regression, and representation learning. The field takes inspiration from biological neuroscience and revolves around stacking artificial neurons into layers and \"training\" them to process data. The adjective \"deep\" refers to the use of multiple layers in the network. Methods used can be supervised, semi-supervised or unsupervised.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Deep_learning"
   },
   {
@@ -1333,7 +1333,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A large language model (LLM) is a language model trained with self-supervised machine learning on a vast amount of text, designed for natural language processing tasks, especially language generation. The largest and most capable LLMs are generative pre-trained transformers (GPTs) and provide the...",
+    "description": "A large language model (LLM) is a language model trained with self-supervised machine learning on a vast amount of text, designed for natural language processing tasks, especially language generation. The largest and most capable LLMs are generative pre-trained transformers (GPTs) and provide the core capabilities of modern chatbots. LLMs can be fine-tuned for specific tasks or guided by prompt engineering. These models acquire predictive power regarding syntax, semantics, and ontologies inherent in human language corpora, but they also inherit inaccuracies and biases present in the data they are trained on.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Large_language_model"
   },
   {
@@ -1400,7 +1400,7 @@
       "Chemistry",
       "Physics"
     ],
-    "description": "Bronze is an alloy consisting primarily of copper, commonly with about 12–12.5% tin and often with the addition of other metals and sometimes non-metals or metalloids. These additions produce a range of alloys some of which are harder than copper alone or have other useful properties, such as str...",
+    "description": "Bronze is an alloy consisting primarily of copper, commonly with about 12–12.5% tin and often with the addition of other metals and sometimes non-metals or metalloids. These additions produce a range of alloys some of which are harder than copper alone or have other useful properties, such as strength, ductility, or machinability.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Bronze"
   },
   {
@@ -1421,7 +1421,7 @@
       "Chemistry",
       "Physics"
     ],
-    "description": "Iron is a chemical element; it has symbol Fe and atomic number 26. It is a metal that belongs to the first transition series and group 8 of the periodic table. It is, by mass, the most common element on Earth, forming much of Earth's outer and inner core. It is the fourth most abundant element in...",
+    "description": "Iron is a chemical element; it has symbol Fe and atomic number 26. It is a metal that belongs to the first transition series and group 8 of the periodic table. It is, by mass, the most common element on Earth, forming much of Earth's outer and inner core. It is the fourth most abundant element in the Earth's crust. In its metallic state it was mainly deposited by meteorites.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Iron"
   },
   {
@@ -1442,7 +1442,7 @@
       "Chemistry",
       "Physics"
     ],
-    "description": "Steel is an alloy of iron and carbon that demonstrates improved mechanical properties compared to the pure form of iron. Due to its high elastic modulus, yield strength, fracture strength and low raw material cost, steel is one of the most commonly manufactured materials in the world. Steel is us...",
+    "description": "Steel is an alloy of iron and carbon that demonstrates improved mechanical properties compared to the pure form of iron. Due to its high elastic modulus, yield strength, fracture strength and low raw material cost, steel is one of the most commonly manufactured materials in the world. Steel is used in structures, in bridges, infrastructure, tools, ships, trains, cars, bicycles, machines, electrical appliances, furniture, and weapons.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Steel"
   },
   {
@@ -1484,7 +1484,7 @@
       "Chemistry",
       "Physics"
     ],
-    "description": "Plastics are a wide range of synthetic or semisynthetic materials composed primarily of polymers. Their defining characteristic, plasticity, allows them to be molded, extruded, or pressed into a diverse range of solid forms. This adaptability, combined with a wide range of other properties such a...",
+    "description": "Plastics are a wide range of synthetic or semisynthetic materials composed primarily of polymers. Their defining characteristic, plasticity, allows them to be molded, extruded, or pressed into a diverse range of solid forms. This adaptability, combined with a wide range of other properties such as low weight, durability, flexibility, chemical resistance, low toxicity, and low-cost production, has led to their widespread use around the world. While most plastics are produced from natural gas and petroleum, a growing minority are produced from renewable resources like polylactic acid.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Plastic"
   },
   {
@@ -1505,7 +1505,7 @@
       "Chemistry",
       "Physics"
     ],
-    "description": "A semiconductor is a material with electrical conductivity between that of a conductor and an insulator. Its conductivity can be modified by adding impurities (\"doping\") to its crystal structure. When two regions with different doping levels are present in the same crystal, they form a semiconduc...",
+    "description": "A semiconductor is a material with electrical conductivity between that of a conductor and an insulator. Its conductivity can be modified by adding impurities (\"doping\") to its crystal structure. When two regions with different doping levels are present in the same crystal, they form a semiconductor junction. However the term \"semiconductors\" is sometimes used to refer to semiconductor devices such as microchips and computer processors, which work using the physical properties of semiconductors.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Semiconductor"
   },
   {
@@ -1546,7 +1546,7 @@
       "Chemistry",
       "Physics"
     ],
-    "description": "A metamaterial is an engineered material whose properties arise not from the chemical composition of its base substances, but from their deliberately designed internal structure. These properties are often rare or absent in naturally occurring materials. Metamaterials are typically fashioned from...",
+    "description": "A metamaterial is an engineered material whose properties arise not from the chemical composition of its base substances, but from their deliberately designed internal structure. These properties are often rare or absent in naturally occurring materials. Metamaterials are typically fashioned from multiple materials, such as metals and plastics, and arranged in repeating patterns at scales that are smaller than the wavelengths of the phenomena they influence. Their shape, geometry, size, orientation, and arrangement give them their properties of manipulating electromagnetic, acoustic, or seismic waves: by blocking, absorbing, enhancing, or bending waves, to achieve benefits that go beyond what is possible with conventional materials. Those that exhibit a negative index of refraction for particular wavelengths have been the focus of a substantial amount of research.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Metamaterial"
   },
   {
@@ -1587,7 +1587,7 @@
       "Chemistry",
       "Physics"
     ],
-    "description": "An alloy is a mixture of chemical elements of which in most cases at least one is a metallic element, although it is also sometimes used for mixtures of elements; herein only metallic alloys are described. Metallic alloys often have properties that differ from those of the pure elements from whic...",
+    "description": "An alloy is a mixture of chemical elements of which in most cases at least one is a metallic element, although it is also sometimes used for mixtures of elements; herein only metallic alloys are described. Metallic alloys often have properties that differ from those of the pure elements from which they are made. The vast majority of metals used for commercial purposes are alloyed to improve their properties or behavior, such as increased strength, hardness or corrosion resistance. Metals may also be alloyed to reduce their overall cost, for instance alloys of gold and copper.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Alloy"
   },
   {
@@ -1609,7 +1609,7 @@
       "Chemistry",
       "Physics"
     ],
-    "description": "An optical fiber, or optical fibre, is a flexible glass or plastic fiber that can transmit light from one end to the other. Such fibers find wide usage in fiber-optic communications, where they permit transmission over longer distances and at higher bandwidths than electrical cables. Fibers are u...",
+    "description": "An optical fiber, or optical fibre, is a flexible glass or plastic fiber that can transmit light from one end to the other. Such fibers find wide usage in fiber-optic communications, where they permit transmission over longer distances and at higher bandwidths than electrical cables. Fibers are used instead of metal wires because signals travel along them with less loss and are immune to electromagnetic interference. Fibers are also used for illumination and imaging, and are often wrapped in bundles so they may be used to carry light into, or images out of confined spaces, as in the case of a fiberscope. Specially designed fibers are also used for a variety of other applications, such as fiber optic sensors and fiber lasers.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Optical_fiber"
   },
   {
@@ -1631,7 +1631,7 @@
       "Chemistry",
       "Physics"
     ],
-    "description": "A carbon nanotube (CNT) is a tube made of carbon with a diameter in the nanometre range (nanoscale). They are one of the allotropes of carbon. Two broad classes of carbon nanotubes are recognized:Single-walled carbon nanotubes (SWCNTs) have diameters around 0.5–2.0 nanometres, about 100,000th the...",
+    "description": "A carbon nanotube (CNT) is a tube made of carbon with a diameter in the nanometre range (nanoscale). They are one of the allotropes of carbon. Two broad classes of carbon nanotubes are recognized:Single-walled carbon nanotubes (SWCNTs) have diameters around 0.5–2.0 nanometres, about 100,000th the width of a human hair. They can be idealised as cutouts from a two-dimensional graphene sheet rolled up to form a hollow cylinder.\nMulti-walled carbon nanotubes (MWCNTs) consist of nested single-wall carbon nanotubes in a nested, tube-in-tube structure. Double- and triple-walled carbon nanotubes are special cases of MWCNT.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Carbon_nanotube"
   },
   {
@@ -1671,7 +1671,7 @@
       "Society",
       "Organization"
     ],
-    "description": "Money is any item or verifiable record that is generally accepted as payment for goods and services and repayment of debts, such as taxes, in a particular country or socio-economic context. The primary functions which distinguish money are: medium of exchange, a unit of account, a store of value ...",
+    "description": "Money is any item or verifiable record that is generally accepted as payment for goods and services and repayment of debts, such as taxes, in a particular country or socio-economic context. The primary functions which distinguish money are: medium of exchange, a unit of account, a store of value and sometimes, a standard of deferred payment.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Money"
   },
   {
@@ -1712,7 +1712,7 @@
       "Society",
       "Organization"
     ],
-    "description": "A corporation or body corporate is an individual or a group of people, such as an association or company, that has been authorized by the state to act as a single entity and recognized as such in law for certain purposes. Early incorporated entities were established by charter. Most jurisdictions...",
+    "description": "A corporation or body corporate is an individual or group, such as an association or company, that has been authorized by the state to act as a single entity and recognized as such in law for certain purposes. Early incorporated entities were established by charter. Most jurisdictions now allow the creation of new corporations through registration. Corporations come in many different types but are usually divided by the law of the jurisdiction where they are chartered based on two aspects: whether they can issue stock, or whether they are formed to make a profit. Depending on the number of owners, a corporation can be classified as aggregate or sole.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Corporation"
   },
   {
@@ -1733,7 +1733,7 @@
       "Society",
       "Organization"
     ],
-    "description": "Democracy is a form of government in which political power is vested in the people or the population of a state. Under a minimalist definition of democracy, rulers are elected through competitive elections while more expansive or maximalist definitions link democracy to guarantees of civil libert...",
+    "description": "Democracy is a form of government in which political power is vested in the people or the population of a state. Under a minimalist definition of democracy, rulers are elected through competitive elections while more expansive or maximalist definitions link democracy to guarantees of civil liberties and human rights in addition to competitive elections.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Democracy"
   },
   {
@@ -1754,7 +1754,7 @@
       "Society",
       "Organization"
     ],
-    "description": "The contemporary national legal systems are generally based on one of four major legal traditions: civil law, common law, customary law, religious law or combinations of these. However, the legal system of each country is shaped by its unique history and so incorporates individual variations. The...",
+    "description": "The contemporary national legal systems are generally based on one of four major legal traditions: civil law, common law, customary law, religious law or combinations of these. However, the legal system of each country is shaped by its unique history and so incorporates individual variations. The science that studies law at the level of legal systems is called comparative law.",
     "wikiUrl": "https://en.wikipedia.org/wiki/List_of_national_legal_systems"
   },
   {
@@ -1775,7 +1775,7 @@
       "Society",
       "Organization"
     ],
-    "description": "A university is an institution of tertiary education and research which awards academic degrees in several academic disciplines. University is derived from the Latin phrase universitas magistrorum et scholarium, which roughly means \"community of teachers and scholars\". Universities typically offe...",
+    "description": "A university is an institution of tertiary education and research which awards academic degrees in several academic disciplines. University is derived from the Latin phrase universitas magistrorum et scholarium, which roughly means \"community of teachers and scholars\". Universities typically offer both undergraduate and postgraduate programs.",
     "wikiUrl": "https://en.wikipedia.org/wiki/University"
   },
   {
@@ -1796,7 +1796,7 @@
       "Society",
       "Organization"
     ],
-    "description": "A calendar is a system of organizing days. This is done by giving names to periods of time, typically days, weeks, months and years. A date is the designation of a single and specific day within such a system. A calendar is also a physical record of such a system. A calendar can also mean a list ...",
+    "description": "A calendar is a system of organizing days. This is done by giving names to periods of time, typically days, weeks, months and years. A date is the designation of a single and specific day within such a system. A calendar is also a physical record of such a system. A calendar can also mean a list of planned events, such as a court calendar, or a partly or fully chronological list of documents, such as a calendar of wills.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Calendar"
   },
   {
@@ -1858,7 +1858,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "A telescope is a device used to observe distant objects by their emission, absorption, or reflection of electromagnetic radiation. Originally, it was an optical instrument using lenses, curved mirrors, or a combination of both to observe distant objects – an optical telescope. Nowadays, the word ...",
+    "description": "A telescope is a device used to observe distant objects by their emission, absorption, or reflection of electromagnetic radiation. Originally, it was an optical instrument using lenses, curved mirrors, or a combination of both to observe distant objects – an optical telescope. Nowadays, the word \"telescope\" is defined as a wide range of instruments capable of detecting different regions of the electromagnetic spectrum, and in some cases other types of detectors.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Telescope"
   },
   {
@@ -1922,7 +1922,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "A satellite or an artificial satellite is an object, typically a spacecraft, placed into orbit around a celestial body. They have a variety of uses, including communication relay, weather forecasting, navigation (GPS), broadcasting, scientific research, and Earth observation. Additional military ...",
+    "description": "A satellite or an artificial satellite is an object, typically a spacecraft, placed into orbit around a celestial body. They have a variety of uses, including communication relay, weather forecasting, navigation (GPS), broadcasting, scientific research, and Earth observation. Additional military uses are reconnaissance, early warning, signals intelligence and, potentially, weapon delivery. Other satellites include the final rocket stages that place satellites in orbit and formerly useful satellites that later become defunct.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Satellite"
   },
   {
@@ -1943,7 +1943,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "The Global Positioning System (GPS) is a satellite-based hyperbolic navigation system owned by the United States Space Force and operated by Mission Delta 31. It is one of the global navigation satellite systems (GNSS) that provide geolocation and time information to a GPS receiver anywhere on or...",
+    "description": "The Global Positioning System (GPS) is a satellite-based hyperbolic navigation system owned by the United States Space Force and operated by Mission Delta 31. It is one of the global navigation satellite systems (GNSS) that provide geolocation and time information to a GPS receiver anywhere on or near the Earth where signal quality permits. It does not require the user to transmit any data, and operates independently of any telephone or Internet reception, though these technologies can enhance the usefulness of the GPS positioning information. It provides critical positioning capabilities to military, civil, and commercial users around the world. Although the United States government created, controls, and maintains the GPS system, it is freely accessible to anyone with a GPS receiver.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Global_Positioning_System"
   },
   {
@@ -1965,7 +1965,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "A space station is a spacecraft which remains in orbit and hosts humans for extended periods of time. It is therefore an artificial satellite featuring habitation facilities. The purpose of maintaining a space station varies depending on the program. Most often space stations have been research s...",
+    "description": "A space station is a spacecraft which remains in orbit and hosts humans for extended periods of time. It is therefore an artificial satellite featuring habitation facilities. The purpose of maintaining a space station varies depending on the program. Most often space stations have been research stations, but they have also served military or commercial uses, such as hosting space tourists.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Space_station"
   },
   {
@@ -1986,7 +1986,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "A compass is a device that shows the cardinal directions used for navigation and geographic orientation. It typically consists of a magnetized needle or another element, such as a compass card or compass rose, that pivots to align itself with magnetic north. Other methods may be used, including g...",
+    "description": "A compass is a device that shows the cardinal directions used for navigation and geographic orientation. It typically consists of a magnetized needle or another element, such as a compass card or compass rose, that pivots to align itself with magnetic north. Other methods may be used, including gyroscopes, magnetometers, and GPS receivers.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Compass"
   },
   {
@@ -2006,7 +2006,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "A map is a symbolic depiction of interrelationships, commonly spatial, between things within a space. A map may be annotated with text and graphics. Like any graphic, a map may be fixed to paper or other durable media, or may be displayed on a transitory medium such as a computer screen. Some map...",
+    "description": "A map is a symbolic depiction of interrelationships, commonly spatial, between things within a space. A map may be annotated with text and graphics. Like any graphic, a map may be fixed to paper or other durable media, or may be displayed on a transitory medium such as a computer screen. Some maps change interactively. Although maps are commonly used to depict geographic elements, they may represent any space, real or fictional. The subject being mapped may be two-dimensional such as Earth's surface, three-dimensional such as Earth's interior, or from an abstract space of any dimension.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Map"
   },
   {
@@ -2026,7 +2026,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "Navigation is a field of study that focuses on the process of monitoring and controlling the movement of a craft or vehicle from one place to another. The field of navigation includes four general categories: land navigation, marine navigation, aeronautic navigation, and space navigation. It is a...",
+    "description": "Navigation is a field of study that focuses on the process of monitoring and controlling the movement of a craft or vehicle from one place to another. The field of navigation includes four general categories: land navigation, marine navigation, aeronautic navigation, and space navigation. It is also the term of art used for the specialized knowledge used by navigators to perform navigation tasks. All navigational techniques involve locating the navigator's position compared to known locations or patterns. Navigation, in a broader sense, can refer to any skill or study that involves the determination of position and direction. In this sense, navigation includes orienteering and pedestrian navigation.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Navigation"
   },
   {
@@ -2047,7 +2047,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "Radar is a system that uses radio waves to determine the distance (ranging), direction, and radial velocity of objects relative to the site. It is a radiodetermination method used to detect and track aircraft, ships, spacecraft, guided missiles, motor vehicles, weather formations and terrain. The...",
+    "description": "Radar is a system that uses radio waves to determine the distance (ranging), direction, and radial velocity of objects relative to the site. It is a radiodetermination method used to detect and track aircraft, ships, spacecraft, guided missiles, motor vehicles, weather formations and terrain. The term RADAR was coined in 1940 by the United States Navy as an acronym for \"radio detection and ranging\". The term radar has since entered English and other languages as an anacronym, a common noun, losing all capitalization.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Radar"
   },
   {
@@ -2093,7 +2093,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "A quantum computer is a computer that exploits superposed and entangled states. Quantum computers can be viewed as sampling from quantum systems that evolve in ways that may be described as operating on an enormous number of possibilities simultaneously, though still subject to strict computation...",
+    "description": "A quantum computer is a computer that exploits superposed and entangled states. Quantum computers can be viewed as sampling from quantum systems that evolve in ways that may be described as operating on an enormous number of possibilities simultaneously, though still subject to strict computational constraints. By contrast, ordinary (\"classical\") computers operate according to deterministic rules. It is widely believed that a quantum computer could perform some calculations exponentially faster than any classical computer. For example, a large-scale quantum computer could break some widely used public-key cryptographic schemes and aid physicists in performing physical simulations. However, current hardware implementations of quantum computation are largely experimental and only suitable for specialized tasks.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Quantum_computing"
   },
   {
@@ -2115,7 +2115,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "Neuromorphic computing is a computing approach inspired by the human brain's structure and function. It uses artificial neurons to perform computations, mimicking neural systems for tasks such as perception, motor control, and multisensory integration. These systems, implemented in analog, digita...",
+    "description": "Neuromorphic computing is a computing approach inspired by the human brain's structure and function. It uses artificial neurons to perform computations, mimicking neural systems for tasks such as perception, motor control, and multisensory integration. These systems, implemented in analog, digital, or mixed-mode VLSI, prioritize robustness, adaptability, and learning by emulating the brain’s distributed processing across small computing elements. This interdisciplinary field integrates biology, physics, mathematics, computer science, and electronic engineering to develop systems that emulate the brain’s morphology and computational strategies. Neuromorphic systems aim to enhance energy efficiency and computational power for applications including artificial intelligence, pattern recognition, and sensory processing.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Neuromorphic_computing"
   },
   {
@@ -2197,7 +2197,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "In machine learning, diffusion models, also known as diffusion-based generative models or score-based generative models, are a class of latent variable generative models. A diffusion model consists of two major components: the forward diffusion process, and the reverse sampling process. The goal ...",
+    "description": "In machine learning, diffusion models, also known as diffusion-based generative models or score-based generative models, are a class of latent variable generative models. A diffusion model consists of two major components: the forward diffusion process, and the reverse sampling process. The goal of diffusion models is to learn a diffusion process for a given dataset, such that the process can generate new elements that are distributed similarly as the original dataset. A diffusion model models data as generated by a diffusion process, whereby a new datum performs a random walk with drift through the space of all possible data. A trained diffusion model can be sampled in many ways, with different efficiency and quality.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Diffusion_model"
   },
   {
@@ -2219,7 +2219,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "In machine learning and optimal control, reinforcement learning (RL) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. Reinforcement learning is one of the three basic machine learning paradigms, alongside supervised lear...",
+    "description": "In machine learning and optimal control, reinforcement learning (RL) is concerned with how an intelligent agent should take actions in a dynamic environment in order to maximize a reward signal. Reinforcement learning is one of the three basic machine learning paradigms, alongside supervised learning and unsupervised learning.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Reinforcement_learning"
   },
   {
@@ -2241,7 +2241,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "Multimodal learning is a type of deep learning that integrates and processes multiple types of data, referred to as modalities, such as text, audio, images, or video. This integration allows for a more holistic understanding of complex data, improving model performance in tasks like visual questi...",
+    "description": "Multimodal learning is a type of deep learning that integrates and processes multiple types of data, referred to as modalities, such as text, audio, images, or video. This integration allows for a more holistic understanding of complex data, improving model performance in tasks like visual question answering, cross-modal retrieval, text-to-image generation, aesthetic ranking, and image captioning.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Multimodal_learning"
   },
   {
@@ -2283,7 +2283,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "In mathematics and computer science, an algorithm is a finite sequence of mathematically rigorous instructions, typically used to solve a class of specific problems or to perform a computation. Algorithms are used as specifications for performing calculations and data processing. More advanced al...",
+    "description": "In mathematics and computer science, an algorithm is a finite sequence of mathematically rigorous instructions, typically used to solve a class of specific problems or to perform a computation. Algorithms are used as specifications for performing calculations and data processing. More advanced algorithms can use conditionals to divert the code execution through various routes and deduce valid inferences.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Algorithm"
   },
   {
@@ -2304,7 +2304,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A binary code is the value of a data-encoding convention represented in a binary notation that usually is a sequence of 0s and 1s, sometimes called a bit string. For example, ASCII is an 8-bit text encoding that in addition to the human readable form (letters) can be represented as binary. Binary...",
+    "description": "A binary code is the value of a data-encoding convention represented in a binary notation that usually is a sequence of 0s and 1s, sometimes called a bit string. For example, ASCII is an 8-bit text encoding that in addition to the human readable form (letters) can be represented as binary. Binary code can also refer to the mass noun code that is not human readable in nature such as machine code and bytecode.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Binary_code"
   },
   {
@@ -2325,7 +2325,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A punched card is a stiff paper-based medium used to store digital information via the presence or absence of holes in predefined positions. Developed over the 18th to 20th centuries, punched cards were widely used for data processing, the control of automated machines, and computing. Early appli...",
+    "description": "A punched card is a stiff paper-based medium used to store digital information via the presence or absence of holes in predefined positions. Developed over the 18th to 20th centuries, punched cards were widely used for data processing, the control of automated machines, and computing. Early applications included controlling weaving looms and recording census data.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Punched_card"
   },
   {
@@ -2345,7 +2345,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A graphical user interface, or GUI, is a form of user interface that allows users to interact with electronic devices through graphical icons and visual indicators such as secondary notation. In many applications, GUIs are used instead of text-based UIs, which are based on typed command labels or...",
+    "description": "A graphical user interface, or GUI, is a form of user interface that allows users to interact with electronic devices through graphical icons and visual indicators such as secondary notation. In many applications, GUIs are used instead of text-based UIs, which are based on typed command labels or text navigation. GUIs were introduced in reaction to the perceived steep learning curve of command-line interfaces (CLIs), which require commands to be typed on a computer keyboard.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Graphical_user_interface"
   },
   {
@@ -2365,7 +2365,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A mouse is a small rodent. Characteristically, mice are known to have a pointed snout, small rounded ears, a body-length scaly tail, and a high breeding rate. The best known mouse species is the common house mouse. Mice are also popular as pets. In some places, certain kinds of field mice are loc...",
+    "description": "A mouse is a small rodent. Characteristically, mice are known to have a pointed snout, small rounded ears, a body-length scaly tail, and a high breeding rate. The best known mouse species is the common house mouse. Mice are also popular as pets. In some places, certain kinds of field mice are locally common. They are known to invade homes for food and shelter.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Mouse"
   },
   {
@@ -2385,7 +2385,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Hypertext is text displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch. Apa...",
+    "description": "Hypertext is text displayed on a computer display or other electronic devices with references (hyperlinks) to other text that the reader can immediately access. Hypertext documents are interconnected by hyperlinks, which are typically activated by a mouse click, keypress set, or screen touch. Apart from text, the term \"hypertext\" is also used to describe tables, images, and other presentational materials with integrated hyperlinks. Hypertext is one of the key underlying concepts of the World Wide Web, where Web pages are often written in the Hypertext Markup Language (HTML). As implemented on the Web, hypertext enables the easy-to-use publication of information over the Internet.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Hypertext"
   },
   {
@@ -2406,7 +2406,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A search engine is a software system that provides hyperlinks to web pages, and other relevant information on the Web in response to a user's query. The user enters a query in a web browser or a mobile app, and the search results are typically presented as a list of hyperlinks accompanied by text...",
+    "description": "A search engine is a software system that provides hyperlinks to web pages, and other relevant information on the Web in response to a user's query. The user enters a query in a web browser or a mobile app, and the search results are typically presented as a list of hyperlinks accompanied by textual summaries and images. Users also have the option of limiting a search to specific types of results, such as images, videos, or news.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Search_engine"
   },
   {
@@ -2427,7 +2427,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Social media are new media technologies that facilitate the creation, sharing and aggregation of content amongst virtual communities and networks. Common features include:Online platforms enable viewers to create and share content and participate in social networking.\nUser-generated content—such ...",
+    "description": "Social media are new media technologies that facilitate the creation, sharing and aggregation of content amongst virtual communities and networks. Common features include:Online platforms enable viewers to create and share content and participate in social networking.\nUser-generated content—such as text posts or comments, digital photos or videos, and data generated through online interactions.\nService-specific profiles that are designed and maintained by the social media organization.\nSocial media helps the development of online social networks by connecting a user's profile with those of other individuals or groups.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Social_media"
   },
   {
@@ -2447,7 +2447,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "E-commerce refers to commercial activities including the electronic buying or selling products and services which are conducted on online platforms or over the Internet. E-commerce draws on technologies such as mobile commerce, electronic funds transfer, supply chain management, Internet marketin...",
+    "description": "E-commerce refers to commercial activities including the electronic buying or selling products and services which are conducted on online platforms or over the Internet. E-commerce draws on technologies such as mobile commerce, electronic funds transfer, supply chain management, Internet marketing, online transaction processing, electronic data interchange (EDI), inventory management systems, and automated data collection systems. E-commerce is a part of the retail, the largest segment of the electronics industry and is in turn driven by the technological advances of the semiconductor industry.",
     "wikiUrl": "https://en.wikipedia.org/wiki/E-commerce"
   },
   {
@@ -2467,7 +2467,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Streaming media is multimedia delivered through a network for playback using a media player. Media is transferred in a stream of packets from a server to a client and is rendered in real-time or near real-time; this contrasts with file downloading, a process in which the end-user obtains an entir...",
+    "description": "Streaming media is multimedia delivered through a network for playback using a media player. Media is transferred in a stream of packets from a server to a client and is rendered in real-time or near real-time; this contrasts with file downloading, a process in which the end-user obtains an entire media file before consuming the content. Streaming is more commonly used for video on demand, streaming television, and music streaming services over the Internet.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Streaming_media"
   },
   {
@@ -2487,7 +2487,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Computer security is a subdiscipline within the field of information security. It focuses on protecting computer software, systems, and networks from threats that can lead to unauthorized information disclosure, theft or damage to hardware, software, or data, as well as from the disruption or mis...",
+    "description": "Computer security is a subdiscipline within the field of information security. It focuses on protecting computer software, systems, and networks from threats that can lead to unauthorized information disclosure, theft or damage to hardware, software, or data, as well as from the disruption or misdirection of the services they provide.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Computer_security"
   },
   {
@@ -2550,7 +2550,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Augmented reality (AR), also known as mixed reality (MR), is a form of 3D human–computer interaction that overlays real-time 3D-rendered computer graphics into the real world through a display, such as a handheld device or head-mounted display. This experience is seamlessly interwoven with the ph...",
+    "description": "Augmented reality (AR), also known as mixed reality (MR), is a form of 3D human–computer interaction that overlays real-time 3D-rendered computer graphics into the real world through a display, such as a handheld device or head-mounted display. This experience is seamlessly interwoven with the physical world such that it is perceived as an immersive aspect of the real environment. In this way, augmented reality alters one's ongoing perception of a real-world environment, compared to virtual reality, which aims to completely replace the user's real-world environment with a simulated one. Augmented reality is typically visual, but can span multiple sensory modalities, including auditory, haptic, and somatosensory.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Augmented_reality"
   },
   {
@@ -2571,7 +2571,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "\nA smart contract is a computer program or a transaction protocol that is intended to automatically execute, control or document events and actions according to the terms of a contract or an agreement. The objectives of smart contracts are the reduction of need for trusted intermediators, arbitra...",
+    "description": "\nA smart contract is a computer program or a transaction protocol that is intended to automatically execute, control or document events and actions according to the terms of a contract or an agreement. The objectives of smart contracts are the reduction of need for trusted intermediators, arbitration costs, and fraud losses, as well as the reduction of malicious and accidental exceptions. Smart contracts are commonly associated with cryptocurrencies, and the smart contracts introduced by Ethereum are generally considered a fundamental building block for decentralized finance (DeFi) and non-fungible token (NFT) applications.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Smart_contract"
   },
   {
@@ -2611,7 +2611,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A non-fungible token (NFT) is a unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity. It cannot be copied, substituted, or subdivided. The ownership of an NFT is recorded in the blockchain and can be transferred by the owner, allowing NFTs t...",
+    "description": "A non-fungible token (NFT) is a unique digital identifier that is recorded on a blockchain and is used to certify ownership and authenticity. It cannot be copied, substituted, or subdivided. The ownership of an NFT is recorded in the blockchain and can be transferred by the owner, allowing NFTs to be sold and traded. Initially pitched in 2017 as a new class of investment asset, by September 2023 one report claimed that over 95% of NFT collections had zero monetary value.",
     "year": 2017,
     "wikiUrl": "https://en.wikipedia.org/wiki/Non-fungible_token"
   },
@@ -2632,7 +2632,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Web3 is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, tokenomics, and privacy-enhancing technologies. This is distinct from Tim Berners-Lee's concept of the Semantic Web. Some technologists and journalists have con...",
+    "description": "Web3 is an idea for a new iteration of the World Wide Web which incorporates concepts such as decentralization, blockchain technologies, tokenomics, and privacy-enhancing technologies. This is distinct from Tim Berners-Lee's concept of the Semantic Web. Some technologists and journalists have contrasted it with Web 2.0, in which they say user-generated content is controlled by a small group of companies referred to as Big Tech. The term \"web3\" was coined in 2014 by Ethereum co-founder Gavin Wood, and the idea gained interest in 2021 from cryptocurrency enthusiasts, large technology companies, and venture capital firms.The concepts of web3 were first represented in 2013.",
     "year": 2014,
     "wikiUrl": "https://en.wikipedia.org/wiki/Web3"
   },
@@ -2653,7 +2653,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "5G is the fifth generation of cellular network technology and the successor to 4G. First deployed in 2019, its technical standards are developed by the 3rd Generation Partnership Project (3GPP) in cooperation with the ITU’s IMT-2020 program. 5G networks divide coverage areas into smaller zones ca...",
+    "description": "5G is the fifth generation of cellular network technology and the successor to 4G. First deployed in 2019, its technical standards are developed by the 3rd Generation Partnership Project (3GPP) in cooperation with the ITU’s IMT-2020 program. 5G networks divide coverage areas into smaller zones called cells, enabling devices to connect to local base stations via radio. Each station connects to the broader telephone network and the Internet through high-speed optical fiber or wireless backhaul.",
     "year": 2019,
     "wikiUrl": "https://en.wikipedia.org/wiki/5G"
   },
@@ -2665,7 +2665,7 @@
     "y": 246,
     "size": 9,
     "year": 2000,
-    "description": "The Internet of things (IoT) describes physical objects that are embedded with sensors, processing ability, software, and other technologies that connect and exchange data with other devices and systems over the Internet or other communication networks. The IoT encompasses electronics, communicat...",
+    "description": "The Internet of things (IoT) describes physical objects that are embedded with sensors, processing ability, software, and other technologies that connect and exchange data with other devices and systems over the Internet or other communication networks. The IoT encompasses electronics, communication, and computer science engineering. \"Internet of things\" has been considered a misnomer because devices do not need to be connected to the public Internet; they only need to be connected to a network and be individually addressable.",
     "status": "Mature",
     "maturity": 80,
     "contributors": [
@@ -2698,7 +2698,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Edge computing is a distributed computing model that brings computation and data storage closer to the sources of data. More broadly, it refers to any design that pushes computation physically closer to a user, so as to reduce the latency compared to when an application runs on a centralized data...",
+    "description": "Edge computing is a distributed computing model that brings computation and data storage closer to the sources of data. More broadly, it refers to any design that pushes computation physically closer to a user, so as to reduce the latency compared to when an application runs on a centralized data center.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Edge_computing"
   },
   {
@@ -2718,7 +2718,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "Serverless computing is \"a cloud service category where the customer can use different cloud capability types without the customer having to provision, deploy and manage either hardware or software resources, other than providing customer application code or providing customer data. Serverless co...",
+    "description": "Serverless computing is \"a cloud service category where the customer can use different cloud capability types without the customer having to provision, deploy and manage either hardware or software resources, other than providing customer application code or providing customer data. Serverless computing represents a form of virtualized computing\", according to ISO/IEC 22123-2. Serverless computing is a broad ecosystem that includes the cloud provider, Function as a Service (FaaS), managed services, tools, frameworks, engineers, stakeholders, and other interconnected elements, according to Sheen Brisals.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Serverless_computing"
   },
   {
@@ -2738,7 +2738,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "In software engineering, a microservice architecture is an architectural pattern that organizes an application into a collection of loosely coupled, fine-grained services that communicate through lightweight protocols. This pattern is characterized by the ability to develop and deploy services in...",
+    "description": "In software engineering, a microservice architecture is an architectural pattern that organizes an application into a collection of loosely coupled, fine-grained services that communicate through lightweight protocols. This pattern is characterized by the ability to develop and deploy services independently, improving modularity, scalability, and adaptability. However, it introduces additional complexity, particularly in managing distributed systems and inter-service communication, making the initial implementation more challenging compared to a monolithic architecture.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Microservices"
   },
   {
@@ -2758,7 +2758,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A container is any receptacle or enclosure for holding a product used in storage, packaging, and transportation, including shipping.\nThings kept inside of a container are protected on several sides by being inside of its structure. The term is most frequently applied to devices made from material...",
+    "description": "A container is any receptacle or enclosure for holding a product used in storage, packaging, and transportation, including shipping.\nThings kept inside of a container are protected on several sides by being inside of its structure. The term is most frequently applied to devices made from materials that are durable and are often partly or completely rigid.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Container"
   },
   {
@@ -2778,7 +2778,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "In machine learning, the perceptron is an algorithm for supervised learning of binary classifiers. A binary classifier is a function that can decide whether or not an input, represented by a vector of numbers, belongs to some specific class. It is a type of linear classifier, i.e. a classificatio...",
+    "description": "In machine learning, the perceptron is an algorithm for supervised learning of binary classifiers. A binary classifier is a function that can decide whether or not an input, represented by a vector of numbers, belongs to some specific class. It is a type of linear classifier, i.e. a classification algorithm that makes its predictions based on a linear predictor function combining a set of weights with the feature vector.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Perceptron"
   },
   {
@@ -2799,7 +2799,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "\n\nA neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neur...",
+    "description": "\n\nA neural network is a group of interconnected units called neurons that send signals to one another. Neurons can be either biological cells or mathematical models. While individual neurons are simple, many of them together in a network can perform complex tasks. There are two main types of neural networks.In neuroscience, a biological neural network is a physical structure found in brains and complex nervous systems – a population of nerve cells connected by synapses.\nIn machine learning, an artificial neural network is a mathematical model used to approximate nonlinear functions. Artificial neural networks are used to solve artificial intelligence problems.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Neural_network"
   },
   {
@@ -2839,7 +2839,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "The Cable News Network (CNN) is an American multinational news media company and the flagship namesake property of CNN Worldwide, a division of Warner Bros. Discovery (WBD). Founded on June 1, 1980, by American media proprietor Ted Turner and Reese Schonfeld as a 24-hour cable news channel and he...",
+    "description": "The Cable News Network (CNN) is an American multinational news media company and the flagship namesake property of CNN Worldwide, a division of Warner Bros. Discovery (WBD). Founded on June 1, 1980, by American media proprietor Ted Turner and Reese Schonfeld as a 24-hour cable news channel and headquartered in Atlanta, Georgia, CNN is the first television channel to provide 24-hour news coverage and the first all-news television channel in the United States.",
     "year": 1980,
     "wikiUrl": "https://en.wikipedia.org/wiki/CNN"
   },
@@ -2860,7 +2860,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "RNN or rnn may refer to:Random neural network, a mathematical representation of an interconnected network of neurons or cells which exchange spiking signals\nRecurrent neural network, a class of artificial neural networks where connections between nodes form a directed graph along a temporal seque...",
+    "description": "RNN or rnn may refer to:Random neural network, a mathematical representation of an interconnected network of neurons or cells which exchange spiking signals\nRecurrent neural network, a class of artificial neural networks where connections between nodes form a directed graph along a temporal sequence\nrnn (software)\nRecursive neural network, a kind of deep neural network created by applying the same set of weights recursively over a structured input\nWRNN-TV, branded as Regional News Network, a television station licensed to New Rochelle, New York, United States\nRassd News Network, Egypt\nReserva Natural Nacional, national park in Colombia\nIATA code for Bornholm Airport, Denmark\nrnn, ISO 639-3 code for the Roon language",
     "wikiUrl": "https://en.wikipedia.org/wiki/RNN"
   },
   {
@@ -2880,7 +2880,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "Transformers is a Japanese-American media franchise produced by American toy company Hasbro and Japanese toy company Takara Tomy. It primarily follows the heroic Autobots and the villainous Decepticons, two alien robot factions at war that can transform into other forms, such as vehicles and anim...",
+    "description": "Transformers is a Japanese-American media franchise produced by American toy company Hasbro and Japanese toy company Takara Tomy. It primarily follows the heroic Autobots and the villainous Decepticons, two alien robot factions at war that can transform into other forms, such as vehicles and animals. The franchise encompasses toys, animation, comic books, video games and films. As of 2011, it generated more than ¥2 trillion in revenue, making it one of the highest-grossing media franchises of all time.",
     "year": 2011,
     "wikiUrl": "https://en.wikipedia.org/wiki/Transformers"
   },
@@ -2902,7 +2902,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "In machine learning, attention is a method that determines the importance of each component in a sequence relative to the other components in that sequence. In natural language processing, importance is represented by \"soft\" weights assigned to each word in a sentence. More generally, attention e...",
+    "description": "In machine learning, attention is a method that determines the importance of each component in a sequence relative to the other components in that sequence. In natural language processing, importance is represented by \"soft\" weights assigned to each word in a sentence. More generally, attention encodes vectors called token embeddings across a fixed-width sequence that can range from tens to millions of tokens in size.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Attention_(machine_learning)"
   },
   {
@@ -2942,7 +2942,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "AlphaGo is a computer program that plays the board game Go. It was developed by the London-based DeepMind Technologies, an acquired subsidiary of Google. Subsequent versions of AlphaGo became increasingly powerful, including a version that competed under the name Master. After retiring from compe...",
+    "description": "AlphaGo is a computer program that plays the board game Go. It was developed by the London-based DeepMind Technologies, an acquired subsidiary of Google. Subsequent versions of AlphaGo became increasingly powerful, including a version that competed under the name Master. After retiring from competitive play, AlphaGo Master was succeeded by an even more powerful version known as AlphaGo Zero, which was completely self-taught without learning from human games. AlphaGo Zero was then generalized into a program known as AlphaZero, which played additional games, including chess and shogi. AlphaZero has in turn been succeeded by a program known as MuZero which learns without being taught the rules.",
     "wikiUrl": "https://en.wikipedia.org/wiki/AlphaGo"
   },
   {
@@ -2963,7 +2963,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "In artificial intelligence (AI), an expert system is a computer system emulating the decision-making ability of a human expert.\nExpert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional proc...",
+    "description": "In artificial intelligence (AI), an expert system is a computer system emulating the decision-making ability of a human expert.\nExpert systems are designed to solve complex problems by reasoning through bodies of knowledge, represented mainly as if–then rules rather than through conventional procedural programming code. Expert systems were among the first truly successful forms of AI software. They were created in the 1970s and then proliferated in the 1980s, being then widely regarded as the future of AI — before the advent of successful artificial neural networks.\nAn expert system is divided into two subsystems: 1) a knowledge base, which represents facts and rules; and 2) an inference engine, which applies the rules to the known facts to deduce new facts, and can include explaining and debugging abilities.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Expert_system"
   },
   {
@@ -2984,7 +2984,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "Computer vision tasks include methods for acquiring, processing, analyzing, and understanding digital images, and extraction of high-dimensional data from the real world in order to produce numerical or symbolic information, e.g. in the form of decisions. \"Understanding\" in this context signifies...",
+    "description": "Computer vision tasks include methods for acquiring, processing, analyzing, and understanding digital images, and extraction of high-dimensional data from the real world in order to produce numerical or symbolic information, e.g. in the form of decisions. \"Understanding\" in this context signifies the transformation of visual images into descriptions of the world that make sense to thought processes and can elicit appropriate action. This image understanding can be seen as the disentangling of symbolic information from image data using models constructed with the aid of geometry, physics, statistics, and learning theory.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Computer_vision"
   },
   {
@@ -3046,7 +3046,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "Generative artificial intelligence is a subfield of artificial intelligence that uses generative models to generate text, images, videos, audio, software code or other forms of data. These models learn the underlying patterns and structures of their training data and use them to produce new data ...",
+    "description": "Generative artificial intelligence is a subfield of artificial intelligence that uses generative models to generate text, images, videos, audio, software code or other forms of data. These models learn the underlying patterns and structures of their training data and use them to produce new data in response to input, which often comes in the form of natural language prompts.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Generative_artificial_intelligence"
   },
   {
@@ -3087,7 +3087,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms. The main focus is on the re...",
+    "description": "Within artificial intelligence (AI), explainable AI (XAI), generally overlapping with interpretable AI or explainable machine learning (XML), is a field of research that explores methods that provide humans with the ability of intellectual oversight over AI algorithms. The main focus is on the reasoning behind the decisions or predictions made by the AI algorithms, to make them more understandable and transparent. This addresses users' requirement to assess safety and scrutinize the automated decision making in applications. XAI counters the \"black box\" tendency of machine learning, where even the AI's designers cannot explain why it arrived at a specific decision.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Explainable_artificial_intelligence"
   },
   {
@@ -3108,7 +3108,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "Federated learning is a machine learning technique in a setting where multiple entities collaboratively train a model while keeping their data decentralized, rather than centrally stored. A defining characteristic of federated learning is data heterogeneity. Because client data is decentralized, ...",
+    "description": "Federated learning is a machine learning technique in a setting where multiple entities collaboratively train a model while keeping their data decentralized, rather than centrally stored. A defining characteristic of federated learning is data heterogeneity. Because client data is decentralized, data samples held by each client may not be independently and identically distributed.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Federated_learning"
   },
   {
@@ -3147,7 +3147,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Anesthesia or anaesthesia is a state of controlled, temporary loss of sensation or awareness that is induced for medical or veterinary purposes. It may include some or all of analgesia, paralysis, amnesia, and unconsciousness. An individual under the effects of anesthetic drugs is referred to as ...",
+    "description": "Anesthesia or anaesthesia is a state of controlled, temporary loss of sensation or awareness that is induced for medical or veterinary purposes. It may include some or all of analgesia, paralysis, amnesia, and unconsciousness. An individual under the effects of anesthetic drugs is referred to as being anesthetized.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Anesthesia"
   },
   {
@@ -3167,7 +3167,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "An X-ray is a form of high-energy electromagnetic radiation with a wavelength shorter than those of ultraviolet rays and longer than those of gamma rays. Roughly, X-rays have a wavelength ranging from 10 nanometers to 10 picometers, corresponding to frequencies in the range of 30 petahertz to 30 ...",
+    "description": "An X-ray is a form of high-energy electromagnetic radiation with a wavelength shorter than those of ultraviolet rays and longer than those of gamma rays. Roughly, X-rays have a wavelength ranging from 10 nanometers to 10 picometers, corresponding to frequencies in the range of 30 petahertz to 30 exahertz (3×1016 Hz to 3×1019 Hz) and photon energies in the range of 100 eV to 100 keV, respectively.",
     "year": 1016,
     "wikiUrl": "https://en.wikipedia.org/wiki/X-ray"
   },
@@ -3188,7 +3188,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Magnetic resonance imaging (MRI) is a medical imaging technique used in radiology to generate pictures of the anatomy and the physiological processes inside the body. MRI scanners use strong magnetic fields, magnetic field gradients, and radio waves to form images of the organs in the body. MRI d...",
+    "description": "Magnetic resonance imaging (MRI) is a medical imaging technique used in radiology to generate pictures of the anatomy and the physiological processes inside the body. MRI scanners use strong magnetic fields, magnetic field gradients, and radio waves to form images of the organs in the body. MRI does not involve X-rays or the use of ionizing radiation, which distinguishes it from computed tomography (CT) and positron emission tomography (PET) scans. MRI is a medical application of nuclear magnetic resonance (NMR) which can also be used for imaging in other NMR applications, such as NMR spectroscopy.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Magnetic_resonance_imaging"
   },
   {
@@ -3209,7 +3209,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "A computed tomography scan, formerly called computed axial tomography scan, is a medical imaging technique used to obtain detailed internal images of the body. The personnel that perform CT scans are called radiographers or radiology technologists.\n\nCT scanners use a rotating X-ray tube and a row...",
+    "description": "A computed tomography scan, formerly called computed axial tomography scan, is a medical imaging technique used to obtain detailed internal images of the body. The personnel that perform CT scans are called radiographers or radiology technologists.\n\nCT scanners use a rotating X-ray tube and a row of detectors placed in a gantry to measure X-ray attenuations by different tissues inside the body. The multiple X-ray measurements taken from different angles are then processed on a computer using tomographic reconstruction algorithms to produce tomographic (cross-sectional) images of a body. CT scans can be used in patients with metallic implants or pacemakers, for whom magnetic resonance imaging (MRI) is contraindicated.",
     "wikiUrl": "https://en.wikipedia.org/wiki/CT_scan"
   },
   {
@@ -3229,7 +3229,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Ultrasound is sound with frequencies greater than 20 kilohertz. This frequency is the approximate upper audible limit of human hearing in healthy young adults. The physical principles of acoustic waves apply to any frequency range, including ultrasound. Ultrasonic devices operate with frequencies...",
+    "description": "Ultrasound is sound with frequencies greater than 20 kilohertz. This frequency is the approximate upper audible limit of human hearing in healthy young adults. The physical principles of acoustic waves apply to any frequency range, including ultrasound. Ultrasonic devices operate with frequencies from 20 kHz up to several gigahertz.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Ultrasound"
   },
   {
@@ -3249,7 +3249,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "A pacemaker, also known as an artificial cardiac pacemaker, is an implanted medical device that generates electrical pulses delivered by electrodes to one or more of the chambers of the heart. Each pulse causes the targeted chamber(s) to contract and pump blood, thus regulating the function of th...",
+    "description": "A pacemaker, also known as an artificial cardiac pacemaker, is an implanted medical device that generates electrical pulses delivered by electrodes to one or more of the chambers of the heart. Each pulse causes the targeted chamber(s) to contract and pump blood, thus regulating the function of the electrical conduction system of the heart.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Pacemaker"
   },
   {
@@ -3269,7 +3269,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "In medicine, a prosthesis, or a prosthetic implant, is an artificial device that replaces a missing body part, which may be lost through physical trauma, disease, or a condition present at birth. Prostheses may restore the normal functions of the missing body part, or may perform a cosmetic funct...",
+    "description": "In medicine, a prosthesis, or a prosthetic implant, is an artificial device that replaces a missing body part, which may be lost through physical trauma, disease, or a condition present at birth. Prostheses may restore the normal functions of the missing body part, or may perform a cosmetic function.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Prosthesis"
   },
   {
@@ -3331,7 +3331,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "In multicellular organisms, stem cells are undifferentiated or partially differentiated cells that can change into various types of cells and proliferate indefinitely to produce more of the same stem cell. They are the earliest type of cell in a cell lineage. They are found in both embryonic and ...",
+    "description": "In multicellular organisms, stem cells are undifferentiated or partially differentiated cells that can change into various types of cells and proliferate indefinitely to produce more of the same stem cell. They are the earliest type of cell in a cell lineage. They are found in both embryonic and adult organisms, but they have slightly different properties in each. They are usually distinguished from progenitor cells, which cannot divide indefinitely, and precursor or blast cells, which are usually committed to differentiating into one cell type.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Stem_cell"
   },
   {
@@ -3351,7 +3351,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Cloning is the process of producing individual organisms with identical genomes, either by natural or artificial means. In nature, some organisms produce clones through asexual reproduction; this reproduction of an organism by itself without a mate is known as parthenogenesis. In the field of bio...",
+    "description": "Cloning is the process of producing individual organisms with identical genomes, either by natural or artificial means. In nature, some organisms produce clones through asexual reproduction; this reproduction of an organism by itself without a mate is known as parthenogenesis. In the field of biotechnology, cloning is the process of creating cloned organisms of cells and of DNA fragments.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Cloning"
   },
   {
@@ -3392,7 +3392,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Immunotherapy, also known as biological therapy or biotherapy, encompasses a diverse set of therapeutic strategies that harness or modify the immune system to prevent, control, or eliminate disease. In its narrowest definition, immunotherapy refers to treatments designed to stimulate or guide the...",
+    "description": "Immunotherapy, also known as biological therapy or biotherapy, encompasses a diverse set of therapeutic strategies that harness or modify the immune system to prevent, control, or eliminate disease. In its narrowest definition, immunotherapy refers to treatments designed to stimulate or guide the immune system to recognize and fight cancer, often by enhancing or restoring immune responses to eradicate malignant cells while sparing healthy tissue.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Immunotherapy"
   },
   {
@@ -3493,7 +3493,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Neuroplasticity, also known as neural plasticity or just plasticity, is the medium of neural networks in the brain to change through growth and reorganization. Neuroplasticity refers to the brain's ability to reorganize and rewire its neural connections, enabling it to adapt and function in ways ...",
+    "description": "Neuroplasticity, also known as neural plasticity or just plasticity, is the medium of neural networks in the brain to change through growth and reorganization. Neuroplasticity refers to the brain's ability to reorganize and rewire its neural connections, enabling it to adapt and function in ways that differ from its prior state. This process can occur in response to learning new skills, experiencing environmental changes, recovering from injuries, or adapting to sensory or cognitive deficits. Such adaptability highlights the dynamic and ever-evolving nature of the brain, even into adulthood. These changes range from individual neuron pathways making new connections, to systematic adjustments like cortical remapping or neural oscillation. Other forms of neuroplasticity include homologous area adaptation, cross modal reassignment, map expansion, and compensatory masquerade. Examples of neuroplasticity include circuit and network changes that result from learning a new ability, information acquisition, environmental influences, pregnancy, caloric intake, practice/training, and psychological stress.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Neuroplasticity"
   },
   {
@@ -3655,7 +3655,7 @@
       "Power",
       "Infrastructure"
     ],
-    "description": "Superconductivity is a set of physical properties observed in superconductors: materials where electrical resistance vanishes and magnetic fields are expelled from the material. Unlike an ordinary metallic conductor, whose resistance decreases gradually as its temperature is lowered, even down to...",
+    "description": "Superconductivity is a set of physical properties observed in superconductors: materials where electrical resistance vanishes and magnetic fields are expelled from the material. Unlike an ordinary metallic conductor, whose resistance decreases gradually as its temperature is lowered, even down to near absolute zero, a superconductor has a characteristic critical temperature below which the resistance drops abruptly to zero. An electric current through a loop of superconducting wire can persist indefinitely with no power source.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Superconductivity"
   },
   {
@@ -3883,7 +3883,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "Starlink is a satellite internet constellation operated by Starlink Services, LLC, an international telecommunications provider that is a wholly owned subsidiary of American aerospace company SpaceX, providing coverage to around 150 countries and territories. It also aims to provide global mobile...",
+    "description": "Starlink is a satellite internet constellation operated by Starlink Services, LLC, an international telecommunications provider that is a wholly owned subsidiary of American aerospace company SpaceX, providing coverage to around 150 countries and territories. It also aims to provide global mobile broadband. Starlink has been instrumental to SpaceX's growth.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Starlink"
   },
   {
@@ -4268,7 +4268,7 @@
       "Chemistry",
       "Physics"
     ],
-    "description": "Bioplastics are plastic materials produced from renewable biomass sources. Historically, bioplastics were made from natural polymeric materials like shellac or cellulose with the addition of plasticizers to manipulate its properties. Since the end of the 19th century they have been increasingly s...",
+    "description": "Bioplastics are plastic materials produced from renewable biomass sources. Historically, bioplastics were made from natural polymeric materials like shellac or cellulose with the addition of plasticizers to manipulate its properties. Since the end of the 19th century they have been increasingly superseded by fossil-fuel plastics derived from petroleum or natural gas. Today, in the context of bioeconomy and the circular economy, bioplastics are gaining interest again. Conventional petro-based polymers are increasingly blended with bioplastics to manufacture \"bio-attributed\" or \"mass-balanced\" plastic products—so the difference between bio- and other plastics might be difficult to define.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Bioplastic"
   },
   {
@@ -4516,7 +4516,7 @@
       "Thermal",
       "Chemical"
     ],
-    "description": "An oil lamp is a lamp used to produce light continuously for a period of time using an oil-based fuel source. The use of oil lamps began thousands of years ago and continues to this day, although their use is less common in modern times. They work in the same way as a candle but with fuel that is...",
+    "description": "An oil lamp is a lamp used to produce light continuously for a period of time using an oil-based fuel source. The use of oil lamps began thousands of years ago and continues to this day, although their use is less common in modern times. They work in the same way as a candle but with fuel that is liquid at room temperature, so that a container for the oil is required. A textile wick drops down into the oil, and is lit at the end, burning the oil as it is drawn up the wick.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Oil_lamp"
   },
   {
@@ -4686,7 +4686,7 @@
       "Thermal",
       "Chemical"
     ],
-    "description": "Smelting is a process of applying heat and a chemical reducing agent to an ore to extract a desired base metal product. It is a form of extractive metallurgy that is used to obtain many metals such as iron, copper, silver, tin, lead, and zinc. Smelting uses heat and a chemical reducing agent to d...",
+    "description": "Smelting is a process of applying heat and a chemical reducing agent to an ore to extract a desired base metal product. It is a form of extractive metallurgy that is used to obtain many metals such as iron, copper, silver, tin, lead, and zinc. Smelting uses heat and a chemical reducing agent to decompose the ore, driving off other elements as gases or slag and leaving the metal behind. The reducing agent is commonly a fossil-fuel source of carbon, such as carbon monoxide from incomplete combustion of coke—or, in earlier times, of charcoal. The oxygen in the ore binds to carbon at high temperatures, as the chemical potential energy of the bonds in carbon dioxide is lower than that of the bonds in the ore.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Smelting"
   },
   {
@@ -5200,7 +5200,7 @@
       "Thermal",
       "Chemical"
     ],
-    "description": "Welding is a fabrication process that joins materials, usually metals or thermoplastics, primarily by using high temperature to melt the parts together and allow them to cool, causing fusion. Common alternative methods include solvent welding using chemicals to melt materials being bonded without...",
+    "description": "Welding is a fabrication process that joins materials, usually metals or thermoplastics, primarily by using high temperature to melt the parts together and allow them to cool, causing fusion. Common alternative methods include solvent welding using chemicals to melt materials being bonded without heat, and solid-state welding processes which bond without melting, such as pressure, cold welding, and diffusion bonding.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Welding"
   },
   {
@@ -5305,7 +5305,7 @@
       "Thermal",
       "Chemical"
     ],
-    "description": "Pyrometallurgy is a branch of extractive metallurgy. It consists of the thermal treatment of minerals and metallurgical ores and concentrates to bring about physical and chemical transformations in the materials to enable recovery of valuable metals. Pyrometallurgical treatment may produce produc...",
+    "description": "Pyrometallurgy is a branch of extractive metallurgy. It consists of the thermal treatment of minerals and metallurgical ores and concentrates to bring about physical and chemical transformations in the materials to enable recovery of valuable metals. Pyrometallurgical treatment may produce products able to be sold such as pure metals, or intermediate compounds or alloys, suitable as feed for further processing. Examples of elements extracted by pyrometallurgical processes include the oxides of less reactive elements like iron, copper, zinc, chromium, tin, and manganese.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Pyrometallurgy"
   },
   {
@@ -5496,7 +5496,7 @@
       "Power",
       "Infrastructure"
     ],
-    "description": "In electrical engineering, a transformer is a passive component that transfers electrical energy from one electrical circuit to another circuit, or multiple circuits. A varying current in any coil of the transformer produces a varying magnetic flux in the transformer's core, which induces a varyi...",
+    "description": "In electrical engineering, a transformer is a passive component that transfers electrical energy from one electrical circuit to another circuit, or multiple circuits. A varying current in any coil of the transformer produces a varying magnetic flux in the transformer's core, which induces a varying electromotive force (EMF) across any other coils wound around the same core. Electrical energy can be transferred between separate coils without a metallic (conductive) connection between the two circuits. Faraday's law of induction, discovered in 1831, describes the induced voltage effect in any coil due to a changing magnetic flux encircled by the coil.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Transformer"
   },
   {
@@ -5754,7 +5754,7 @@
       "Power",
       "Infrastructure"
     ],
-    "description": "The hydrogen economy is a term for the role hydrogen as an energy carrier to complement electricity as part a long-term option to reduce emissions of greenhouse gases. The aim is to reduce emissions where cheaper and more energy-efficient clean solutions are not available. In this context, hydrog...",
+    "description": "The hydrogen economy is a term for the role hydrogen as an energy carrier to complement electricity as part a long-term option to reduce emissions of greenhouse gases. The aim is to reduce emissions where cheaper and more energy-efficient clean solutions are not available. In this context, hydrogen economy encompasses the production of hydrogen and the use of hydrogen in ways that contribute to phasing-out fossil fuels and limiting climate change.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Hydrogen_economy"
   },
   {
@@ -6127,7 +6127,7 @@
       "Power",
       "Infrastructure"
     ],
-    "description": "Nuclear fusion is a reaction in which two or more atomic nuclei combine to form a larger nucleus. The difference in mass between the reactants and products is manifested as either the release or the absorption of energy. This difference in mass arises as a result of the difference in nuclear bind...",
+    "description": "Nuclear fusion is a reaction in which two or more atomic nuclei combine to form a larger nucleus. The difference in mass between the reactants and products is manifested as either the release or the absorption of energy. This difference in mass arises as a result of the difference in nuclear binding energy between the atomic nuclei before and after the fusion reaction. Nuclear fusion is the process that powers all active stars, via many reaction pathways.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Nuclear_fusion"
   },
   {
@@ -7172,7 +7172,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "A bandsaw is a power saw with a long, sharp blade consisting of a continuous band of toothed metal stretched between two or more wheels to cut material. They are used principally in woodworking, metalworking, and lumbering, but may cut a variety of materials. Advantages include uniform cutting ac...",
+    "description": "A bandsaw is a power saw with a long, sharp blade consisting of a continuous band of toothed metal stretched between two or more wheels to cut material. They are used principally in woodworking, metalworking, and lumbering, but may cut a variety of materials. Advantages include uniform cutting action as a result of an evenly distributed tooth load, and the ability to cut irregular or curved shapes like a jigsaw. The minimum radius of a curve is determined by the width of the band and its kerf. Most bandsaws have two wheels rotating in the same plane, one of which is powered, although some may have three or four to distribute the load. The blade itself can come in a variety of sizes and tooth pitches, which enables the machine to be highly versatile and able to cut a wide variety of materials including wood, metal and plastic. A band saw is recommended for use in cutting metal as it produces much less toxic fumes and particulates when compared with an angle grinder or reciprocating saw.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Bandsaw"
   },
   {
@@ -7448,7 +7448,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "A spirit level, bubble level, or simply a level, is an instrument designed to indicate whether a surface is horizontal (level) or vertical (plumb). It is called a \"spirit level\" because the liquid inside its vial is commonly alcohol, or \"spirit\". The name refers to this alcohol-based solution, wh...",
+    "description": "A spirit level, bubble level, or simply a level, is an instrument designed to indicate whether a surface is horizontal (level) or vertical (plumb). It is called a \"spirit level\" because the liquid inside its vial is commonly alcohol, or \"spirit\". The name refers to this alcohol-based solution, which, along with an air bubble, indicates whether a surface is level or plumb. Alcohol was historically preferred over water because it has a wider temperature range, won't freeze, and provides less friction for the bubble, ensuring greater accuracy and longevity of the tool. \nTwo basic designs exist: tubular and bull's eye .\nDifferent types of spirit levels may be used by carpenters, stonemasons, bricklayers, other building trades workers, surveyors, millwrights and other metalworkers, and in some photographic or videographic work.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Level"
   },
   {
@@ -7610,7 +7610,7 @@
       "Mechanical",
       "Manufacturing"
     ],
-    "description": "A screw is an externally helical threaded fastener capable of being tightened or released by a twisting force (torque) to the head. The most common use of screws is to hold objects together and there are many forms for a variety of materials. Screws might be inserted into holes in assembled parts...",
+    "description": "A screw is an externally helical threaded fastener capable of being tightened or released by a twisting force (torque) to the head. The most common use of screws is to hold objects together and there are many forms for a variety of materials. Screws might be inserted into holes in assembled parts or a screw may form its own thread. The difference between a screw and a bolt is that the latter is designed to be tightened or released by torquing a nut.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Screw"
   },
   {
@@ -7711,7 +7711,8 @@
       "Bearing",
       "Mechanical",
       "Manufacturing"
-    ]
+    ],
+    "description": "A ball bearing is a type of rolling-element bearing that uses balls to maintain the separation between the bearing races."
   },
   {
     "id": "spring",
@@ -7730,7 +7731,8 @@
       "Tools",
       "Mechanical",
       "Manufacturing"
-    ]
+    ],
+    "description": "Spring(s) may refer to:"
   },
   {
     "id": "cam",
@@ -8105,7 +8107,8 @@
       "Bio",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "Dialysis may refer to:Dialysis (chemistry), a process of separating molecules in solution\nElectrodialysis, used to transport salt ions from one solution to another through an ion-exchange membrane under the influence of an applied electric potential.\nKidney dialysis is the process of removing water, solutes and toxins from the blood of individuals with compromised kidney function, primary types of which are:\nHemodialysis\nPeritoneal dialysis\nHemofiltration\nLiver dialysis, a detoxification treatment for liver failure.\nDialysis (fly), a genus of insects in the family Xylophagidae\n\n"
   },
   {
     "id": "ventilator",
@@ -8124,7 +8127,8 @@
       "Bio",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "A ventilator is a type of breathing apparatus, a class of medical technology that provides mechanical ventilation by moving breathable air into and out of the lungs, to deliver breaths to a patient who is physically unable to breathe, or breathing insufficiently. Ventilators may be computerized microprocessor-controlled machines, but patients can also be ventilated with a simple, hand-operated bag valve mask. Ventilators are chiefly used in intensive-care medicine, home care, and emergency medicine and in anesthesiology."
   },
   {
     "id": "defibrillator",
@@ -8144,7 +8148,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Defibrillation is a treatment for life-threatening cardiac arrhythmias, specifically ventricular fibrillation (V-Fib) and non-perfusing ventricular tachycardia (V-Tach). Defibrillation delivers a dose of electric current to the heart. Although not fully understood, this process depolarizes a larg...",
+    "description": "Defibrillation is a treatment for life-threatening cardiac arrhythmias, specifically ventricular fibrillation (V-Fib) and non-perfusing ventricular tachycardia (V-Tach). Defibrillation delivers a dose of electric current to the heart. Although not fully understood, this process depolarizes a large amount of the heart muscle, ending the arrhythmia. Subsequently, the body's natural pacemaker in the sinoatrial node of the heart is able to re-establish normal sinus rhythm. A heart which is in asystole (flatline) cannot be restarted by defibrillation; it would be treated only by cardiopulmonary resuscitation (CPR) and medication, and then by cardioversion or defibrillation if it converts into a shockable rhythm. A device that administers defibrillation is called a defibrillator.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Defibrillation"
   },
   {
@@ -8362,7 +8366,8 @@
       "Bio",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "A centrifuge is a device that uses centrifugal force to subject a specimen to a specified constant force – for example, to separate various components of a fluid. This is achieved by spinning the fluid at high speed within a container, thereby separating fluids of different densities or liquids from solids. It works by causing denser substances and particles to move outward in the radial direction. At the same time, objects that are less dense are displaced and moved to the centre. In a laboratory centrifuge that uses sample tubes, the radial acceleration causes denser particles to settle to the bottom of the tube, while low-density substances rise to the top. A centrifuge can be a very effective filter that separates contaminants from the main body of fluid."
   },
   {
     "id": "spectroscopy",
@@ -8423,7 +8428,8 @@
       "Bio",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "In chemical analysis, chromatography is a laboratory technique for the separation of a mixture into its components. The mixture is dissolved in a fluid solvent called the mobile phase, which carries it through a system on which a material called the stationary phase is fixed. As the different constituents of the mixture tend to have different affinities for the stationary phase and are retained for different lengths of time depending on their interactions with its surface sites, the constituents travel at different apparent velocities in the mobile fluid, causing them to separate. The separation is based on the differential partitioning between the mobile and the stationary phases. Subtle differences in a compound's partition coefficient result in differential retention on the stationary phase and thus affect the separation."
   },
   {
     "id": "culture-media",
@@ -8526,7 +8532,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "A plasmid is a small, extrachromosomal DNA molecule within a cell that is physically separated from chromosomal DNA and can replicate independently. They are most commonly found as small circular, double-stranded DNA molecules in bacteria and archaea; however plasmids are sometimes present in euk...",
+    "description": "A plasmid is a small, extrachromosomal DNA molecule within a cell that is physically separated from chromosomal DNA and can replicate independently. They are most commonly found as small circular, double-stranded DNA molecules in bacteria and archaea; however plasmids are sometimes present in eukaryotic organisms as well. Plasmids often carry useful genes, such as those involved in antibiotic resistance, virulence, secondary metabolism and bioremediation. While chromosomes are large and contain all the essential genetic information for living under normal conditions, plasmids are usually very small and contain additional genes for special circumstances.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Plasmid"
   },
   {
@@ -8567,7 +8573,8 @@
       "Fingerprinting",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "DNA profiling is the process of determining an individual's deoxyribonucleic acid (DNA) characteristics. DNA analysis intended to identify a species, rather than an individual, is called DNA barcoding."
   },
   {
     "id": "genome-editing",
@@ -8588,7 +8595,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Genome editing, or genome engineering, or gene editing, is a type of genetic engineering in which DNA is inserted, deleted, modified or replaced in the genome of a living organism. Unlike early genetic engineering techniques that randomly insert genetic material into a host genome, genome editing..."
+    "description": "Genome editing, or genome engineering, or gene editing, is a type of genetic engineering in which DNA is inserted, deleted, modified or replaced in the genome of a living organism. Unlike early genetic engineering techniques that randomly insert genetic material into a host genome, genome editing targets the insertions to site-specific locations. The basic mechanism involved in genetic manipulations through programmable nucleases is the recognition of target genomic loci and binding of effector DNA-binding domain (DBD), double-strand breaks (DSBs) in target DNA by the restriction endonucleases, and the repair of DSBs through homology-directed recombination (HDR) or non-homologous end joining (NHEJ)."
   },
   {
     "id": "talen",
@@ -8725,7 +8732,8 @@
       "Bio",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "Chemotherapy is the type of cancer treatment that uses one or more anti-cancer drugs in a standard regimen. Chemotherapy may be given with a curative intent, or it may aim only to prolong life or to reduce symptoms. Chemotherapy is one of the major categories of the medical discipline specifically devoted to pharmacotherapy for cancer, which is called medical oncology."
   },
   {
     "id": "radiotherapy",
@@ -9010,7 +9018,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "Vertical farming is the practice of growing crops in vertically and horizontally stacked layers. It often incorporates controlled-environment agriculture, which aims to optimize plant growth, and soilless farming techniques such as hydroponics, aquaponics, and aeroponics. Some common choices of s..."
+    "description": "Vertical farming is the practice of growing crops in vertically and horizontally stacked layers. It often incorporates controlled-environment agriculture, which aims to optimize plant growth, and soilless farming techniques such as hydroponics, aquaponics, and aeroponics. Some common choices of structures to house vertical farming systems include buildings, shipping containers, underground tunnels, and abandoned mine shafts."
   },
   {
     "id": "aquaponics",
@@ -9048,7 +9056,8 @@
       "Bio",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "Aeroponics is the process of cultivating plants in an air or mist environment, eliminating the need for soil or an aggregate medium. The term \"aeroponic\" originates from the ancient Greek: aer (air) and ponos. It falls under the category of hydroponics, as water is employed in aeroponics to deliver nutrients to the plants."
   },
   {
     "id": "drip-irrigation",
@@ -9068,7 +9077,8 @@
       "Irrigation",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "\n\nDrip irrigation or trickle irrigation is a type of micro-irrigation system that has the potential to save water and nutrients by allowing water to drip slowly to the roots of plants, either from above the soil surface or buried below the surface. The goal is to place water directly into the root zone and minimize evaporation. Drip irrigation systems distribute water through a network of valves, pipes, tubing, and emitters. Depending on how well designed, installed, maintained, and operated it is, a drip irrigation system can be more efficient than other types of irrigation systems, such as surface irrigation or sprinkler irrigation."
   },
   {
     "id": "crop-rotation",
@@ -9126,7 +9136,8 @@
       "Bio",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "Pesticides are substances that are used to control pests. They include herbicides, insecticides, nematicides, fungicides, and many others. The most common of these are herbicides, which account for approximately 50% of all pesticide use globally. Most pesticides are used as plant protection products, which in general protect plants from weeds, fungi, or insects."
   },
   {
     "id": "herbicide",
@@ -9185,7 +9196,7 @@
       "Life Science",
       "Health"
     ],
-    "description": "The modern combine harvester, also called a combine, is a machine designed to harvest a variety of cultivated seeds. Combine harvesters are one of the most economically important labour-saving inventions, significantly reducing the fraction of the population engaged in agriculture. Among the crop...",
+    "description": "The modern combine harvester, also called a combine, is a machine designed to harvest a variety of cultivated seeds. Combine harvesters are one of the most economically important labour-saving inventions, significantly reducing the fraction of the population engaged in agriculture. Among the crops harvested with a combine are wheat, rice, oats, rye, barley, corn (maize), sorghum, millet, soybeans, flax (linseed), sunflowers and rapeseed (canola). The separated straw is then either chopped onto the field and ploughed back in, or laid out in rows, ready to be baled and used for bedding and cattle feed.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Combine_harvester"
   },
   {
@@ -9227,7 +9238,8 @@
       "Reaper",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "A reaper is a farm implement that reaps crops at harvest when they are ripe. Usually the crop involved is a cereal grass, especially wheat. The first documented reaping machines were Gallic reapers that were used in Roman times in what would become modern-day France. The Gallic reaper involved a comb which collected the heads, with an operator knocking the grain into a box for later threshing."
   },
   {
     "id": "threshing-machine",
@@ -9370,7 +9382,8 @@
       "Irradiation",
       "Life Science",
       "Health"
-    ]
+    ],
+    "description": "Food irradiation is the process of exposing food and food packaging to ionizing radiation, such as from gamma rays, x-rays, or electron beams. Food irradiation improves food safety and extends product shelf life (preservation) by effectively destroying organisms responsible for spoilage and foodborne illness, inhibits sprouting or ripening, and is a means of controlling insects and invasive pests."
   },
   {
     "id": "abacus",
@@ -9477,7 +9490,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "A difference engine is an automatic mechanical calculator designed to tabulate polynomial functions. It was designed in the 1820s, and was created by Charles Babbage. The name difference engine is derived from the method of finite differences, a way to interpolate or tabulate functions by using a..."
+    "description": "A difference engine is an automatic mechanical calculator designed to tabulate polynomial functions. It was designed in the 1820s, and was created by Charles Babbage. The name difference engine is derived from the method of finite differences, a way to interpolate or tabulate functions by using a small set of polynomial co-efficients. Some of the most common mathematical functions used in engineering, science and navigation are built from logarithmic and trigonometric functions, which can be approximated by polynomials, so a difference engine can compute many useful tables."
   },
   {
     "id": "analytical-engine",
@@ -9498,7 +9511,8 @@
       "Digital",
       "Communication"
     ],
-    "wikiUrl": "https://en.wikipedia.org/wiki/Analytical_engine"
+    "wikiUrl": "https://en.wikipedia.org/wiki/Analytical_engine",
+    "description": "The analytical engine was a proposed digital mechanical general-purpose computer designed by the English mathematician and computer pioneer Charles Babbage. It was first described in 1837 as the successor to Babbage's difference engine, which was a design for a simpler mechanical calculator."
   },
   {
     "id": "eniac",
@@ -9983,7 +9997,8 @@
       "Info",
       "Digital",
       "Communication"
-    ]
+    ],
+    "description": "A modulator-demodulator, commonly referred to as a modem, is a computer hardware device that converts data from a digital format into a format suitable for an analog transmission medium such as telephone or radio. A modem transmits data by modulating one or more carrier wave signals to encode digital information, while the receiver demodulates the signal to recreate the original digital information. The goal is to produce a signal that can be transmitted easily and decoded reliably. Modems can be used with almost any means of transmitting analog signals, from LEDs to radio."
   },
   {
     "id": "router-network",
@@ -10148,7 +10163,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "HTTP is an application layer protocol in the Internet protocol suite for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access...",
+    "description": "HTTP is an application layer protocol in the Internet protocol suite for distributed, collaborative, hypermedia information systems. HTTP is the foundation of data communication for the World Wide Web, where hypertext documents include hyperlinks to other resources that the user can easily access, for example by a mouse click or by tapping the screen in a web browser.",
     "wikiUrl": "https://en.wikipedia.org/wiki/HTTP"
   },
   {
@@ -10227,7 +10242,8 @@
       "Info",
       "Digital",
       "Communication"
-    ]
+    ],
+    "description": "Java is one of the Greater Sunda Islands in the South East Asian country of Indonesia. It is bordered by the Indian Ocean to the south and the Java Sea to the north. With a population of 156.9 million people in mid 2024, projected to have risen to 158 million by mid-2025, Java is the world's most populous island, home to approximately 56% of the Indonesian population while constituting only 7% of its land area. Indonesia's capital city, Jakarta, is on Java's northwestern coast."
   },
   {
     "id": "python",
@@ -10287,7 +10303,8 @@
       "Info",
       "Digital",
       "Communication"
-    ]
+    ],
+    "description": "C++ is a high-level, general-purpose programming language created by Danish computer scientist Bjarne Stroustrup. First released in 1985 as an extension of the C programming language, adding object-oriented (OOP) features, it has since expanded significantly over time adding more OOP and other features; as of 1997/C++98 standardization, C++ has added functional features, in addition to facilities for low-level memory manipulation for systems like microcomputers or to make operating systems like Linux or Windows, and even later came features like generic programming. C++ is usually implemented as a compiled language, and many vendors provide C++ compilers, including the Free Software Foundation, LLVM, Microsoft, Intel, Embarcadero, Oracle, and IBM."
   },
   {
     "id": "fortran",
@@ -10444,7 +10461,8 @@
       "Info",
       "Digital",
       "Communication"
-    ]
+    ],
+    "description": "Unix is a family of multitasking, multi-user computer operating systems that derive from the original AT&T Unix, whose development started in 1969 at the Bell Labs research center by Ken Thompson, Dennis Ritchie, and others. Initially intended for use inside the Bell System, AT&T licensed Unix to outside parties in the late 1970s, leading to a variety of both academic and commercial Unix variants from vendors including University of California, Berkeley (BSD), Microsoft (Xenix), Sun Microsystems (SunOS/Solaris), HP/HPE (HP-UX), and IBM (AIX)."
   },
   {
     "id": "linux",
@@ -10560,7 +10578,8 @@
       "Database",
       "Digital",
       "Communication"
-    ]
+    ],
+    "description": "A relational database (RDB) is a database based on the relational model of data, as proposed by E. F. Codd in 1970."
   },
   {
     "id": "sql",
@@ -10798,7 +10817,7 @@
       "Digital",
       "Communication"
     ],
-    "description": "GraphQL is a data query and manipulation language that allows specifying what data is to be retrieved or modified. A GraphQL server can process a client query using data from separate sources and present the results in a unified graph. The language is not tied to any specific database or storage ...",
+    "description": "GraphQL is a data query and manipulation language that allows specifying what data is to be retrieved or modified. A GraphQL server can process a client query using data from separate sources and present the results in a unified graph. The language is not tied to any specific database or storage engine. There are several open-source runtime engines for GraphQL.",
     "wikiUrl": "https://en.wikipedia.org/wiki/GraphQL"
   },
   {
@@ -11132,7 +11151,8 @@
       "Materials",
       "Chemistry",
       "Physics"
-    ]
+    ],
+    "description": "Stoneware is a broad class of pottery fired at a relatively high temperature, to be impervious to water. A modern definition is a vitreous or semi-vitreous ceramic made primarily from stoneware clay or non-refractory fire clay. This definition excludes stone vessels that are carved from a solid chunk of stone. End applications of stoneware include tableware and decorative ware such as vases."
   },
   {
     "id": "earthenware",
@@ -11190,7 +11210,8 @@
       "Chemistry",
       "Physics"
     ],
-    "wikiUrl": "https://en.wikipedia.org/wiki/Brick"
+    "wikiUrl": "https://en.wikipedia.org/wiki/Brick",
+    "description": "A brick is a type of building material used to build walls, pavements, and other elements in masonry construction. Properly, the term brick denotes a unit primarily composed of clay, but it is now also used informally to denote building units made of other materials or other chemically cured construction blocks."
   },
   {
     "id": "mortar",
@@ -11683,7 +11704,8 @@
       "Materials",
       "Chemistry",
       "Physics"
-    ]
+    ],
+    "description": "Silver is a chemical element; it has symbol Ag and atomic number 47. A soft, whitish-gray, lustrous transition metal, it exhibits the highest electrical conductivity, thermal conductivity, and reflectivity of any metal. Silver is found in the Earth's crust in the pure, free elemental form, as an alloy with gold and other metals, and in minerals such as argentite and chlorargyrite. Most silver is produced as a byproduct of copper, gold, lead, and zinc refining."
   },
   {
     "id": "gold",
@@ -12061,7 +12083,8 @@
       "Materials",
       "Chemistry",
       "Physics"
-    ]
+    ],
+    "description": "Lamination is the technique/process of manufacturing a material in multiple layers, so that the composite material achieves improved strength, stability, sound insulation, appearance, or other properties from the use of the differing materials, such as plastic. A laminate is a layered object or material assembled using heat, pressure, welding, or adhesives. Various coating machines, machine presses and calendering equipment are used."
   },
   {
     "id": "plywood",
@@ -12118,7 +12141,8 @@
       "Materials",
       "Chemistry",
       "Physics"
-    ]
+    ],
+    "description": "Chipboard may refer to:Particle board, a type of engineered wood known as chipboard in some countries"
   },
   {
     "id": "bio-plastic",
@@ -12499,7 +12523,8 @@
       "Society",
       "Organization"
     ],
-    "wikiUrl": "https://en.wikipedia.org/wiki/Debit_card"
+    "wikiUrl": "https://en.wikipedia.org/wiki/Debit_card",
+    "description": "A debit card, also known as a check card, cheque card or bank card, is a payment card that can be used in place of cash to make purchases. The card usually consists of the bank's name, a card number, the cardholder's name, and an expiration date, on either the front or the back. Many new cards now have a chip on them, which allows people to use their card by touch (contactless), or by inserting the card and keying in a PIN as with swiping the magnetic stripe. Debit cards are similar to a credit card, but the money for the purchase must be in the cardholder's bank account at the time of the purchase and is immediately transferred directly from that account to the merchant's account to pay for the purchase."
   },
   {
     "id": "atm",
@@ -12539,7 +12564,8 @@
       "Banking",
       "Society",
       "Organization"
-    ]
+    ],
+    "description": "Online banking, also known as internet banking, digital banking, virtual banking, web banking or home banking, is a system that enables customers of a bank or other financial institution to conduct a range of financial transactions through the financial institution's website or mobile app. Since the early 2010s, this has become the most common way that customers access their bank accounts."
   },
   {
     "id": "cryptocurrency",
@@ -12851,7 +12877,7 @@
       "Society",
       "Organization"
     ],
-    "description": "A magazine is a periodical publication, print or digital, produced on a regular schedule, that contains any of a variety of subject-oriented textual and visual content forms. Magazines are generally financed by advertising, purchase price, prepaid subscriptions, or by a combination of the three. ...",
+    "description": "A magazine is a periodical publication, print or digital, produced on a regular schedule, that contains any of a variety of subject-oriented textual and visual content forms. Magazines are generally financed by advertising, purchase price, prepaid subscriptions, or by a combination of the three. They are categorised by their frequency of publication, their target audiences, their subjects of focus, and their tones or approach. Appearance on the cover of print magazines has historically been understood to convey a place of honor or distinction to an individual or event.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Magazine"
   },
   {
@@ -12916,7 +12942,8 @@
       "Society",
       "Organization"
     ],
-    "wikiUrl": "https://en.wikipedia.org/wiki/Patent"
+    "wikiUrl": "https://en.wikipedia.org/wiki/Patent",
+    "description": "A patent is a type of intellectual property that gives its owner the legal right to exclude others from making, using, or selling an invention for a limited period of time in exchange for publishing an enabling disclosure of the invention. In most countries, patent rights fall under private law and the patent holder must sue someone infringing the patent in order to enforce their rights."
   },
   {
     "id": "copyright",
@@ -12956,7 +12983,7 @@
       "Society",
       "Organization"
     ],
-    "description": "\nA trademark is a form of intellectual property that consists of a word, phrase, symbol, design, or a combination that identifies a product or service from a particular source and distinguishes it from others. Trademarks can also extend to non-traditional marks like drawings, symbols, 3D shapes l...",
+    "description": "\nA trademark is a form of intellectual property that consists of a word, phrase, symbol, design, or a combination that identifies a product or service from a particular source and distinguishes it from others. Trademarks can also extend to non-traditional marks like drawings, symbols, 3D shapes like product designs or packaging, sounds, scents, or specific colours used to create a unique identity. For example, Pepsi is a registered trademark associated with soft drinks, and the distinctive shape of the Coca-Cola bottle is a registered trademark protecting Coca-Cola's packaging design.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Trademark"
   },
   {
@@ -13063,7 +13090,7 @@
       "Society",
       "Organization"
     ],
-    "description": "A cooperative is \"an autonomous association of persons united voluntarily to meet their common economic, social and cultural needs and aspirations through a jointly owned and democratically-controlled enterprise\". Cooperatives are democratically controlled by their members, with each member havin...",
+    "description": "A cooperative is \"an autonomous association of persons united voluntarily to meet their common economic, social and cultural needs and aspirations through a jointly owned and democratically-controlled enterprise\". Cooperatives are democratically controlled by their members, with each member having one vote in electing the board of directors. They differ from collectives in that they are generally built from the bottom-up, rather than the top-down.\nCooperatives may include:Worker cooperatives: businesses owned and managed by the people who work there\nConsumer cooperatives: businesses owned and managed by the people who consume goods and/or services provided by the cooperative\nProducer cooperatives: businesses where producers pool their output for their common benefit \nPurchasing cooperatives where members pool their purchasing power\nMulti-stakeholder or hybrid cooperatives that share ownership between different stakeholder groups. For example, care cooperatives where ownership is shared between both care-givers and receivers. Stakeholders might also include non-profits or investors.\nSecond- and third-tier cooperatives whose members are other cooperatives\nPlatform cooperatives that use a cooperatively owned and governed website, mobile app or a protocol to facilitate the sale of goods and services.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Cooperative"
   },
   {
@@ -13124,7 +13151,7 @@
       "Society",
       "Organization"
     ],
-    "description": "Standardization or standardisation is the process of implementing and developing technical standards based on the consensus of different parties that include firms, users, interest groups, standards organizations and governments. Standardization can help maximize compatibility, interoperability, ...",
+    "description": "Standardization or standardisation is the process of implementing and developing technical standards based on the consensus of different parties that include firms, users, interest groups, standards organizations and governments. Standardization can help maximize compatibility, interoperability, safety, repeatability, efficiency, and quality. It can also facilitate a normalization of formerly custom processes.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Standardization"
   },
   {
@@ -13421,7 +13448,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "A space telescope is a telescope in outer space used to observe astronomical objects. Suggested by Lyman Spitzer in 1946, the first operational telescopes were the American Orbiting Astronomical Observatory, OAO-2 launched in 1968, and the Soviet Orion 1 ultraviolet telescope aboard space station...",
+    "description": "A space telescope is a telescope in outer space used to observe astronomical objects. Suggested by Lyman Spitzer in 1946, the first operational telescopes were the American Orbiting Astronomical Observatory, OAO-2 launched in 1968, and the Soviet Orion 1 ultraviolet telescope aboard space station Salyut 1 in 1971. Space telescopes avoid several problems caused by the atmosphere, including the absorption or scattering of certain wavelengths of light, obstruction by clouds, and distortions due to atmospheric refraction such as twinkling. Space telescopes can also observe dim objects during the daytime, and they avoid light pollution which ground-based observatories encounter. They are divided into two types: Satellites which map the entire sky, and satellites which focus on selected astronomical objects or parts of the sky and beyond. Space telescopes are distinct from Earth imaging satellites, which point toward Earth for satellite imaging, applied for weather analysis, espionage, and other types of information gathering.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Space_telescope"
   },
   {
@@ -14007,7 +14034,7 @@
       "Aerospace",
       "Astronomy"
     ],
-    "description": "An exoplanet or extrasolar planet is a planet outside of the Solar System. The first confirmed detection of an exoplanet was in 1992 around a pulsar, and the first detection around a main-sequence star was in 1995. A different planet, first detected in 1988, was confirmed in 2003. In 2016, it was...",
+    "description": "An exoplanet or extrasolar planet is a planet outside of the Solar System. The first confirmed detection of an exoplanet was in 1992 around a pulsar, and the first detection around a main-sequence star was in 1995. A different planet, first detected in 1988, was confirmed in 2003. In 2016, it was recognized that the first possible evidence of an exoplanet had been noted in 1917. As of 18 December 2025, there are 6,065 confirmed exoplanets in 4,518 planetary systems, with 1,025 systems having more than one planet.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Exoplanet"
   },
   {
@@ -14393,7 +14420,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "In computer science and operations research, a genetic algorithm (GA) is a metaheuristic inspired by the process of natural selection that belongs to the larger class of evolutionary algorithms (EA). Genetic algorithms are commonly used to generate high-quality solutions to optimization and searc...",
+    "description": "In computer science and operations research, a genetic algorithm (GA) is a metaheuristic inspired by the process of natural selection that belongs to the larger class of evolutionary algorithms (EA). Genetic algorithms are commonly used to generate high-quality solutions to optimization and search problems via biologically inspired operators such as selection, crossover, and mutation. Some examples of GA applications include optimizing decision trees for better performance, solving sudoku puzzles, hyperparameter optimization, and causal inference.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Genetic_algorithm"
   },
   {
@@ -14538,7 +14565,7 @@
       "Artificial Intelligence",
       "Cognitive Science"
     ],
-    "description": "Inception is a 2010 science fiction action film written and directed by Christopher Nolan, who also produced it with Emma Thomas, his wife. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to ha...",
+    "description": "Inception is a 2010 science fiction action film written and directed by Christopher Nolan, who also produced it with Emma Thomas, his wife. The film stars Leonardo DiCaprio as a professional thief who steals information by infiltrating the subconscious of his targets. He is offered a chance to have his criminal history erased as payment for the implantation of another person's idea into a target's subconscious. The ensemble cast includes Ken Watanabe, Joseph Gordon-Levitt, Marion Cotillard, Elliot Page, Tom Hardy, Cillian Murphy, Tom Berenger, Dileep Rao, and Michael Caine.",
     "wikiUrl": "https://en.wikipedia.org/wiki/Inception"
   },
   {

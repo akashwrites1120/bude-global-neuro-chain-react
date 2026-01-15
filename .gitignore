@@ -80,3 +80,4 @@ temp/
 .netlify
 lint.txt
 /scripts
+*.md

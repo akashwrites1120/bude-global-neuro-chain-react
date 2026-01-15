@@ -10024,5 +10024,881 @@
     "target": "space-stations",
     "type": "accelerates",
     "weight": 8
+  },
+  {
+    "source": "light",
+    "target": "warmth",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "cooking",
+    "target": "kiln",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "cutting",
+    "target": "pulley",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "crispr",
+    "target": "mrna",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "printing",
+    "target": "cryptography",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "printing",
+    "target": "algorithms",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "printing",
+    "target": "punch-cards",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "printing",
+    "target": "gui",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "printing",
+    "target": "mouse",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "data-warehouse",
+    "target": "big-data",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "augmented-reality",
+    "target": "virtual-reality",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "ethernet",
+    "target": "5g",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "printing",
+    "target": "serverless",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "deep-learning",
+    "target": "containers",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "multimodal-ai",
+    "target": "neural-networks",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "expert-system",
+    "target": "expert-systems",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "multimodal-ai",
+    "target": "nlp",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "multimodal-ai",
+    "target": "generative-ai",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "multimodal-ai",
+    "target": "explainable-ai",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "few-shot-learning",
+    "target": "federated-learning",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "fermentation",
+    "target": "pacemaker",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "fermentation",
+    "target": "neuroplasticity",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "steam",
+    "target": "superconductors",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "space-shuttle",
+    "target": "space-suit",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "space-suit",
+    "target": "space-tourism",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "cutting",
+    "target": "sextant",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "hammers",
+    "target": "gyroscope",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "cutting",
+    "target": "lidar",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "hammers",
+    "target": "microchip",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "silk-1",
+    "target": "silk",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "aluminum-1",
+    "target": "aluminum",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "carbon-fiber-1",
+    "target": "carbon-fiber",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "aerogel-1",
+    "target": "aerogel",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "rubber",
+    "target": "bioplastics",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "markets",
+    "target": "currency",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "markets",
+    "target": "globalism",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "markets",
+    "target": "social-security",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "markets",
+    "target": "education",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "markets",
+    "target": "libraries",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "hearth",
+    "target": "oil-lamp",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "beacon",
+    "target": "lantern",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "smelting",
+    "target": "gas-lighting",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "gas-lighting",
+    "target": "match",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "lighter",
+    "target": "incandescent-bulb",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "plasma-torch",
+    "target": "oled",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "ceramics",
+    "target": "oven",
+    "type": "forward",
+    "weight": 6
+  },
+  {
+    "source": "oxy-fuel-welding",
+    "target": "fluorescent-lamp",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "turbine",
+    "target": "transformer",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "turbine",
+    "target": "wind-turbine",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "nickel-cadmium-battery",
+    "target": "flow-battery",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "wave-energy",
+    "target": "supercapacitor",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "fission",
+    "target": "nuclear-reactor",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "gas-turbine",
+    "target": "thermonuclear",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "power-plant",
+    "target": "geothermal-plant",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "combustion",
+    "target": "rectifier",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "combustion",
+    "target": "voltage-regulator",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "combustion",
+    "target": "circuit-breaker",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "capacitor",
+    "target": "solar-thermal",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "screw-cutter",
+    "target": "3d-printing",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "cnc-mill",
+    "target": "robotics",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "cnc-lathe",
+    "target": "3d-printing",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "nail",
+    "target": "nail-gun",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "bearing",
+    "target": "power-hammer",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "industrial-robot",
+    "target": "3d-printing",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "spectroscopy",
+    "target": "antiseptic",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "ivf",
+    "target": "crispr",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "fermentation",
+    "target": "pesticide",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "pasteurization",
+    "target": "antiseptic",
+    "type": "forward",
+    "weight": 7
+  },
+  {
+    "source": "diffusion-models",
+    "target": "wind-power",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "cooking",
+    "target": "alloys",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "cooking",
+    "target": "insurance",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "cooking",
+    "target": "infinity",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "cooking",
+    "target": "binary-code",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "3d-printing",
+    "target": "nft",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "3d-printing",
+    "target": "web3",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "3d-printing",
+    "target": "iot",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "3d-printing",
+    "target": "edge-computing",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "cooking",
+    "target": "perceptron",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "warmth",
+    "target": "backpropagation",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "warmth",
+    "target": "attention-mechanism",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "warmth",
+    "target": "gans",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "personal-computer",
+    "target": "computer-vision",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "warmth",
+    "target": "speech-recognition",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "nanotubes",
+    "target": "carbon-capture",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "warmth",
+    "target": "james-webb",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "warmth",
+    "target": "starlink",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "warmth",
+    "target": "gunpowder",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "light",
+    "target": "museums",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "concrete",
+    "target": "lighthouse",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "power-hammer",
+    "target": "animal-power",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "radio",
+    "target": "agar",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "water-wheel",
+    "target": "greenhouse",
+    "type": "accelerates",
+    "weight": 5
+  },
+  {
+    "source": "rubber",
+    "target": "neuroplasticity",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "silk",
+    "target": "bt-cotton",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "tanning",
+    "target": "silk",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "tanning",
+    "target": "bt-cotton",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "cotton",
+    "target": "silk",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "cotton",
+    "target": "bt-cotton",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "wool",
+    "target": "silk",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "wool",
+    "target": "bt-cotton",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "silk-1",
+    "target": "bt-cotton",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "linen",
+    "target": "silk",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "linen",
+    "target": "bt-cotton",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "nylon",
+    "target": "silk",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "nylon",
+    "target": "bt-cotton",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "polyester",
+    "target": "silk",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "glass",
+    "target": "concrete",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "porcelain",
+    "target": "glass",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "stoneware",
+    "target": "glass",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "stoneware",
+    "target": "concrete",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "earthenware",
+    "target": "glass",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "earthenware",
+    "target": "concrete",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "terracotta",
+    "target": "glass",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "carbon-fiber",
+    "target": "kevlar",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "composite-material",
+    "target": "carbon-fiber",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "laminate",
+    "target": "carbon-fiber",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "plywood",
+    "target": "carbon-fiber",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "mdf",
+    "target": "carbon-fiber",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "chipboard",
+    "target": "carbon-fiber",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "pyrometallurgy",
+    "target": "ceramics",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "micrometer",
+    "target": "ceramics",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "mass-spectrometry",
+    "target": "ceramics",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "chromatography",
+    "target": "ceramics",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "mainframe",
+    "target": "ceramics",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "microprocessor",
+    "target": "ceramics",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "5g",
+    "target": "router",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "modem",
+    "target": "5g",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "router-network",
+    "target": "5g",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "wifi",
+    "target": "5g",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "bluetooth",
+    "target": "5g",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "nfc",
+    "target": "5g",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "tcp-ip",
+    "target": "5g",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "neural-interface",
+    "target": "deep-learning",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "multimodal-ai",
+    "target": "neural-interface",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "containers",
+    "target": "neural-interface",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "neural-networks",
+    "target": "neural-interface",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "rnn",
+    "target": "neural-interface",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "transformers",
+    "target": "neural-interface",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "nlp",
+    "target": "neural-interface",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "generative-ai",
+    "target": "crispr",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "x-ray",
+    "target": "crispr",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "mri",
+    "target": "crispr",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "ct-scan",
+    "target": "crispr",
+    "type": "forward",
+    "weight": 5
+  },
+  {
+    "source": "breeder-reactor",
+    "target": "fission",
+    "type": "backlink",
+    "weight": 7
+  },
+  {
+    "source": "chemotherapy",
+    "target": "medicine",
+    "type": "backlink",
+    "weight": 7
+  },
+  {
+    "source": "radiotherapy",
+    "target": "chemotherapy",
+    "type": "forward",
+    "weight": 8
   }
 ]

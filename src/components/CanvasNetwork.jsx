@@ -468,11 +468,22 @@ const CanvasNetwork = React.memo(({
           return 0.1; // Dimmed
       };
 
-      // Draw edges
-      processedEdges.forEach(edge => {
+      // Draw edges (with LOD optimization)
+      const edgesToRender = lod.renderEdges ? (
+        lod.maxEdges && processedEdges.length > lod.maxEdges
+          ? processedEdges.slice(0, lod.maxEdges)
+          : processedEdges
+      ) : [];
+      
+      edgesToRender.forEach(edge => {
         const source = nodeMap.get(edge.source);
         const target = nodeMap.get(edge.target);
         if (!source || !target) return;
+
+        // Performance: Skip backlink/accelerates edges when zoomed out
+        if (zoom < 0.8 && (edge.type === 'backlink' || edge.type === 'accelerates')) {
+          return;
+        }
 
         // Use theme override color OR cluster color
         // If theme has explicit edgeBase, maybe blend it?
